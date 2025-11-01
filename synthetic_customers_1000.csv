@@ -1,0 +1,1001 @@
+customer_id,gender,age,education_level,business_type,monthly_income_pln,dependents,dwelling_type,residence_area,distance_to_city_km,road_quality_1to5,wealth_estimate_pln,credit_score_300_850,marital_status,preferred_contact,risk_profile,owns_garage,has_children,has_history,monthly_km,previous_vehicle_segment,previous_vehicle_model,previous_trim,previous_financing,previous_insurance,previous_purchase_price,previous_monthly_rate,previous_vehicle_age_at_purchase,current_budget_monthly_max,dti_limit,updated_at
+1,M,24,master,unemployed,31843,2,apartment,urban,0,5,651485,664,married,phone,medium,0,1,False,,,,,,,,,,8703.0,0.37,2025-09-18 05:56:25.242966
+2,M,62,master,public_sector,40000,0,house,rural,19,4,1947548,582,married,email,low,0,0,True,636.0,city,A2 Micro,base,cash,OC_only,76469.0,0.0,0.0,11801.0,0.35,2025-10-29 05:56:25.242966
+3,M,56,bachelor,retired,40000,1,house,rural,48,3,3625626,850,single,phone,medium,0,1,True,1235.0,crossover,F3 Edge,base,lease_36,OC_AC,92528.0,82.14,3.0,11881.0,0.3,2025-08-16 05:56:25.242966
+4,F,44,phd,student,40000,2,house,urban,0,5,2152545,850,divorced,email,medium,1,1,True,840.0,compact,B1 Compact,premium,lease_36,OC_AC,89614.0,83.94,2.0,9927.0,0.29,2025-10-29 05:56:25.242966
+5,M,43,primary,sole_trader,28907,3,house,rural,33,4,2121907,718,single,chat,low,0,1,True,688.0,suv,E3 Adventure,tech,lease_48,OC_AC,124023.0,70.55,0.0,9301.0,0.34,2025-10-10 05:56:25.242966
+6,M,67,phd,employee,40000,2,house,rural,27,3,1397050,819,single,chat,low,1,1,True,931.0,suv,E1 SUV,tech,cash,OC_AC,157178.0,0.0,2.0,12220.0,0.31,2025-10-05 05:56:25.242966
+7,F,24,phd,employee,40000,2,apartment,rural,12,5,1299050,662,partnership,phone,low,0,1,True,1229.0,sedan,C1 Sedan,base,lease_48,OC_AC,113502.0,68.07,2.0,10310.0,0.36,2025-08-22 05:56:25.242966
+8,M,58,bachelor,student,34821,2,house,urban,0,5,3164235,718,single,phone,low,0,1,True,684.0,compact,B3 Active,comfort,cash,OC_AC,70202.0,0.0,4.0,10341.0,0.37,2025-10-24 05:56:25.242966
+9,M,31,master,employee,31065,1,house,urban,0,5,1280527,603,single,email,medium,1,1,True,965.0,city,A3 Urban,comfort,loan_60,OC_only,74118.0,40.27,1.0,6907.0,0.38,2025-09-27 05:56:25.242966
+10,F,25,bachelor,retired,40000,1,house,rural,12,4,2140192,498,married,email,low,0,1,False,,,,,,,,,,13159.0,0.38,2025-09-29 05:56:25.242966
+11,M,48,vocational,employee,30634,2,apartment,urban,0,5,2647524,670,married,chat,high,1,1,True,943.0,compact,B2 Hatch,comfort,loan_60,OC_AC,108242.0,67.82,4.0,7314.0,0.36,2025-09-24 05:56:25.242966
+12,F,73,master,employee,39814,0,apartment,urban,0,5,2763231,850,single,phone,low,0,0,True,537.0,city,A2 Micro,premium,cash,OC_AC,51181.0,0.0,2.0,10155.0,0.34,2025-08-14 05:56:25.242966
+13,F,60,vocational,employee,40000,3,apartment,rural,9,4,1839396,634,single,email,low,1,1,True,936.0,suv,E3 Adventure,base,loan_60,OC_only,197329.0,109.09,0.0,11999.0,0.37,2025-10-02 05:56:25.242966
+14,M,61,vocational,employee,40000,3,apartment,urban,0,5,2509317,559,single,email,high,0,1,False,,,,,,,,,,10277.0,0.4,2025-09-30 05:56:25.242966
+15,F,59,bachelor,employee,29160,1,apartment,rural,41,3,808895,487,married,phone,low,0,1,False,,,,,,,,,,8120.0,0.37,2025-09-25 05:56:25.242966
+16,F,63,phd,employee,40000,1,apartment,rural,27,3,1310367,463,single,phone,medium,1,1,False,,,,,,,,,,11694.0,0.41,2025-09-26 05:56:25.242966
+17,F,48,secondary,retired,40000,1,house,urban,0,5,898932,778,divorced,email,medium,1,1,False,,,,,,,,,,9283.0,0.31,2025-08-07 05:56:25.242966
+18,F,27,secondary,employee,36111,3,apartment,urban,0,5,2440152,425,divorced,phone,medium,1,1,True,1333.0,wagon,D3 Long,premium,lease_48,OC_AC,105609.0,68.47,1.0,7963.0,0.4,2025-10-07 05:56:25.242966
+19,F,66,primary,employee,40000,3,apartment,rural,32,4,3013841,675,single,email,low,0,1,False,,,,,,,,,,12122.0,0.35,2025-10-21 05:56:25.242966
+20,F,44,primary,employee,18530,0,house,urban,0,4,749102,492,single,phone,low,1,0,False,,,,,,,,,,5076.0,0.4,2025-09-24 05:56:25.242966
+21,F,47,primary,employee,34995,2,apartment,urban,0,5,1270998,481,single,phone,high,1,1,True,1188.0,wagon,D1 Tourer,comfort,loan_60,OC_only,99896.0,56.74,3.0,8761.0,0.39,2025-10-24 05:56:25.242966
+22,M,40,primary,employee,26200,0,apartment,rural,7,5,1651056,557,single,phone,low,1,0,False,,,,,,,,,,8316.0,0.38,2025-08-21 05:56:25.242966
+23,F,30,phd,company_owner,40000,2,apartment,urban,0,5,2856533,571,single,chat,medium,0,1,False,,,,,,,,,,10998.0,0.37,2025-08-12 05:56:25.242966
+24,F,70,phd,student,40000,1,house,urban,0,5,1948015,736,divorced,email,medium,1,1,True,838.0,suv,E1 SUV,comfort,cash,OC_AC,153673.0,0.0,2.0,10954.0,0.35,2025-08-18 05:56:25.242966
+25,F,62,master,employee,40000,1,apartment,rural,51,2,1912286,516,married,email,medium,0,1,True,1222.0,compact,B1 Compact,tech,cash,OC_AC_GAP,107152.0,0.0,3.0,10973.0,0.4,2025-08-20 05:56:25.242966
+26,M,55,primary,sole_trader,40000,2,apartment,urban,0,5,3301456,570,married,email,medium,0,1,True,847.0,crossover,F2 Flex,tech,lease_48,OC_AC,118033.0,70.5,1.0,11191.0,0.38,2025-09-24 05:56:25.242966
+27,M,42,primary,employee,40000,1,house,urban,0,5,3091307,394,married,phone,high,1,1,True,386.0,suv,E1 SUV,comfort,loan_60,OC_AC,125118.0,65.62,4.0,9344.0,0.44,2025-08-30 05:56:25.242966
+28,M,65,vocational,employee,39417,1,house,rural,39,3,3662985,354,divorced,chat,low,0,1,True,1299.0,suv,E2 Trail,base,lease_36,OC_only,211882.0,172.5,0.0,13143.0,0.45,2025-09-26 05:56:25.242966
+29,M,49,bachelor,retired,40000,3,house,urban,0,4,1666457,850,single,phone,medium,1,1,False,,,,,,,,,,10586.0,0.3,2025-08-16 05:56:25.242966
+30,M,44,secondary,employee,40000,4,house,urban,0,5,1161334,850,single,phone,medium,0,1,True,1260.0,crossover,F1 Cross,base,lease_36,OC_AC,131218.0,115.49,2.0,9922.0,0.26,2025-10-14 05:56:25.242966
+31,M,44,secondary,retired,39506,0,apartment,urban,0,5,1955277,755,partnership,phone,low,0,0,True,717.0,sedan,C2 Executive,premium,lease_36,OC_AC,119351.0,101.97,2.0,11721.0,0.34,2025-10-19 05:56:25.242966
+32,M,32,vocational,employee,31559,1,apartment,urban,0,5,1151515,468,single,phone,medium,0,1,True,957.0,sedan,C3 Classic,comfort,loan_60,OC_AC,132831.0,71.93,2.0,8054.0,0.39,2025-08-05 05:56:25.242966
+33,F,25,master,employee,40000,4,house,urban,0,5,2653496,592,married,email,low,1,1,False,,,,,,,,,,11330.0,0.37,2025-09-29 05:56:25.242966
+34,M,50,vocational,employee,35305,2,house,rural,13,3,875136,660,married,phone,low,1,1,False,,,,,,,,,,10293.0,0.36,2025-10-04 05:56:25.242966
+35,F,68,primary,employee,28884,1,apartment,urban,0,5,2123212,537,married,email,medium,0,1,False,,,,,,,,,,7244.0,0.41,2025-09-01 05:56:25.242966
+36,M,23,master,unemployed,35288,2,house,urban,0,4,2340090,632,single,chat,high,0,1,True,909.0,compact,B1 Compact,comfort,cash,OC_AC_GAP,99168.0,0.0,4.0,6666.0,0.4,2025-10-01 05:56:25.242966
+37,M,67,phd,employee,40000,0,apartment,urban,0,5,3956211,749,single,phone,low,0,0,True,953.0,compact,B1 Compact,tech,lease_48,OC_AC,98725.0,61.96,4.0,13322.0,0.31,2025-08-25 05:56:25.242966
+38,M,65,primary,retired,36448,0,house,urban,0,5,2670474,604,married,phone,medium,0,0,False,,,,,,,,,,10224.0,0.34,2025-09-23 05:56:25.242966
+39,F,35,secondary,retired,38963,3,house,rural,13,5,2974971,559,married,email,low,0,1,True,1476.0,compact,B2 Hatch,base,cash,OC_AC,76158.0,0.0,1.0,11056.0,0.39,2025-08-22 05:56:25.242966
+40,M,54,master,sole_trader,40000,2,apartment,rural,13,3,1128820,760,divorced,phone,low,0,1,True,1074.0,city,A1 CityGo,comfort,lease_36,OC_only,50588.0,41.03,3.0,13781.0,0.33,2025-10-24 05:56:25.242966
+41,F,29,master,employee,38367,3,house,urban,0,5,1501399,507,married,email,low,1,1,True,857.0,city,A2 Micro,tech,loan_60,OC_only,73101.0,46.86,1.0,13234.0,0.37,2025-08-27 05:56:25.242966
+42,F,61,phd,employee,40000,1,apartment,rural,16,4,991939,748,widowed,phone,medium,1,1,False,,,,,,,,,,11542.0,0.33,2025-10-02 05:56:25.242966
+43,M,58,secondary,employee,40000,4,house,urban,0,5,3733229,565,partnership,phone,low,1,1,True,759.0,wagon,D3 Long,comfort,lease_36,OC_AC_GAP,144764.0,117.86,0.0,10117.0,0.39,2025-09-23 05:56:25.242966
+44,F,39,secondary,student,23397,2,apartment,urban,0,4,1778586,474,married,phone,low,0,1,True,496.0,wagon,D2 Estate,premium,lease_36,OC_AC_GAP,145517.0,133.58,2.0,6718.0,0.38,2025-08-09 05:56:25.242966
+45,M,23,master,employee,40000,3,apartment,rural,24,4,773366,800,single,phone,medium,1,1,True,1344.0,crossover,F1 Cross,base,loan_60,OC_only,127093.0,65.67,2.0,10263.0,0.29,2025-09-18 05:56:25.242966
+46,M,73,primary,public_sector,32512,0,apartment,rural,20,4,897009,674,married,phone,low,0,0,True,1470.0,sedan,C2 Executive,comfort,lease_48,OC_AC,113233.0,67.47,3.0,10465.0,0.34,2025-10-25 05:56:25.242966
+47,M,44,vocational,sole_trader,19095,0,house,urban,0,5,855826,563,married,phone,low,1,0,True,861.0,crossover,F3 Edge,tech,loan_60,OC_AC_GAP,129977.0,70.21,4.0,5986.0,0.37,2025-09-20 05:56:25.242966
+48,M,69,bachelor,employee,37467,3,apartment,rural,16,4,1696437,447,married,phone,low,1,1,False,,,,,,,,,,11908.0,0.42,2025-10-10 05:56:25.242966
+49,F,57,master,company_owner,40000,4,apartment,urban,0,5,3328349,558,single,chat,medium,1,1,True,1005.0,wagon,D1 Tourer,base,cash,OC_AC,130029.0,0.0,0.0,11255.0,0.37,2025-09-19 05:56:25.242966
+50,F,62,primary,employee,36191,4,house,urban,0,4,1304638,593,married,phone,medium,1,1,False,,,,,,,,,,10708.0,0.37,2025-10-12 05:56:25.242966
+51,F,61,bachelor,retired,40000,1,house,rural,27,3,3259550,850,married,phone,medium,1,1,True,1041.0,mpv,G3 Space,base,loan_60,OC_AC_GAP,139128.0,72.15,2.0,10565.0,0.34,2025-09-04 05:56:25.242966
+52,M,30,secondary,employee,29124,0,apartment,rural,11,4,1473797,373,single,phone,low,1,0,True,1149.0,compact,B3 Active,base,lease_48,OC_AC,109550.0,67.43,3.0,9914.0,0.41,2025-10-10 05:56:25.242966
+53,F,40,bachelor,public_sector,40000,4,house,urban,0,5,1762598,601,divorced,phone,low,1,1,True,877.0,city,A1 CityGo,base,cash,OC_AC,49345.0,0.0,2.0,13259.0,0.35,2025-09-20 05:56:25.242966
+54,M,45,phd,retired,40000,3,apartment,rural,16,3,1235957,850,married,phone,medium,0,1,True,1535.0,crossover,F2 Flex,tech,loan_60,OC_AC,128188.0,70.28,0.0,9881.0,0.31,2025-08-07 05:56:25.242966
+55,M,47,primary,retired,34812,1,apartment,urban,0,5,3034984,608,married,email,low,0,1,False,,,,,,,,,,11536.0,0.39,2025-09-04 05:56:25.242966
+56,M,22,phd,employee,40000,3,house,rural,18,3,2016797,602,married,phone,low,1,1,False,,,,,,,,,,10469.0,0.38,2025-08-29 05:56:25.242966
+57,F,50,secondary,retired,40000,4,apartment,rural,21,3,2070878,645,married,email,low,0,1,True,1184.0,compact,B1 Compact,premium,lease_48,OC_AC,72233.0,44.06,0.0,10635.0,0.39,2025-08-23 05:56:25.242966
+58,F,28,master,employee,20683,1,apartment,urban,0,5,815940,453,single,phone,low,1,1,False,,,,,,,,,,7223.0,0.41,2025-08-10 05:56:25.242966
+59,M,60,secondary,student,38459,3,house,rural,36,3,3431021,833,married,phone,low,0,1,False,,,,,,,,,,11263.0,0.27,2025-08-13 05:56:25.242966
+60,F,57,vocational,employee,17875,3,apartment,rural,13,4,1454918,457,single,phone,high,0,1,True,1154.0,mpv,G2 Grand,comfort,lease_48,OC_AC,129829.0,88.96,0.0,3876.0,0.41,2025-08-15 05:56:25.242966
+61,F,70,master,employee,40000,2,house,urban,0,4,3525119,850,married,email,low,1,1,False,,,,,,,,,,13804.0,0.29,2025-10-01 05:56:25.242966
+62,F,60,master,employee,40000,3,house,urban,0,5,2734652,644,single,chat,medium,1,1,False,,,,,,,,,,9958.0,0.38,2025-09-05 05:56:25.242966
+63,F,40,primary,employee,40000,1,apartment,rural,23,4,3028799,577,partnership,phone,low,1,1,False,,,,,,,,,,10948.0,0.39,2025-08-19 05:56:25.242966
+64,F,73,master,employee,40000,4,house,rural,27,3,1986401,660,divorced,chat,medium,1,1,True,1076.0,suv,E3 Adventure,base,loan_60,OC_AC,136672.0,71.86,3.0,9049.0,0.32,2025-09-11 05:56:25.242966
+65,F,42,master,retired,40000,4,apartment,urban,0,4,2613339,461,married,phone,medium,0,1,False,,,,,,,,,,10472.0,0.43,2025-10-20 05:56:25.242966
+66,F,37,secondary,employee,29644,4,house,urban,0,5,1323182,613,single,phone,high,1,1,True,777.0,wagon,D3 Long,comfort,cash,OC_AC_GAP,142753.0,0.0,0.0,5809.0,0.38,2025-09-16 05:56:25.242966
+67,M,69,phd,student,40000,3,apartment,urban,0,4,2855996,592,married,email,low,0,1,True,814.0,wagon,D1 Tourer,base,lease_36,OC_AC,147461.0,123.0,0.0,10259.0,0.36,2025-10-12 05:56:25.242966
+68,F,40,bachelor,employee,34807,0,house,urban,0,4,2873393,592,married,phone,medium,1,0,False,,,,,,,,,,9922.0,0.37,2025-08-30 05:56:25.242966
+69,M,24,secondary,student,30569,1,apartment,urban,0,5,2175423,653,married,phone,low,0,1,False,,,,,,,,,,8647.0,0.38,2025-08-15 05:56:25.242966
+70,F,45,primary,student,40000,2,apartment,urban,0,5,2182557,542,married,phone,medium,0,1,False,,,,,,,,,,10654.0,0.34,2025-08-29 05:56:25.242966
+71,M,63,master,employee,40000,4,apartment,rural,9,5,2667159,757,divorced,email,high,1,1,True,1377.0,city,A2 Micro,tech,lease_36,OC_AC,53235.0,45.32,2.0,7535.0,0.33,2025-09-12 05:56:25.242966
+72,M,30,vocational,company_owner,39099,2,apartment,urban,0,5,2742691,566,married,phone,medium,0,1,False,,,,,,,,,,10183.0,0.4,2025-09-08 05:56:25.242966
+73,M,45,master,retired,40000,2,apartment,urban,0,5,3402940,768,married,chat,medium,0,1,False,,,,,,,,,,10822.0,0.32,2025-09-13 05:56:25.242966
+74,M,27,bachelor,retired,26080,0,apartment,urban,0,5,1609468,522,married,phone,medium,0,0,False,,,,,,,,,,6676.0,0.4,2025-09-21 05:56:25.242966
+75,M,57,secondary,employee,40000,3,apartment,urban,0,4,1123820,678,married,chat,high,0,1,False,,,,,,,,,,8280.0,0.35,2025-10-11 05:56:25.242966
+76,M,46,primary,employee,39427,1,apartment,rural,27,3,1681098,695,married,phone,low,0,1,True,756.0,compact,B1 Compact,tech,lease_48,OC_AC,90634.0,60.11,4.0,11083.0,0.33,2025-09-01 05:56:25.242966
+77,M,38,master,student,40000,0,apartment,urban,0,5,3000945,778,divorced,email,low,0,0,False,,,,,,,,,,10438.0,0.3,2025-09-30 05:56:25.242966
+78,M,32,primary,employee,20522,4,apartment,urban,0,5,1311310,496,single,phone,medium,1,1,True,659.0,mpv,G1 Family,base,lease_48,OC_AC,130784.0,78.18,0.0,4705.0,0.41,2025-10-17 05:56:25.242966
+79,F,51,secondary,retired,29918,0,house,urban,0,5,2172069,454,single,phone,high,1,0,False,,,,,,,,,,6572.0,0.4,2025-08-20 05:56:25.242966
+80,F,56,phd,employee,40000,0,apartment,urban,0,4,2803518,850,single,phone,low,0,0,True,346.0,sedan,C3 Classic,comfort,lease_36,OC_AC,144426.0,114.35,0.0,10555.0,0.27,2025-09-12 05:56:25.242966
+81,F,71,phd,retired,40000,0,apartment,urban,0,5,2320651,699,widowed,email,low,0,0,True,1193.0,city,A2 Micro,base,lease_36,OC_only,50266.0,39.93,2.0,10894.0,0.34,2025-09-15 05:56:25.242966
+82,M,44,phd,employee,40000,2,house,rural,12,4,1885631,759,married,phone,low,1,1,False,,,,,,,,,,10659.0,0.31,2025-09-15 05:56:25.242966
+83,M,28,phd,employee,40000,0,house,urban,0,5,2558675,787,married,phone,low,1,0,True,1068.0,compact,B2 Hatch,comfort,cash,OC_AC_GAP,101025.0,0.0,0.0,13210.0,0.29,2025-10-24 05:56:25.242966
+84,F,65,bachelor,unemployed,33890,4,apartment,urban,0,5,1583340,534,married,chat,low,0,1,True,1019.0,crossover,F3 Edge,comfort,lease_48,OC_only,131804.0,87.04,0.0,9997.0,0.39,2025-09-13 05:56:25.242966
+85,M,54,vocational,retired,34781,2,house,urban,0,5,2443483,573,married,phone,low,1,1,True,1037.0,mpv,G3 Space,tech,cash,OC_AC,131377.0,0.0,0.0,10617.0,0.39,2025-09-13 05:56:25.242966
+86,M,58,phd,retired,40000,1,house,urban,0,5,3009099,749,divorced,phone,low,0,1,True,898.0,city,A1 CityGo,comfort,loan_60,OC_AC,68853.0,37.78,4.0,12332.0,0.33,2025-09-16 05:56:25.242966
+87,F,25,master,public_sector,40000,0,house,urban,0,5,2567799,614,partnership,phone,medium,1,0,True,997.0,suv,E1 SUV,tech,lease_48,OC_AC,202820.0,127.68,1.0,10068.0,0.34,2025-10-31 05:56:25.242966
+88,F,37,phd,employee,34894,2,house,urban,0,5,1379002,667,divorced,phone,low,0,1,False,,,,,,,,,,9765.0,0.36,2025-08-25 05:56:25.242966
+89,M,62,bachelor,employee,40000,0,apartment,urban,0,5,3139650,669,divorced,phone,low,0,0,True,607.0,wagon,D2 Estate,comfort,lease_48,OC_AC,138577.0,85.71,2.0,11530.0,0.37,2025-09-06 05:56:25.242966
+90,F,65,primary,employee,38370,4,apartment,rural,9,4,1257263,657,single,email,low,0,1,False,,,,,,,,,,11645.0,0.4,2025-08-24 05:56:25.242966
+91,M,43,bachelor,employee,40000,1,apartment,urban,0,5,1197343,787,single,phone,low,1,1,True,730.0,suv,E3 Adventure,comfort,cash,OC_AC,142544.0,0.0,2.0,11434.0,0.35,2025-09-16 05:56:25.242966
+92,F,64,secondary,employee,40000,2,apartment,urban,0,5,2221981,731,married,phone,low,1,1,True,1256.0,compact,B1 Compact,base,lease_48,OC_AC,72427.0,43.58,1.0,10546.0,0.31,2025-10-02 05:56:25.242966
+93,M,66,phd,public_sector,40000,0,apartment,urban,0,5,1165677,636,married,email,low,0,0,True,994.0,crossover,F2 Flex,premium,loan_60,OC_AC,114613.0,68.23,0.0,13655.0,0.38,2025-08-18 05:56:25.242966
+94,M,41,secondary,employee,34848,0,house,urban,0,5,2790087,639,single,phone,low,1,0,True,721.0,sedan,C3 Classic,premium,cash,OC_AC,148192.0,0.0,3.0,11264.0,0.36,2025-09-30 05:56:25.242966
+95,F,69,vocational,employee,40000,1,apartment,rural,48,3,3779801,850,married,phone,medium,0,1,False,,,,,,,,,,9012.0,0.28,2025-09-21 05:56:25.242966
+96,M,35,primary,employee,23585,0,house,urban,0,5,536438,499,single,chat,low,1,0,True,933.0,crossover,F3 Edge,comfort,lease_36,OC_AC,139838.0,137.86,3.0,8032.0,0.4,2025-10-30 05:56:25.242966
+97,F,33,phd,employee,40000,3,house,urban,0,5,2741649,658,single,phone,low,0,1,False,,,,,,,,,,10682.0,0.39,2025-10-17 05:56:25.242966
+98,M,57,master,employee,40000,4,apartment,urban,0,5,2375025,638,single,phone,low,0,1,True,968.0,wagon,D2 Estate,premium,lease_48,OC_AC,101850.0,69.16,2.0,10391.0,0.38,2025-10-21 05:56:25.242966
+99,F,55,primary,sole_trader,32798,4,apartment,rural,50,4,2359917,584,divorced,email,low,0,1,True,1195.0,sedan,C3 Classic,comfort,lease_36,OC_AC_GAP,122070.0,107.97,2.0,8768.0,0.35,2025-09-23 05:56:25.242966
+100,F,27,secondary,employee,21767,1,house,urban,0,5,1474163,640,married,email,low,1,1,False,,,,,,,,,,7473.0,0.36,2025-10-08 05:56:25.242966
+101,M,65,secondary,sole_trader,40000,3,apartment,rural,37,3,2712717,850,married,email,low,0,1,True,905.0,compact,B3 Active,comfort,cash,OC_AC,90252.0,0.0,3.0,10885.0,0.31,2025-10-02 05:56:25.242966
+102,F,30,secondary,retired,40000,2,apartment,urban,0,5,1025226,720,divorced,email,low,0,1,False,,,,,,,,,,13148.0,0.3,2025-08-24 05:56:25.242966
+103,M,64,phd,sole_trader,40000,0,house,urban,0,5,994299,726,divorced,phone,low,1,0,True,1040.0,compact,B3 Active,comfort,loan_60,OC_AC_GAP,90874.0,48.02,1.0,12572.0,0.3,2025-08-31 05:56:25.242966
+104,M,20,primary,company_owner,21750,0,house,rural,16,4,939018,502,married,phone,medium,1,0,True,1123.0,sedan,C3 Classic,comfort,lease_36,OC_AC_GAP,112956.0,91.66,2.0,5687.0,0.4,2025-08-21 05:56:25.242966
+105,M,63,vocational,employee,27286,2,house,urban,0,5,2572212,518,divorced,email,low,1,1,True,1209.0,suv,E3 Adventure,comfort,lease_36,OC_AC,177232.0,169.13,1.0,7819.0,0.39,2025-08-19 05:56:25.242966
+106,F,63,vocational,employee,37197,2,apartment,urban,0,5,2476863,615,single,email,low,1,1,True,888.0,sedan,C1 Sedan,base,cash,OC_AC_GAP,115691.0,0.0,2.0,9645.0,0.33,2025-10-09 05:56:25.242966
+107,F,62,vocational,employee,22893,0,house,urban,0,5,1180315,567,married,email,low,1,0,False,,,,,,,,,,7350.0,0.38,2025-09-06 05:56:25.242966
+108,F,56,phd,public_sector,40000,4,apartment,rural,10,4,1019915,724,single,phone,low,0,1,False,,,,,,,,,,11579.0,0.36,2025-08-14 05:56:25.242966
+109,F,45,phd,sole_trader,40000,3,house,urban,0,5,3220647,509,married,email,medium,1,1,False,,,,,,,,,,10512.0,0.39,2025-10-04 05:56:25.242966
+110,F,58,primary,employee,40000,2,apartment,rural,31,3,1875792,749,married,phone,low,0,1,False,,,,,,,,,,10207.0,0.33,2025-09-28 05:56:25.242966
+111,M,35,bachelor,employee,40000,4,apartment,urban,0,5,2470704,611,single,phone,low,0,1,False,,,,,,,,,,13104.0,0.38,2025-09-14 05:56:25.242966
+112,F,62,vocational,retired,32558,4,apartment,urban,0,5,2442262,490,married,phone,high,0,1,True,1206.0,crossover,F1 Cross,tech,loan_60,OC_AC,156481.0,81.67,0.0,7664.0,0.41,2025-08-21 05:56:25.242966
+113,F,50,vocational,sole_trader,40000,4,house,rural,21,4,1573740,850,married,phone,low,1,1,True,1331.0,sedan,C2 Executive,comfort,loan_60,OC_AC_GAP,98310.0,60.71,4.0,12117.0,0.27,2025-10-18 05:56:25.242966
+114,M,45,vocational,sole_trader,37471,1,apartment,urban,0,5,959769,778,married,email,low,0,1,False,,,,,,,,,,11227.0,0.3,2025-09-19 05:56:25.242966
+115,F,47,vocational,retired,33255,4,apartment,urban,0,5,1564676,586,single,phone,medium,0,1,True,553.0,compact,B3 Active,comfort,cash,OC_AC,101351.0,0.0,3.0,8213.0,0.36,2025-10-10 05:56:25.242966
+116,M,51,secondary,company_owner,40000,2,house,urban,0,5,1756254,718,single,email,high,1,1,True,1380.0,sedan,C3 Classic,tech,loan_60,OC_AC,134518.0,73.85,0.0,8296.0,0.32,2025-08-28 05:56:25.242966
+117,M,22,phd,sole_trader,40000,3,house,rural,11,4,2191210,762,married,phone,low,1,1,False,,,,,,,,,,10274.0,0.35,2025-10-10 05:56:25.242966
+118,M,27,bachelor,employee,37863,4,house,rural,23,3,2423154,788,divorced,phone,medium,0,1,True,668.0,compact,B3 Active,base,lease_36,OC_AC,100575.0,92.78,1.0,10410.0,0.33,2025-09-29 05:56:25.242966
+119,M,33,master,employee,39624,0,house,urban,0,5,1288297,761,divorced,phone,low,0,0,False,,,,,,,,,,10084.0,0.3,2025-09-30 05:56:25.242966
+120,M,26,secondary,public_sector,19195,2,house,rural,8,4,909575,415,single,phone,medium,1,1,True,433.0,crossover,F1 Cross,base,lease_48,OC_AC,134386.0,91.9,2.0,4225.0,0.41,2025-10-25 05:56:25.242966
+121,F,44,primary,sole_trader,17648,0,house,urban,0,5,422357,612,married,email,low,1,0,True,629.0,sedan,C3 Classic,tech,lease_36,OC_AC,134065.0,128.53,1.0,4467.0,0.39,2025-09-01 05:56:25.242966
+122,F,56,primary,employee,40000,1,house,rural,44,4,1533250,810,married,phone,medium,1,1,False,,,,,,,,,,9451.0,0.3,2025-10-09 05:56:25.242966
+123,F,55,vocational,sole_trader,34205,2,apartment,rural,15,4,2603312,538,partnership,phone,low,0,1,False,,,,,,,,,,10502.0,0.4,2025-09-17 05:56:25.242966
+124,M,45,vocational,employee,27928,4,house,urban,0,5,2029645,399,single,phone,low,1,1,True,543.0,crossover,F1 Cross,tech,lease_48,OC_only,99576.0,63.54,2.0,8884.0,0.45,2025-08-30 05:56:25.242966
+125,M,67,phd,retired,40000,4,house,rural,30,3,3351408,669,married,phone,low,0,1,False,,,,,,,,,,11683.0,0.37,2025-08-22 05:56:25.242966
+126,M,51,phd,employee,40000,1,apartment,urban,0,4,1284447,638,married,phone,medium,0,1,True,676.0,suv,E1 SUV,premium,lease_48,OC_AC,201439.0,129.42,2.0,10108.0,0.36,2025-08-10 05:56:25.242966
+127,F,24,phd,retired,40000,1,house,rural,16,3,1910235,706,single,chat,medium,1,1,True,1240.0,compact,B3 Active,comfort,lease_36,OC_only,81204.0,70.48,4.0,10646.0,0.36,2025-10-20 05:56:25.242966
+128,M,62,bachelor,employee,40000,2,house,urban,0,5,2207642,791,single,phone,medium,0,1,False,,,,,,,,,,10710.0,0.31,2025-09-05 05:56:25.242966
+129,F,51,bachelor,employee,40000,4,house,urban,0,5,3577013,568,single,phone,high,0,1,True,968.0,compact,B3 Active,base,lease_36,OC_AC,96342.0,83.78,4.0,9904.0,0.43,2025-10-02 05:56:25.242966
+130,F,54,bachelor,employee,40000,4,house,urban,0,4,2725233,544,married,chat,low,1,1,True,613.0,compact,B2 Hatch,comfort,cash,OC_only,79250.0,0.0,1.0,13276.0,0.39,2025-08-23 05:56:25.242966
+131,F,51,secondary,retired,40000,1,apartment,urban,0,5,3425046,763,married,email,medium,1,1,False,,,,,,,,,,11435.0,0.35,2025-09-27 05:56:25.242966
+132,F,50,master,employee,40000,0,house,urban,0,5,1282872,650,married,phone,low,1,0,True,1026.0,compact,B1 Compact,comfort,loan_60,OC_AC,80505.0,40.8,1.0,13377.0,0.35,2025-10-30 05:56:25.242966
+133,M,24,master,employee,40000,3,house,urban,0,5,1693886,653,single,email,high,1,1,False,,,,,,,,,,10015.0,0.36,2025-08-15 05:56:25.242966
+134,F,50,master,student,40000,1,apartment,rural,24,3,2961242,554,divorced,chat,medium,1,1,True,1261.0,wagon,D1 Tourer,tech,loan_60,OC_AC_GAP,126984.0,66.1,4.0,10577.0,0.39,2025-08-24 05:56:25.242966
+135,F,63,bachelor,employee,40000,0,apartment,urban,0,5,2061502,684,married,phone,low,1,0,False,,,,,,,,,,12381.0,0.33,2025-10-02 05:56:25.242966
+136,F,36,primary,employee,34477,0,house,rural,25,4,1997960,797,partnership,phone,low,1,0,False,,,,,,,,,,11127.0,0.3,2025-08-17 05:56:25.242966
+137,F,53,master,employee,40000,2,house,urban,0,5,2315397,734,single,chat,medium,1,1,True,703.0,compact,B3 Active,tech,lease_48,OC_AC,85590.0,50.72,1.0,9437.0,0.33,2025-09-25 05:56:25.242966
+138,F,21,secondary,retired,20086,1,apartment,rural,13,4,1397509,460,divorced,email,medium,1,1,True,1575.0,crossover,F1 Cross,comfort,lease_48,OC_AC,111065.0,77.74,3.0,4998.0,0.43,2025-09-24 05:56:25.242966
+139,F,39,master,employee,40000,2,apartment,urban,0,5,1247726,553,divorced,chat,medium,0,1,False,,,,,,,,,,11720.0,0.34,2025-10-05 05:56:25.242966
+140,M,44,bachelor,employee,27093,1,apartment,urban,0,5,2199834,558,divorced,phone,low,0,1,True,368.0,crossover,F2 Flex,base,cash,OC_only,110832.0,0.0,4.0,8190.0,0.37,2025-09-17 05:56:25.242966
+141,F,74,phd,employee,40000,3,house,urban,0,5,2322298,739,divorced,chat,low,1,1,True,609.0,city,A1 CityGo,comfort,lease_48,OC_only,47870.0,29.57,1.0,10207.0,0.36,2025-08-03 05:56:25.242966
+142,F,31,secondary,employee,40000,3,house,urban,0,5,1843050,703,married,phone,high,1,1,False,,,,,,,,,,8498.0,0.32,2025-10-27 05:56:25.242966
+143,M,35,phd,employee,40000,2,house,rural,51,3,2051406,635,married,email,medium,1,1,True,1240.0,city,A1 CityGo,base,lease_48,OC_only,48219.0,33.01,1.0,9315.0,0.38,2025-09-08 05:56:25.242966
+144,F,42,phd,employee,40000,0,apartment,rural,35,3,1508724,770,married,chat,low,0,0,True,1250.0,suv,E3 Adventure,comfort,lease_48,OC_AC,158506.0,107.33,0.0,11425.0,0.3,2025-10-16 05:56:25.242966
+145,M,74,vocational,employee,39927,2,apartment,urban,0,4,4091011,847,married,phone,medium,1,1,True,1192.0,wagon,D3 Long,comfort,cash,OC_AC,150131.0,0.0,4.0,10525.0,0.28,2025-10-20 05:56:25.242966
+146,F,66,secondary,employee,30651,3,house,urban,0,5,2861625,577,partnership,phone,medium,0,1,True,706.0,crossover,F2 Flex,base,lease_48,OC_only,150409.0,100.82,3.0,7982.0,0.37,2025-10-26 05:56:25.242966
+147,M,21,bachelor,retired,31178,1,apartment,rural,47,3,2138110,436,single,phone,medium,1,1,True,1355.0,sedan,C2 Executive,comfort,cash,OC_AC,128779.0,0.0,1.0,8083.0,0.45,2025-10-07 05:56:25.242966
+148,M,32,master,employee,40000,1,house,urban,0,4,3086187,676,married,email,medium,1,1,True,733.0,city,A2 Micro,comfort,loan_60,OC_AC_GAP,67442.0,37.33,1.0,8859.0,0.33,2025-08-27 05:56:25.242966
+149,F,65,master,employee,40000,2,apartment,urban,0,5,2989338,850,divorced,phone,medium,1,1,True,1044.0,suv,E2 Trail,base,loan_60,OC_AC,163621.0,96.52,0.0,10224.0,0.27,2025-08-26 05:56:25.242966
+150,M,23,phd,retired,40000,1,apartment,rural,43,3,1679940,501,single,chat,medium,0,1,False,,,,,,,,,,8893.0,0.37,2025-08-21 05:56:25.242966
+151,M,67,secondary,retired,40000,2,apartment,urban,0,5,3575883,695,single,phone,low,1,1,False,,,,,,,,,,11619.0,0.36,2025-10-18 05:56:25.242966
+152,M,35,bachelor,company_owner,40000,1,house,rural,27,5,849989,667,single,phone,low,1,1,True,1334.0,sedan,C3 Classic,comfort,lease_48,OC_AC_GAP,96432.0,65.31,2.0,12588.0,0.32,2025-10-22 05:56:25.242966
+153,M,70,secondary,employee,33488,1,apartment,rural,45,3,3011100,642,married,phone,medium,0,1,True,1481.0,suv,E3 Adventure,tech,cash,OC_AC,193072.0,0.0,4.0,7705.0,0.38,2025-08-04 05:56:25.242966
+154,F,36,phd,employee,40000,3,house,urban,0,5,1993486,675,divorced,chat,medium,1,1,False,,,,,,,,,,11734.0,0.35,2025-08-10 05:56:25.242966
+155,F,43,vocational,employee,33788,2,apartment,rural,10,5,2159598,698,single,phone,low,0,1,False,,,,,,,,,,10577.0,0.34,2025-08-29 05:56:25.242966
+156,M,56,bachelor,employee,37359,2,house,urban,0,5,1849889,628,married,phone,medium,1,1,False,,,,,,,,,,8869.0,0.37,2025-08-17 05:56:25.242966
+157,F,26,primary,employee,23065,3,apartment,urban,0,5,890484,618,married,phone,low,0,1,True,1047.0,crossover,F1 Cross,comfort,lease_48,OC_AC,122674.0,73.22,0.0,6675.0,0.35,2025-08-20 05:56:25.242966
+158,M,50,phd,sole_trader,40000,1,house,urban,0,5,978335,679,married,chat,low,0,1,True,802.0,compact,B1 Compact,comfort,lease_36,OC_only,95463.0,76.8,2.0,10388.0,0.35,2025-09-10 05:56:25.242966
+159,F,47,secondary,employee,35443,0,house,urban,0,5,1757673,651,married,email,medium,1,0,True,737.0,suv,E3 Adventure,tech,lease_48,OC_only,198008.0,130.66,3.0,7860.0,0.33,2025-09-19 05:56:25.242966
+160,M,63,secondary,sole_trader,40000,4,house,urban,0,5,2180561,594,widowed,phone,high,1,1,False,,,,,,,,,,10131.0,0.4,2025-08-04 05:56:25.242966
+161,M,74,bachelor,employee,40000,0,house,urban,0,5,1763673,470,married,phone,low,1,0,True,929.0,crossover,F2 Flex,comfort,cash,OC_AC,159047.0,0.0,3.0,12701.0,0.38,2025-09-01 05:56:25.242966
+162,M,56,secondary,employee,38779,2,house,urban,0,5,1576210,695,single,phone,low,0,1,False,,,,,,,,,,12718.0,0.35,2025-08-13 05:56:25.242966
+163,F,42,phd,student,28518,1,apartment,urban,0,5,1648363,747,married,phone,low,0,1,False,,,,,,,,,,8904.0,0.31,2025-10-13 05:56:25.242966
+164,M,42,bachelor,retired,31231,1,house,urban,0,5,1281083,615,married,email,low,0,1,False,,,,,,,,,,10640.0,0.35,2025-10-11 05:56:25.242966
+165,M,42,bachelor,employee,38952,0,house,rural,13,4,2855410,764,married,phone,low,1,0,True,1230.0,suv,E2 Trail,premium,lease_36,OC_AC,214444.0,200.8,2.0,13228.0,0.32,2025-09-05 05:56:25.242966
+166,F,64,primary,sole_trader,28410,4,house,urban,0,5,934949,540,single,phone,low,1,1,True,1201.0,suv,E3 Adventure,base,cash,OC_only,182928.0,0.0,3.0,7268.0,0.44,2025-08-07 05:56:25.242966
+167,F,37,primary,employee,40000,2,house,urban,0,4,2204567,619,single,email,low,0,1,False,,,,,,,,,,10758.0,0.36,2025-09-06 05:56:25.242966
+168,M,29,secondary,employee,30587,1,apartment,urban,0,4,852639,673,widowed,phone,medium,0,1,False,,,,,,,,,,7698.0,0.33,2025-09-22 05:56:25.242966
+169,F,38,phd,student,40000,3,apartment,urban,0,4,2102240,850,single,phone,medium,0,1,True,1244.0,sedan,C2 Executive,tech,lease_48,OC_only,128517.0,84.02,4.0,9891.0,0.29,2025-10-29 05:56:25.242966
+170,F,21,phd,employee,40000,0,house,urban,0,5,1860346,850,married,phone,medium,1,0,False,,,,,,,,,,10482.0,0.27,2025-10-18 05:56:25.242966
+171,M,25,bachelor,employee,36057,2,apartment,rural,9,4,1917219,673,married,phone,low,0,1,False,,,,,,,,,,9975.0,0.35,2025-10-11 05:56:25.242966
+172,F,24,bachelor,employee,34095,2,apartment,urban,0,5,1400655,650,single,email,low,1,1,False,,,,,,,,,,11243.0,0.39,2025-10-13 05:56:25.242966
+173,M,62,secondary,employee,40000,2,apartment,urban,0,5,2460999,695,single,phone,low,0,1,False,,,,,,,,,,10030.0,0.35,2025-08-29 05:56:25.242966
+174,F,59,vocational,employee,40000,0,house,rural,17,4,1470858,590,married,phone,high,1,0,False,,,,,,,,,,9733.0,0.39,2025-08-31 05:56:25.242966
+175,M,58,primary,employee,15262,4,house,rural,19,4,862925,300,married,phone,low,0,1,True,1318.0,crossover,F2 Flex,base,lease_36,OC_AC_GAP,92515.0,77.88,3.0,4416.0,0.43,2025-09-27 05:56:25.242966
+176,F,45,secondary,public_sector,18974,1,apartment,rural,15,4,864464,431,married,email,medium,0,1,False,,,,,,,,,,4182.0,0.41,2025-08-04 05:56:25.242966
+177,M,59,vocational,sole_trader,32243,3,apartment,urban,0,5,2304140,590,married,phone,low,0,1,False,,,,,,,,,,10792.0,0.37,2025-09-26 05:56:25.242966
+178,M,28,vocational,employee,28983,3,apartment,urban,0,5,1246753,529,single,phone,medium,1,1,True,861.0,wagon,D2 Estate,comfort,loan_60,OC_AC,111586.0,61.7,4.0,7412.0,0.37,2025-09-21 05:56:25.242966
+179,F,69,vocational,employee,40000,1,apartment,urban,0,5,3404785,542,single,phone,low,1,1,False,,,,,,,,,,12899.0,0.39,2025-09-14 05:56:25.242966
+180,M,47,primary,sole_trader,36779,0,house,rural,38,3,1829234,702,single,phone,low,0,0,True,1248.0,suv,E1 SUV,base,lease_36,OC_AC_GAP,131126.0,113.99,2.0,12426.0,0.35,2025-09-10 05:56:25.242966
+181,F,71,bachelor,employee,40000,1,apartment,urban,0,5,1764224,666,married,phone,medium,1,1,False,,,,,,,,,,8910.0,0.36,2025-10-14 05:56:25.242966
+182,F,28,phd,employee,40000,4,apartment,urban,0,4,1359729,477,married,phone,low,1,1,True,1244.0,wagon,D3 Long,tech,lease_48,OC_AC_GAP,142041.0,84.18,1.0,11049.0,0.4,2025-10-04 05:56:25.242966
+183,F,47,master,student,40000,4,house,urban,0,5,991981,632,widowed,email,medium,0,1,False,,,,,,,,,,9180.0,0.38,2025-08-31 05:56:25.242966
+184,M,58,secondary,employee,40000,4,apartment,rural,18,4,2480036,584,single,phone,low,0,1,True,1138.0,suv,E3 Adventure,base,lease_36,OC_AC,185371.0,175.89,0.0,10392.0,0.37,2025-08-16 05:56:25.242966
+185,F,47,secondary,employee,40000,1,house,rural,16,4,3050241,588,married,email,high,1,1,True,860.0,crossover,F3 Edge,tech,cash,OC_AC,96496.0,0.0,3.0,10226.0,0.36,2025-09-23 05:56:25.242966
+186,M,44,vocational,employee,37492,3,apartment,urban,0,5,2645304,694,married,phone,medium,0,1,True,1055.0,city,A2 Micro,base,cash,OC_AC,45394.0,0.0,4.0,10664.0,0.37,2025-10-21 05:56:25.242966
+187,M,29,primary,employee,21298,0,apartment,urban,0,4,927921,331,married,phone,low,0,0,True,704.0,sedan,C1 Sedan,comfort,cash,OC_only,132815.0,0.0,4.0,6101.0,0.42,2025-08-16 05:56:25.242966
+188,F,40,bachelor,employee,40000,3,apartment,rural,25,4,1313045,409,married,phone,medium,0,1,False,,,,,,,,,,10999.0,0.39,2025-09-09 05:56:25.242966
+189,F,33,bachelor,retired,40000,2,apartment,urban,0,4,2800554,678,single,phone,medium,0,1,False,,,,,,,,,,11742.0,0.33,2025-09-22 05:56:25.242966
+190,F,36,primary,employee,27976,3,house,rural,11,3,654830,506,married,email,medium,1,1,True,915.0,city,A2 Micro,base,cash,OC_AC_GAP,68323.0,0.0,2.0,6649.0,0.4,2025-09-09 05:56:25.242966
+191,M,57,secondary,sole_trader,40000,3,house,rural,37,3,2065808,741,single,email,low,1,1,True,974.0,sedan,C1 Sedan,base,lease_36,OC_AC,149719.0,132.84,3.0,10057.0,0.36,2025-08-18 05:56:25.242966
+192,F,54,vocational,company_owner,15842,4,house,urban,0,5,1300730,389,divorced,email,low,1,1,False,,,,,,,,,,5266.0,0.41,2025-10-31 05:56:25.242966
+193,F,53,vocational,employee,22545,2,house,urban,0,4,1121973,478,single,phone,medium,1,1,True,1100.0,wagon,D3 Long,comfort,loan_60,OC_AC,127558.0,82.66,1.0,6263.0,0.44,2025-09-29 05:56:25.242966
+194,M,39,master,employee,32118,1,house,urban,0,5,891253,614,married,email,low,1,1,True,695.0,suv,E2 Trail,comfort,lease_36,OC_only,119518.0,96.74,4.0,8544.0,0.36,2025-08-08 05:56:25.242966
+195,F,72,bachelor,employee,40000,2,house,urban,0,5,1869762,579,married,phone,medium,1,1,True,652.0,sedan,C1 Sedan,comfort,loan_60,OC_only,108314.0,56.19,4.0,10367.0,0.37,2025-10-04 05:56:25.242966
+196,M,24,bachelor,company_owner,32173,0,house,urban,0,5,1621570,785,married,phone,low,1,0,True,906.0,crossover,F2 Flex,base,lease_48,OC_AC,100319.0,63.73,4.0,8559.0,0.3,2025-08-05 05:56:25.242966
+197,M,38,master,employee,28422,0,house,rural,10,4,841505,577,single,phone,medium,0,0,True,1419.0,city,A3 Urban,base,lease_36,OC_only,79844.0,76.04,0.0,7623.0,0.41,2025-10-06 05:56:25.242966
+198,F,26,phd,student,35488,2,house,urban,0,5,1928942,604,married,phone,low,0,1,False,,,,,,,,,,11170.0,0.36,2025-09-19 05:56:25.242966
+199,F,38,master,retired,35639,4,apartment,urban,0,5,1677215,828,married,email,medium,0,1,True,632.0,wagon,D1 Tourer,comfort,lease_48,OC_AC,151996.0,85.47,2.0,8629.0,0.28,2025-10-25 05:56:25.242966
+200,M,72,bachelor,student,40000,2,house,urban,0,5,2083295,648,married,chat,low,0,1,False,,,,,,,,,,13123.0,0.4,2025-08-27 05:56:25.242966
+201,M,40,phd,unemployed,40000,3,apartment,urban,0,4,1424162,712,married,phone,low,1,1,False,,,,,,,,,,11894.0,0.35,2025-10-10 05:56:25.242966
+202,M,69,secondary,student,40000,0,apartment,urban,0,5,3539390,811,single,phone,low,0,0,True,1393.0,compact,B2 Hatch,base,loan_60,OC_only,106452.0,63.69,3.0,12825.0,0.33,2025-08-16 05:56:25.242966
+203,F,47,phd,retired,40000,2,apartment,rural,54,3,1912619,761,single,email,medium,0,1,True,853.0,compact,B3 Active,comfort,lease_36,OC_AC,87315.0,79.9,2.0,10847.0,0.36,2025-10-20 05:56:25.242966
+204,M,58,master,retired,38793,3,house,rural,35,3,2952097,744,married,chat,low,1,1,False,,,,,,,,,,11447.0,0.34,2025-10-21 05:56:25.242966
+205,M,45,bachelor,student,22546,1,house,urban,0,5,1125111,470,married,email,medium,1,1,True,995.0,compact,B3 Active,comfort,lease_36,OC_AC,74006.0,63.98,0.0,5488.0,0.42,2025-09-19 05:56:25.242966
+206,F,34,phd,retired,40000,0,apartment,urban,0,5,1003473,716,married,phone,low,0,0,False,,,,,,,,,,10817.0,0.34,2025-10-24 05:56:25.242966
+207,M,62,bachelor,public_sector,36024,0,apartment,rural,13,3,2035005,641,married,phone,medium,0,0,False,,,,,,,,,,10075.0,0.37,2025-10-02 05:56:25.242966
+208,F,73,master,employee,40000,4,house,rural,6,4,2640806,655,married,email,medium,0,1,True,1274.0,city,A3 Urban,comfort,lease_36,OC_AC,46213.0,38.3,3.0,10854.0,0.35,2025-08-30 05:56:25.242966
+209,M,34,vocational,sole_trader,17593,3,house,urban,0,5,821230,524,married,phone,low,0,1,True,1287.0,suv,E2 Trail,base,cash,OC_AC,157800.0,0.0,2.0,4893.0,0.39,2025-09-16 05:56:25.242966
+210,F,62,phd,employee,40000,1,apartment,rural,37,3,3356759,806,married,chat,low,0,1,True,878.0,crossover,F2 Flex,comfort,lease_36,OC_only,132839.0,123.34,4.0,13868.0,0.31,2025-09-11 05:56:25.242966
+211,M,34,bachelor,retired,40000,1,house,rural,32,3,2936276,699,married,chat,low,1,1,False,,,,,,,,,,13241.0,0.33,2025-10-23 05:56:25.242966
+212,M,59,master,employee,40000,0,apartment,urban,0,5,3203520,810,single,chat,medium,1,0,True,756.0,city,A2 Micro,base,loan_60,OC_only,62227.0,35.5,2.0,9206.0,0.32,2025-08-31 05:56:25.242966
+213,M,63,secondary,retired,40000,4,house,urban,0,5,2693379,509,divorced,phone,high,0,1,False,,,,,,,,,,7720.0,0.4,2025-10-23 05:56:25.242966
+214,F,44,phd,student,38164,0,house,urban,0,4,2136655,648,partnership,email,low,1,0,True,1298.0,crossover,F2 Flex,premium,loan_60,OC_AC,136997.0,84.96,4.0,11617.0,0.37,2025-09-10 05:56:25.242966
+215,F,60,primary,public_sector,40000,3,apartment,urban,0,5,2816494,794,married,email,medium,0,1,False,,,,,,,,,,9128.0,0.33,2025-08-21 05:56:25.242966
+216,M,34,primary,employee,20692,1,house,rural,33,3,758334,581,widowed,phone,medium,1,1,True,1035.0,compact,B1 Compact,base,lease_48,OC_AC_GAP,90737.0,57.24,0.0,6149.0,0.41,2025-08-27 05:56:25.242966
+217,M,24,bachelor,company_owner,40000,1,apartment,urban,0,5,2473589,558,partnership,phone,medium,0,1,False,,,,,,,,,,10842.0,0.4,2025-09-30 05:56:25.242966
+218,F,25,master,student,40000,1,house,rural,35,3,2594596,653,married,phone,low,1,1,False,,,,,,,,,,10265.0,0.35,2025-10-18 05:56:25.242966
+219,M,44,master,public_sector,31577,4,house,rural,10,4,1213669,817,married,phone,high,1,1,False,,,,,,,,,,6804.0,0.32,2025-08-18 05:56:25.242966
+220,M,69,secondary,retired,40000,0,apartment,urban,0,4,3782624,680,married,chat,low,0,0,True,849.0,crossover,F1 Cross,base,cash,OC_AC,118801.0,0.0,0.0,10888.0,0.37,2025-10-12 05:56:25.242966
+221,F,27,bachelor,sole_trader,40000,1,house,urban,0,5,2624187,850,single,email,medium,1,1,True,1115.0,crossover,F3 Edge,comfort,cash,OC_only,95133.0,0.0,0.0,10369.0,0.28,2025-09-17 05:56:25.242966
+222,M,45,bachelor,sole_trader,40000,1,house,urban,0,4,1955176,678,single,phone,low,0,1,True,551.0,compact,B2 Hatch,comfort,lease_36,OC_AC,80685.0,72.67,1.0,10988.0,0.39,2025-10-10 05:56:25.242966
+223,M,58,phd,employee,40000,1,apartment,rural,18,3,3528227,725,married,phone,medium,0,1,False,,,,,,,,,,11462.0,0.32,2025-10-29 05:56:25.242966
+224,M,31,bachelor,public_sector,40000,0,apartment,urban,0,5,1043676,672,divorced,phone,high,0,0,False,,,,,,,,,,9508.0,0.37,2025-09-24 05:56:25.242966
+225,M,59,secondary,employee,40000,4,apartment,urban,0,5,1033375,786,single,phone,high,1,1,True,886.0,city,A2 Micro,comfort,lease_36,OC_AC,79713.0,75.51,3.0,10101.0,0.32,2025-09-12 05:56:25.242966
+226,F,36,phd,company_owner,40000,1,house,urban,0,4,1634880,840,divorced,phone,low,1,1,False,,,,,,,,,,10792.0,0.3,2025-08-24 05:56:25.242966
+227,F,64,primary,student,40000,2,house,urban,0,5,2660356,512,married,email,medium,0,1,True,727.0,crossover,F2 Flex,tech,lease_36,OC_AC,129046.0,113.69,2.0,10033.0,0.37,2025-08-27 05:56:25.242966
+228,F,51,phd,employee,40000,1,apartment,urban,0,5,1848895,674,married,email,low,0,1,False,,,,,,,,,,13222.0,0.37,2025-08-18 05:56:25.242966
+229,M,50,primary,employee,40000,4,house,urban,0,5,3418075,736,single,email,medium,1,1,True,1270.0,wagon,D2 Estate,tech,cash,OC_AC_GAP,97460.0,0.0,0.0,9996.0,0.31,2025-08-19 05:56:25.242966
+230,F,29,vocational,employee,18975,1,house,urban,0,4,630434,475,married,chat,low,1,1,True,652.0,sedan,C3 Classic,base,lease_36,OC_only,146698.0,120.42,0.0,5463.0,0.37,2025-09-25 05:56:25.242966
+231,M,45,master,retired,37317,1,apartment,urban,0,4,1479181,570,single,phone,medium,0,1,False,,,,,,,,,,11153.0,0.4,2025-10-01 05:56:25.242966
+232,F,67,master,employee,40000,1,house,urban,0,5,2923846,788,single,email,low,0,1,False,,,,,,,,,,13083.0,0.35,2025-09-07 05:56:25.242966
+233,M,21,phd,employee,32581,1,house,urban,0,4,576777,750,single,phone,low,1,1,True,1322.0,city,A2 Micro,premium,cash,OC_AC_GAP,66042.0,0.0,4.0,10950.0,0.31,2025-09-18 05:56:25.242966
+234,F,61,master,company_owner,37437,0,house,rural,11,4,2879450,602,single,phone,low,1,0,False,,,,,,,,,,10883.0,0.39,2025-10-05 05:56:25.242966
+235,M,47,bachelor,employee,37791,3,house,rural,41,3,1759458,681,single,phone,low,1,1,True,1164.0,wagon,D2 Estate,tech,lease_48,OC_AC,122464.0,80.81,0.0,11662.0,0.36,2025-10-29 05:56:25.242966
+236,M,59,secondary,retired,40000,0,apartment,urban,0,5,3749692,485,married,phone,low,1,0,True,1223.0,crossover,F2 Flex,comfort,cash,OC_AC,97208.0,0.0,1.0,11802.0,0.4,2025-09-19 05:56:25.242966
+237,M,56,primary,employee,32599,1,apartment,urban,0,5,2338410,508,married,phone,medium,0,1,False,,,,,,,,,,8346.0,0.42,2025-09-19 05:56:25.242966
+238,M,43,primary,employee,23892,1,house,urban,0,5,584932,538,single,phone,medium,0,1,True,1006.0,crossover,F1 Cross,comfort,lease_48,OC_only,149034.0,102.24,2.0,5500.0,0.38,2025-08-08 05:56:25.242966
+239,M,36,vocational,employee,24845,1,house,rural,28,4,634980,594,divorced,phone,medium,0,1,False,,,,,,,,,,7140.0,0.38,2025-08-19 05:56:25.242966
+240,F,54,primary,employee,25878,3,apartment,urban,0,5,752625,394,married,chat,medium,0,1,True,1014.0,city,A1 CityGo,comfort,cash,OC_AC,68147.0,0.0,4.0,6502.0,0.4,2025-10-07 05:56:25.242966
+241,F,27,bachelor,employee,26776,2,house,urban,0,5,1911017,503,widowed,phone,low,0,1,False,,,,,,,,,,8252.0,0.37,2025-10-22 05:56:25.242966
+242,M,52,master,student,40000,4,apartment,urban,0,5,2767287,525,married,phone,low,0,1,True,744.0,mpv,G1 Family,comfort,lease_36,OC_AC,102915.0,100.54,1.0,13428.0,0.41,2025-08-22 05:56:25.242966
+243,F,25,phd,employee,40000,1,apartment,rural,17,4,1658848,728,single,chat,low,1,1,False,,,,,,,,,,13094.0,0.34,2025-09-18 05:56:25.242966
+244,F,55,secondary,employee,40000,4,apartment,urban,0,5,1484009,398,widowed,phone,low,0,1,False,,,,,,,,,,10793.0,0.42,2025-10-28 05:56:25.242966
+245,F,54,phd,employee,40000,0,house,rural,9,4,3331246,583,divorced,phone,medium,1,0,False,,,,,,,,,,10779.0,0.41,2025-08-25 05:56:25.242966
+246,F,24,phd,employee,40000,2,apartment,urban,0,5,1155361,392,married,chat,medium,0,1,False,,,,,,,,,,10386.0,0.46,2025-09-30 05:56:25.242966
+247,F,61,phd,public_sector,40000,3,house,rural,16,3,3016036,682,married,phone,medium,1,1,True,874.0,city,A1 CityGo,tech,lease_48,OC_only,66758.0,44.45,1.0,9632.0,0.35,2025-10-16 05:56:25.242966
+248,F,42,secondary,employee,14681,2,apartment,rural,17,3,1014302,369,married,phone,medium,0,1,False,,,,,,,,,,3278.0,0.4,2025-09-02 05:56:25.242966
+249,F,63,vocational,unemployed,24883,4,apartment,rural,33,3,1148530,476,married,phone,low,0,1,False,,,,,,,,,,7788.0,0.4,2025-08-22 05:56:25.242966
+250,F,22,phd,employee,25347,1,apartment,urban,0,5,1126095,660,married,phone,medium,0,1,False,,,,,,,,,,7158.0,0.34,2025-08-23 05:56:25.242966
+251,M,29,vocational,employee,13270,0,apartment,urban,0,4,417106,503,married,email,low,0,0,False,,,,,,,,,,4567.0,0.4,2025-10-07 05:56:25.242966
+252,M,47,secondary,employee,25639,3,apartment,urban,0,5,1196142,406,single,phone,medium,0,1,False,,,,,,,,,,6369.0,0.4,2025-09-08 05:56:25.242966
+253,M,30,primary,employee,40000,0,house,urban,0,5,2960506,759,single,email,low,1,0,False,,,,,,,,,,11597.0,0.3,2025-09-20 05:56:25.242966
+254,F,38,master,student,40000,3,house,urban,0,5,2504590,508,single,email,low,1,1,True,955.0,suv,E1 SUV,base,lease_36,OC_AC,204476.0,184.83,0.0,10652.0,0.35,2025-08-14 05:56:25.242966
+255,M,56,bachelor,employee,40000,3,apartment,urban,0,5,3303853,580,single,chat,low,0,1,True,646.0,city,A1 CityGo,base,lease_48,OC_only,53225.0,36.1,3.0,13938.0,0.38,2025-10-14 05:56:25.242966
+256,F,27,primary,employee,29261,4,apartment,urban,0,5,1419254,551,married,phone,low,0,1,True,490.0,suv,E3 Adventure,comfort,lease_36,OC_only,196473.0,167.49,4.0,9801.0,0.34,2025-08-19 05:56:25.242966
+257,F,57,vocational,sole_trader,40000,2,house,urban,0,5,1614092,837,divorced,phone,low,0,1,False,,,,,,,,,,13830.0,0.3,2025-09-30 05:56:25.242966
+258,F,25,bachelor,sole_trader,25965,4,apartment,urban,0,4,1480488,500,single,chat,low,0,1,True,480.0,suv,E2 Trail,tech,cash,OC_only,144762.0,0.0,4.0,7777.0,0.41,2025-09-06 05:56:25.242966
+259,M,29,bachelor,public_sector,40000,0,apartment,urban,0,5,1884617,584,single,email,medium,0,0,True,919.0,crossover,F3 Edge,comfort,cash,OC_AC,135439.0,0.0,1.0,9471.0,0.36,2025-09-16 05:56:25.242966
+260,F,52,master,public_sector,40000,2,house,urban,0,5,1387696,744,single,phone,high,0,1,True,996.0,suv,E2 Trail,tech,lease_36,OC_AC,189348.0,146.84,1.0,9034.0,0.31,2025-09-30 05:56:25.242966
+261,F,63,vocational,company_owner,32939,0,house,rural,28,4,1805505,409,married,phone,low,1,0,False,,,,,,,,,,9460.0,0.42,2025-10-11 05:56:25.242966
+262,M,29,phd,retired,40000,3,house,urban,0,5,2188072,522,married,email,low,0,1,False,,,,,,,,,,11391.0,0.37,2025-09-29 05:56:25.242966
+263,F,36,secondary,student,40000,3,house,rural,42,2,2564796,582,married,phone,medium,1,1,False,,,,,,,,,,9064.0,0.38,2025-09-07 05:56:25.242966
+264,M,70,master,employee,40000,4,house,rural,22,3,1775787,679,widowed,phone,low,1,1,False,,,,,,,,,,10293.0,0.33,2025-09-06 05:56:25.242966
+265,F,74,vocational,company_owner,29641,3,house,urban,0,5,2831816,551,partnership,chat,medium,1,1,True,1093.0,sedan,C3 Classic,base,lease_36,OC_AC_GAP,147976.0,120.86,1.0,7419.0,0.38,2025-09-05 05:56:25.242966
+266,M,51,primary,employee,21362,1,house,urban,0,5,1027933,471,divorced,phone,low,1,1,False,,,,,,,,,,7319.0,0.4,2025-09-02 05:56:25.242966
+267,M,44,primary,student,31224,0,house,urban,0,5,1207934,572,divorced,phone,low,1,0,False,,,,,,,,,,10064.0,0.38,2025-10-27 05:56:25.242966
+268,M,39,secondary,public_sector,40000,4,apartment,rural,11,4,1299995,620,married,email,low,0,1,False,,,,,,,,,,13042.0,0.4,2025-09-26 05:56:25.242966
+269,M,53,phd,employee,40000,2,house,urban,0,5,3116763,735,married,chat,low,1,1,False,,,,,,,,,,10937.0,0.34,2025-10-03 05:56:25.242966
+270,M,52,primary,retired,32928,0,apartment,urban,0,5,1539379,657,married,phone,medium,1,0,False,,,,,,,,,,9179.0,0.36,2025-09-26 05:56:25.242966
+271,F,36,secondary,public_sector,40000,4,apartment,urban,0,5,1960158,658,divorced,email,medium,0,1,False,,,,,,,,,,10100.0,0.34,2025-09-27 05:56:25.242966
+272,M,21,primary,employee,29293,4,apartment,urban,0,5,855298,602,single,phone,low,0,1,True,766.0,crossover,F3 Edge,comfort,cash,OC_AC,92522.0,0.0,3.0,7497.0,0.37,2025-10-16 05:56:25.242966
+273,M,28,phd,employee,40000,2,apartment,rural,32,3,2283511,729,single,phone,high,0,1,False,,,,,,,,,,8463.0,0.33,2025-08-06 05:56:25.242966
+274,F,72,master,public_sector,40000,3,apartment,urban,0,4,3476824,582,single,chat,low,1,1,True,980.0,mpv,G3 Space,base,loan_60,OC_AC,107874.0,63.36,0.0,10525.0,0.37,2025-10-31 05:56:25.242966
+275,F,42,master,public_sector,35314,0,house,urban,0,5,1496741,636,married,phone,low,1,0,True,622.0,sedan,C1 Sedan,comfort,loan_60,OC_only,91093.0,54.63,0.0,11843.0,0.37,2025-09-08 05:56:25.242966
+276,F,46,master,employee,40000,0,apartment,urban,0,5,3323873,836,married,phone,medium,0,0,True,829.0,sedan,C1 Sedan,tech,cash,OC_AC,95850.0,0.0,1.0,11489.0,0.29,2025-09-20 05:56:25.242966
+277,F,45,bachelor,employee,36508,1,house,urban,0,5,857003,552,single,email,medium,1,1,True,1031.0,crossover,F1 Cross,comfort,lease_48,OC_AC,103499.0,67.82,1.0,8871.0,0.37,2025-08-29 05:56:25.242966
+278,M,63,master,company_owner,40000,3,apartment,urban,0,5,1370853,850,married,phone,low,0,1,False,,,,,,,,,,12448.0,0.29,2025-08-18 05:56:25.242966
+279,F,23,primary,employee,24758,0,apartment,urban,0,5,1221397,490,married,phone,low,0,0,True,995.0,suv,E3 Adventure,tech,lease_36,OC_AC_GAP,117390.0,117.04,4.0,7090.0,0.39,2025-09-03 05:56:25.242966
+280,M,24,phd,employee,40000,0,house,urban,0,5,2235039,671,divorced,email,low,1,0,True,819.0,sedan,C2 Executive,comfort,lease_48,OC_AC,133759.0,91.56,1.0,10617.0,0.35,2025-08-24 05:56:25.242966
+281,F,35,master,employee,24803,3,house,rural,34,3,861879,432,single,phone,low,1,1,False,,,,,,,,,,7811.0,0.41,2025-10-07 05:56:25.242966
+282,F,46,master,employee,40000,3,apartment,rural,25,3,2307252,850,single,email,medium,1,1,False,,,,,,,,,,11232.0,0.33,2025-08-03 05:56:25.242966
+283,F,56,secondary,sole_trader,24470,3,house,urban,0,5,1116330,401,married,phone,low,0,1,True,1149.0,mpv,G3 Space,comfort,lease_48,OC_AC,179712.0,126.05,3.0,8013.0,0.48,2025-10-24 05:56:25.242966
+284,F,46,master,sole_trader,40000,3,house,urban,0,5,2307299,623,married,phone,medium,0,1,False,,,,,,,,,,9278.0,0.35,2025-09-01 05:56:25.242966
+285,F,44,secondary,sole_trader,40000,4,house,urban,0,5,2541212,554,divorced,email,low,1,1,True,1135.0,wagon,D3 Long,tech,lease_36,OC_AC,123603.0,98.83,0.0,12050.0,0.39,2025-10-18 05:56:25.242966
+286,M,71,primary,student,28870,3,apartment,urban,0,4,2922393,548,married,phone,low,0,1,False,,,,,,,,,,7286.0,0.4,2025-10-10 05:56:25.242966
+287,F,28,phd,employee,40000,2,apartment,urban,0,5,1767428,632,widowed,chat,low,1,1,False,,,,,,,,,,10361.0,0.35,2025-08-18 05:56:25.242966
+288,F,51,vocational,employee,28217,4,apartment,urban,0,5,1869506,461,single,chat,low,0,1,True,1205.0,sedan,C1 Sedan,base,lease_36,OC_only,112300.0,108.13,0.0,7283.0,0.39,2025-09-01 05:56:25.242966
+289,F,49,primary,employee,25480,1,house,urban,0,5,1544248,300,married,email,medium,0,1,True,878.0,suv,E2 Trail,comfort,cash,OC_AC,124198.0,0.0,0.0,5722.0,0.48,2025-09-04 05:56:25.242966
+290,M,46,bachelor,employee,40000,0,house,urban,0,5,1692309,753,partnership,phone,high,1,0,True,672.0,wagon,D2 Estate,tech,lease_36,OC_AC,152397.0,135.29,0.0,8268.0,0.34,2025-08-18 05:56:25.242966
+291,M,64,vocational,employee,40000,3,house,urban,0,5,1735736,661,single,phone,medium,1,1,True,835.0,city,A1 CityGo,comfort,lease_48,OC_AC,54684.0,34.87,4.0,9945.0,0.36,2025-10-06 05:56:25.242966
+292,F,34,phd,employee,40000,1,apartment,urban,0,5,3118042,795,divorced,chat,medium,0,1,True,817.0,city,A2 Micro,tech,lease_36,OC_only,77230.0,62.3,3.0,11033.0,0.34,2025-09-04 05:56:25.242966
+293,M,72,secondary,employee,40000,4,apartment,urban,0,5,1685379,789,single,phone,low,1,1,False,,,,,,,,,,11320.0,0.33,2025-10-13 05:56:25.242966
+294,M,38,primary,employee,40000,2,apartment,urban,0,5,2741605,680,married,email,high,0,1,True,725.0,suv,E1 SUV,base,loan_60,OC_AC,123770.0,63.08,4.0,7649.0,0.35,2025-09-18 05:56:25.242966
+295,M,49,phd,sole_trader,40000,4,house,urban,0,5,1276589,757,single,email,medium,0,1,False,,,,,,,,,,11830.0,0.31,2025-09-25 05:56:25.242966
+296,F,48,bachelor,sole_trader,40000,0,apartment,urban,0,4,3003487,524,married,phone,medium,0,0,False,,,,,,,,,,11602.0,0.38,2025-09-06 05:56:25.242966
+297,M,66,vocational,public_sector,35307,3,house,rural,35,3,1374489,724,divorced,phone,low,1,1,True,653.0,wagon,D3 Long,tech,lease_48,OC_AC,117960.0,72.98,1.0,9265.0,0.36,2025-10-26 05:56:25.242966
+298,M,44,master,student,40000,2,apartment,urban,0,5,3329254,658,single,email,low,0,1,False,,,,,,,,,,11451.0,0.37,2025-10-29 05:56:25.242966
+299,M,35,bachelor,sole_trader,38201,2,apartment,urban,0,5,2316875,510,single,phone,medium,0,1,True,689.0,crossover,F1 Cross,tech,lease_36,OC_AC,153031.0,142.22,1.0,8918.0,0.39,2025-10-29 05:56:25.242966
+300,F,21,primary,employee,17608,1,apartment,rural,23,4,391447,410,married,phone,low,1,1,False,,,,,,,,,,6091.0,0.46,2025-10-08 05:56:25.242966
+301,F,40,master,sole_trader,40000,4,apartment,urban,0,5,2545746,802,single,phone,low,1,1,False,,,,,,,,,,11424.0,0.31,2025-09-10 05:56:25.242966
+302,M,65,secondary,employee,40000,1,apartment,urban,0,4,2792123,717,married,email,low,1,1,False,,,,,,,,,,10392.0,0.36,2025-10-17 05:56:25.242966
+303,M,20,master,employee,40000,4,house,urban,0,5,1395430,742,widowed,phone,medium,1,1,True,903.0,sedan,C1 Sedan,base,lease_48,OC_only,112932.0,66.31,3.0,11126.0,0.33,2025-08-03 05:56:25.242966
+304,F,69,phd,employee,40000,2,house,urban,0,5,1817852,572,single,phone,low,1,1,True,745.0,mpv,G1 Family,premium,cash,OC_AC,118762.0,0.0,0.0,12847.0,0.41,2025-09-24 05:56:25.242966
+305,M,49,bachelor,employee,40000,0,house,rural,24,3,2798570,850,married,email,medium,1,0,False,,,,,,,,,,9571.0,0.32,2025-10-04 05:56:25.242966
+306,F,27,master,employee,37504,4,apartment,rural,20,3,2236947,532,married,email,medium,0,1,False,,,,,,,,,,9215.0,0.39,2025-08-12 05:56:25.242966
+307,M,36,vocational,company_owner,35845,0,apartment,urban,0,5,1420622,660,single,chat,low,0,0,False,,,,,,,,,,10449.0,0.35,2025-10-16 05:56:25.242966
+308,F,50,vocational,retired,28977,1,apartment,urban,0,5,2348312,567,single,phone,low,1,1,False,,,,,,,,,,8020.0,0.38,2025-10-15 05:56:25.242966
+309,M,37,secondary,student,35607,4,apartment,urban,0,5,1297188,730,married,chat,high,0,1,True,937.0,suv,E3 Adventure,comfort,lease_48,OC_AC,181343.0,101.85,0.0,7232.0,0.32,2025-09-27 05:56:25.242966
+310,F,25,phd,sole_trader,40000,4,house,urban,0,5,878971,718,married,email,low,1,1,True,956.0,wagon,D3 Long,premium,lease_48,OC_AC,98904.0,63.31,4.0,13206.0,0.31,2025-10-25 05:56:25.242966
+311,M,56,bachelor,employee,40000,4,apartment,urban,0,5,2612963,583,divorced,email,low,0,1,False,,,,,,,,,,13007.0,0.38,2025-08-31 05:56:25.242966
+312,F,56,secondary,employee,40000,2,apartment,rural,8,3,1233131,783,married,phone,low,0,1,False,,,,,,,,,,12771.0,0.31,2025-08-23 05:56:25.242966
+313,F,26,master,company_owner,39166,3,house,urban,0,5,1314014,850,married,phone,low,1,1,True,998.0,crossover,F3 Edge,base,lease_48,OC_AC,112941.0,63.8,0.0,12481.0,0.29,2025-09-30 05:56:25.242966
+314,F,35,phd,employee,40000,1,house,rural,10,5,2000437,592,divorced,phone,medium,1,1,False,,,,,,,,,,10470.0,0.37,2025-08-14 05:56:25.242966
+315,M,33,phd,employee,25344,3,house,urban,0,4,918772,366,divorced,phone,low,0,1,False,,,,,,,,,,7225.0,0.43,2025-10-31 05:56:25.242966
+316,M,56,vocational,employee,18783,2,house,rural,8,4,720949,487,widowed,phone,medium,1,1,True,1324.0,crossover,F3 Edge,base,loan_60,OC_AC,111905.0,69.93,4.0,5215.0,0.4,2025-09-14 05:56:25.242966
+317,F,60,master,public_sector,40000,0,apartment,urban,0,5,2985174,702,single,chat,low,1,0,False,,,,,,,,,,10465.0,0.38,2025-08-27 05:56:25.242966
+318,F,59,bachelor,sole_trader,40000,2,apartment,urban,0,5,2517751,677,partnership,phone,high,1,1,False,,,,,,,,,,7651.0,0.36,2025-09-28 05:56:25.242966
+319,M,71,secondary,employee,40000,2,apartment,urban,0,5,3636593,708,divorced,chat,medium,0,1,False,,,,,,,,,,9204.0,0.38,2025-08-07 05:56:25.242966
+320,M,62,secondary,sole_trader,27923,1,house,rural,28,4,1864246,535,divorced,phone,low,0,1,True,691.0,crossover,F3 Edge,tech,lease_36,OC_only,138759.0,114.67,4.0,9027.0,0.38,2025-09-23 05:56:25.242966
+321,M,37,primary,employee,28025,1,apartment,rural,17,4,1384862,490,married,email,medium,0,1,False,,,,,,,,,,7492.0,0.41,2025-08-10 05:56:25.242966
+322,F,25,vocational,employee,40000,2,apartment,urban,0,5,1296206,572,partnership,phone,low,1,1,True,711.0,compact,B2 Hatch,tech,cash,OC_only,86455.0,0.0,2.0,11801.0,0.37,2025-09-02 05:56:25.242966
+323,F,53,bachelor,employee,40000,0,house,urban,0,5,3083594,850,married,email,high,1,0,False,,,,,,,,,,8724.0,0.29,2025-10-11 05:56:25.242966
+324,F,70,phd,employee,40000,0,apartment,rural,23,4,1633029,692,married,phone,medium,0,0,False,,,,,,,,,,11448.0,0.39,2025-08-18 05:56:25.242966
+325,F,73,phd,company_owner,40000,3,house,urban,0,4,1807264,488,married,chat,low,0,1,True,1015.0,crossover,F1 Cross,tech,lease_48,OC_AC,144879.0,98.53,0.0,10487.0,0.38,2025-10-29 05:56:25.242966
+326,M,32,vocational,employee,26258,1,house,urban,0,4,1789364,467,married,phone,low,0,1,False,,,,,,,,,,7571.0,0.36,2025-10-14 05:56:25.242966
+327,M,33,master,student,21696,3,house,urban,0,5,1363805,558,married,phone,high,0,1,False,,,,,,,,,,5225.0,0.37,2025-08-22 05:56:25.242966
+328,M,22,primary,employee,26139,2,house,rural,44,3,1310844,464,single,chat,medium,1,1,False,,,,,,,,,,7126.0,0.37,2025-08-11 05:56:25.242966
+329,F,27,master,company_owner,40000,2,apartment,urban,0,5,826404,532,married,phone,low,0,1,True,1204.0,city,A2 Micro,base,loan_60,OC_AC,64226.0,38.92,2.0,11741.0,0.37,2025-09-27 05:56:25.242966
+330,M,50,secondary,sole_trader,23073,2,house,rural,15,4,712023,563,married,email,low,1,1,False,,,,,,,,,,6286.0,0.36,2025-09-02 05:56:25.242966
+331,M,50,secondary,sole_trader,31774,2,house,rural,20,4,1773958,650,married,phone,low,1,1,True,853.0,wagon,D1 Tourer,comfort,lease_36,OC_AC_GAP,143135.0,134.04,0.0,10951.0,0.36,2025-08-30 05:56:25.242966
+332,M,40,master,sole_trader,32780,4,house,urban,0,5,2194283,540,married,phone,medium,0,1,False,,,,,,,,,,8281.0,0.34,2025-08-26 05:56:25.242966
+333,M,37,secondary,public_sector,25191,4,house,urban,0,5,1215334,473,divorced,phone,medium,1,1,False,,,,,,,,,,7311.0,0.43,2025-08-11 05:56:25.242966
+334,F,65,master,employee,40000,1,house,urban,0,4,1044867,738,divorced,phone,medium,1,1,False,,,,,,,,,,11289.0,0.29,2025-10-24 05:56:25.242966
+335,M,45,bachelor,student,21197,3,house,urban,0,4,707671,440,married,phone,medium,1,1,False,,,,,,,,,,6124.0,0.41,2025-10-14 05:56:25.242966
+336,M,64,phd,company_owner,40000,4,apartment,rural,34,3,2729416,706,single,phone,medium,0,1,True,1535.0,city,A1 CityGo,comfort,lease_48,OC_AC,75933.0,50.78,1.0,8854.0,0.33,2025-08-10 05:56:25.242966
+337,F,72,bachelor,employee,40000,0,house,rural,14,4,3205957,388,married,email,low,1,0,False,,,,,,,,,,11910.0,0.44,2025-09-12 05:56:25.242966
+338,M,37,vocational,employee,29111,3,apartment,urban,0,4,645946,513,divorced,chat,medium,1,1,True,1040.0,suv,E3 Adventure,base,cash,OC_AC_GAP,122450.0,0.0,0.0,7009.0,0.4,2025-09-14 05:56:25.242966
+339,M,31,master,employee,18772,2,house,urban,0,5,406569,464,married,phone,low,0,1,False,,,,,,,,,,5207.0,0.43,2025-09-25 05:56:25.242966
+340,M,72,secondary,employee,33910,4,apartment,urban,0,4,1572820,579,divorced,phone,medium,0,1,True,902.0,city,A1 CityGo,tech,cash,OC_AC,49564.0,0.0,3.0,8192.0,0.37,2025-09-29 05:56:25.242966
+341,F,54,bachelor,employee,40000,2,apartment,rural,10,5,1150465,696,partnership,phone,low,1,1,False,,,,,,,,,,11557.0,0.33,2025-10-09 05:56:25.242966
+342,M,36,primary,employee,10576,4,house,rural,16,5,555417,372,married,email,medium,1,1,True,1289.0,suv,E1 SUV,comfort,lease_36,OC_only,194848.0,183.99,0.0,2674.0,0.44,2025-09-26 05:56:25.242966
+343,F,54,primary,sole_trader,29403,0,house,rural,12,4,927236,587,married,phone,medium,0,0,False,,,,,,,,,,7960.0,0.39,2025-10-25 05:56:25.242966
+344,F,48,bachelor,employee,29921,0,apartment,urban,0,5,1938356,696,married,email,medium,0,0,True,863.0,city,A2 Micro,comfort,lease_36,OC_AC,76408.0,65.33,3.0,7302.0,0.36,2025-10-05 05:56:25.242966
+345,F,69,vocational,retired,40000,4,apartment,urban,0,4,3398309,738,married,phone,low,1,1,True,958.0,city,A1 CityGo,comfort,cash,OC_AC,47327.0,0.0,1.0,11091.0,0.34,2025-08-03 05:56:25.242966
+346,M,34,phd,employee,40000,2,apartment,urban,0,5,3077086,636,single,email,medium,0,1,True,538.0,suv,E3 Adventure,base,cash,OC_AC,171967.0,0.0,1.0,9954.0,0.36,2025-10-17 05:56:25.242966
+347,F,74,phd,company_owner,40000,2,house,urban,0,5,4050299,593,single,email,low,1,1,False,,,,,,,,,,12746.0,0.37,2025-08-27 05:56:25.242966
+348,M,71,master,employee,40000,0,house,rural,46,2,1880765,361,single,phone,low,1,0,True,992.0,crossover,F3 Edge,base,lease_48,OC_only,132472.0,88.63,1.0,10001.0,0.44,2025-10-28 05:56:25.242966
+349,M,29,master,employee,40000,1,apartment,urban,0,5,819799,655,married,phone,medium,0,1,False,,,,,,,,,,11190.0,0.39,2025-08-26 05:56:25.242966
+350,F,29,bachelor,employee,34710,4,apartment,rural,37,3,1299720,502,single,phone,medium,0,1,False,,,,,,,,,,8577.0,0.39,2025-10-08 05:56:25.242966
+351,M,49,primary,company_owner,36215,1,house,urban,0,5,2508997,662,married,phone,low,0,1,False,,,,,,,,,,11141.0,0.34,2025-08-29 05:56:25.242966
+352,M,22,secondary,employee,17754,2,apartment,urban,0,5,369925,446,married,phone,high,0,1,True,1052.0,mpv,G2 Grand,comfort,lease_48,OC_AC,115562.0,67.73,0.0,4277.0,0.4,2025-09-17 05:56:25.242966
+353,M,36,secondary,public_sector,40000,1,apartment,urban,0,5,1663310,829,married,email,low,0,1,False,,,,,,,,,,12043.0,0.31,2025-08-23 05:56:25.242966
+354,M,43,phd,employee,40000,1,house,rural,28,4,1603674,850,divorced,phone,high,1,1,True,1472.0,crossover,F1 Cross,comfort,lease_36,OC_only,101163.0,82.78,1.0,9271.0,0.26,2025-09-01 05:56:25.242966
+355,M,73,vocational,sole_trader,35816,0,house,urban,0,4,1553888,677,married,phone,medium,0,0,True,789.0,suv,E3 Adventure,base,lease_48,OC_only,115882.0,75.93,0.0,10515.0,0.34,2025-09-11 05:56:25.242966
+356,F,74,secondary,employee,40000,4,house,urban,0,5,3284707,850,single,phone,high,1,1,False,,,,,,,,,,7296.0,0.32,2025-08-26 05:56:25.242966
+357,F,28,secondary,sole_trader,18541,4,house,rural,41,2,1030436,493,partnership,phone,medium,1,1,False,,,,,,,,,,4597.0,0.39,2025-08-06 05:56:25.242966
+358,M,69,primary,employee,40000,0,apartment,rural,37,3,2658612,499,divorced,chat,high,1,0,True,845.0,city,A2 Micro,premium,cash,OC_AC,60550.0,0.0,0.0,10166.0,0.4,2025-09-08 05:56:25.242966
+359,F,25,primary,employee,34736,1,house,urban,0,5,2355236,570,married,phone,medium,0,1,False,,,,,,,,,,9969.0,0.42,2025-10-16 05:56:25.242966
+360,M,61,secondary,employee,40000,2,house,rural,13,4,1265769,592,married,phone,low,0,1,False,,,,,,,,,,12467.0,0.38,2025-10-21 05:56:25.242966
+361,M,66,primary,employee,21045,1,apartment,rural,43,3,762391,509,single,phone,low,0,1,False,,,,,,,,,,5744.0,0.35,2025-09-12 05:56:25.242966
+362,M,68,primary,employee,35702,3,apartment,rural,24,4,1944885,539,married,chat,medium,0,1,True,1026.0,sedan,C1 Sedan,base,lease_48,OC_AC,111481.0,74.83,4.0,8798.0,0.36,2025-09-23 05:56:25.242966
+363,M,32,secondary,unemployed,40000,1,apartment,rural,37,4,2294980,626,single,email,low,1,1,False,,,,,,,,,,13432.0,0.36,2025-09-07 05:56:25.242966
+364,M,69,vocational,employee,21907,0,apartment,urban,0,5,1537479,530,married,phone,high,0,0,False,,,,,,,,,,5167.0,0.37,2025-09-01 05:56:25.242966
+365,M,26,bachelor,employee,24720,1,house,urban,0,5,553868,532,single,email,low,1,1,False,,,,,,,,,,6886.0,0.39,2025-10-15 05:56:25.242966
+366,M,48,primary,public_sector,40000,2,apartment,rural,43,3,3410241,772,married,email,medium,0,1,False,,,,,,,,,,9223.0,0.32,2025-08-26 05:56:25.242966
+367,F,45,vocational,employee,37818,0,house,urban,0,5,1557220,781,single,email,low,0,0,True,757.0,sedan,C3 Classic,base,cash,OC_AC,104910.0,0.0,2.0,12407.0,0.34,2025-08-03 05:56:25.242966
+368,M,37,secondary,employee,40000,4,house,rural,17,3,1675380,805,single,phone,medium,0,1,True,878.0,suv,E3 Adventure,base,lease_36,OC_only,113141.0,100.52,4.0,10644.0,0.29,2025-10-02 05:56:25.242966
+369,M,21,phd,company_owner,40000,0,house,rural,11,4,2009623,664,single,email,high,0,0,True,1411.0,wagon,D2 Estate,comfort,cash,OC_AC,111922.0,0.0,2.0,10283.0,0.35,2025-08-09 05:56:25.242966
+370,M,62,bachelor,retired,40000,0,apartment,rural,14,4,3733217,850,married,phone,low,0,0,True,1055.0,crossover,F2 Flex,comfort,cash,OC_AC,147906.0,0.0,1.0,11626.0,0.3,2025-08-09 05:56:25.242966
+371,F,38,phd,company_owner,40000,2,apartment,urban,0,4,2430293,544,single,phone,medium,0,1,False,,,,,,,,,,9917.0,0.39,2025-09-24 05:56:25.242966
+372,M,56,secondary,employee,40000,2,house,urban,0,5,3606699,490,married,phone,low,1,1,True,539.0,compact,B3 Active,comfort,cash,OC_AC,70673.0,0.0,3.0,11163.0,0.4,2025-08-21 05:56:25.242966
+373,F,42,secondary,public_sector,34460,1,apartment,urban,0,5,1130917,468,single,phone,medium,1,1,True,908.0,suv,E1 SUV,comfort,lease_36,OC_AC,168533.0,152.71,0.0,8910.0,0.36,2025-08-09 05:56:25.242966
+374,M,40,secondary,employee,27538,1,apartment,rural,20,4,1625648,528,divorced,phone,medium,0,1,True,774.0,crossover,F2 Flex,tech,lease_48,OC_AC_GAP,132933.0,84.03,0.0,6769.0,0.39,2025-08-16 05:56:25.242966
+375,M,68,phd,unemployed,40000,0,house,rural,38,3,3533125,850,single,phone,low,1,0,True,982.0,crossover,F2 Flex,base,cash,OC_only,99604.0,0.0,3.0,10293.0,0.3,2025-09-27 05:56:25.242966
+376,F,25,phd,retired,40000,3,apartment,rural,40,2,1836340,608,widowed,email,low,0,1,False,,,,,,,,,,11249.0,0.38,2025-09-02 05:56:25.242966
+377,M,60,phd,public_sector,40000,1,house,urban,0,5,2003060,610,single,email,low,1,1,True,1164.0,compact,B2 Hatch,tech,lease_36,OC_only,95824.0,79.68,0.0,10876.0,0.38,2025-09-08 05:56:25.242966
+378,M,61,master,employee,40000,0,apartment,rural,6,3,3822466,610,single,phone,low,1,0,False,,,,,,,,,,13262.0,0.37,2025-09-24 05:56:25.242966
+379,M,40,bachelor,employee,40000,1,house,urban,0,5,1176315,735,single,phone,medium,0,1,True,1027.0,suv,E1 SUV,comfort,lease_48,OC_AC,175692.0,104.21,4.0,9554.0,0.34,2025-09-04 05:56:25.242966
+380,F,34,bachelor,sole_trader,40000,4,house,urban,0,5,1756460,613,single,email,low,1,1,False,,,,,,,,,,11835.0,0.39,2025-08-08 05:56:25.242966
+381,F,20,phd,employee,36067,1,house,urban,0,5,2263160,588,married,phone,high,1,1,True,816.0,mpv,G1 Family,base,lease_36,OC_AC,127101.0,108.68,0.0,8433.0,0.39,2025-10-29 05:56:25.242966
+382,F,71,vocational,employee,40000,4,house,urban,0,4,3824824,518,single,phone,high,1,1,True,1098.0,compact,B1 Compact,base,lease_48,OC_AC_GAP,102087.0,67.86,4.0,7678.0,0.4,2025-08-11 05:56:25.242966
+383,F,72,secondary,public_sector,40000,1,apartment,rural,23,4,4098792,596,divorced,email,high,0,1,True,923.0,crossover,F2 Flex,tech,lease_48,OC_AC,123056.0,83.34,2.0,8900.0,0.41,2025-09-28 05:56:25.242966
+384,M,33,phd,sole_trader,40000,0,apartment,urban,0,5,2850543,850,married,phone,medium,0,0,False,,,,,,,,,,11511.0,0.29,2025-08-18 05:56:25.242966
+385,F,21,secondary,employee,35906,1,house,rural,20,3,724412,665,single,phone,low,1,1,True,1437.0,city,A3 Urban,base,cash,OC_only,49306.0,0.0,3.0,11074.0,0.33,2025-10-22 05:56:25.242966
+386,M,26,vocational,employee,17930,1,apartment,urban,0,4,1245606,439,married,email,medium,1,1,True,690.0,wagon,D2 Estate,base,cash,OC_AC,150199.0,0.0,4.0,4637.0,0.41,2025-08-12 05:56:25.242966
+387,F,23,bachelor,employee,39318,0,apartment,urban,0,5,1601826,844,single,email,medium,1,0,True,726.0,suv,E1 SUV,base,lease_36,OC_AC,193458.0,180.18,3.0,11289.0,0.29,2025-09-21 05:56:25.242966
+388,M,65,vocational,employee,40000,2,apartment,rural,14,4,2935159,633,single,phone,high,1,1,True,1172.0,crossover,F3 Edge,base,lease_36,OC_AC,109246.0,91.51,3.0,10231.0,0.31,2025-08-10 05:56:25.242966
+389,M,69,phd,employee,40000,1,apartment,urban,0,5,2226484,850,single,email,low,1,1,True,533.0,wagon,D2 Estate,comfort,loan_60,OC_only,144089.0,72.88,0.0,13284.0,0.29,2025-09-23 05:56:25.242966
+390,F,28,phd,retired,40000,3,house,rural,11,4,2569283,789,single,chat,low,1,1,True,1194.0,city,A3 Urban,comfort,loan_60,OC_AC,52070.0,32.5,2.0,11634.0,0.32,2025-08-25 05:56:25.242966
+391,M,61,vocational,company_owner,33202,2,house,rural,17,3,2188703,618,single,phone,high,1,1,False,,,,,,,,,,7601.0,0.36,2025-09-08 05:56:25.242966
+392,F,29,bachelor,employee,32280,2,apartment,urban,0,4,2150061,458,widowed,email,medium,0,1,False,,,,,,,,,,8462.0,0.39,2025-10-13 05:56:25.242966
+393,M,40,phd,employee,40000,2,apartment,urban,0,4,1307220,850,married,phone,low,0,1,True,1231.0,compact,B1 Compact,premium,lease_48,OC_AC,106008.0,68.79,3.0,11213.0,0.3,2025-10-09 05:56:25.242966
+394,F,52,master,sole_trader,40000,0,apartment,urban,0,5,1409821,759,widowed,phone,medium,0,0,True,792.0,crossover,F1 Cross,tech,lease_36,OC_AC,108771.0,103.18,3.0,10193.0,0.33,2025-09-13 05:56:25.242966
+395,F,59,vocational,retired,40000,3,apartment,urban,0,5,2212811,575,single,phone,low,1,1,False,,,,,,,,,,13317.0,0.39,2025-09-18 05:56:25.242966
+396,M,68,bachelor,retired,29219,0,house,urban,0,5,750766,652,divorced,phone,medium,1,0,False,,,,,,,,,,7131.0,0.34,2025-09-06 05:56:25.242966
+397,F,22,bachelor,employee,40000,3,apartment,rural,47,3,2175515,753,married,phone,low,0,1,False,,,,,,,,,,13558.0,0.34,2025-08-20 05:56:25.242966
+398,F,30,bachelor,retired,32995,4,house,rural,17,4,1183698,709,single,email,low,0,1,True,1004.0,suv,E3 Adventure,base,cash,OC_AC,216874.0,0.0,3.0,11520.0,0.32,2025-08-23 05:56:25.242966
+399,F,35,primary,employee,31574,3,house,urban,0,5,1673190,486,divorced,phone,low,1,1,True,728.0,wagon,D1 Tourer,base,lease_36,OC_AC,105484.0,94.84,1.0,8862.0,0.39,2025-10-26 05:56:25.242966
+400,M,37,vocational,employee,21425,2,apartment,rural,24,4,522810,484,single,chat,low,0,1,True,1719.0,crossover,F1 Cross,comfort,loan_60,OC_AC_GAP,128332.0,68.87,2.0,5619.0,0.43,2025-09-17 05:56:25.242966
+401,F,74,phd,retired,40000,1,house,urban,0,5,1592570,497,married,phone,low,1,1,False,,,,,,,,,,13829.0,0.38,2025-10-18 05:56:25.242966
+402,F,62,vocational,employee,40000,4,apartment,rural,31,3,2792082,674,divorced,email,low,1,1,False,,,,,,,,,,10684.0,0.33,2025-09-15 05:56:25.242966
+403,M,37,vocational,employee,40000,1,house,rural,18,4,1546370,588,married,phone,low,0,1,True,1037.0,city,A2 Micro,tech,lease_36,OC_AC_GAP,60461.0,51.16,1.0,13086.0,0.35,2025-09-13 05:56:25.242966
+404,M,73,vocational,employee,25648,2,apartment,urban,0,5,1103437,556,married,phone,medium,0,1,False,,,,,,,,,,5723.0,0.36,2025-08-03 05:56:25.242966
+405,M,47,vocational,employee,40000,3,apartment,urban,0,5,1472911,706,married,email,medium,0,1,False,,,,,,,,,,9554.0,0.34,2025-09-27 05:56:25.242966
+406,F,47,primary,employee,35911,4,apartment,urban,0,5,1289349,629,single,email,medium,0,1,False,,,,,,,,,,8648.0,0.37,2025-09-21 05:56:25.242966
+407,M,43,secondary,sole_trader,21382,4,apartment,urban,0,5,1298266,399,partnership,phone,low,0,1,True,960.0,sedan,C1 Sedan,base,lease_36,OC_AC,107966.0,91.91,0.0,5981.0,0.42,2025-09-15 05:56:25.242966
+408,F,27,phd,employee,40000,0,house,rural,51,3,1112274,799,single,phone,low,1,0,False,,,,,,,,,,13677.0,0.31,2025-10-20 05:56:25.242966
+409,F,71,primary,employee,40000,4,house,urban,0,5,2157723,785,single,phone,medium,1,1,False,,,,,,,,,,9361.0,0.29,2025-10-26 05:56:25.242966
+410,M,20,vocational,retired,31847,0,house,rural,50,2,1691186,526,single,phone,medium,1,0,False,,,,,,,,,,7449.0,0.37,2025-08-29 05:56:25.242966
+411,M,29,primary,employee,27583,2,house,urban,0,5,1320005,546,divorced,phone,high,0,1,True,1118.0,city,A2 Micro,base,cash,OC_AC_GAP,75402.0,0.0,4.0,6491.0,0.35,2025-10-04 05:56:25.242966
+412,F,32,bachelor,public_sector,40000,4,apartment,rural,15,5,2159025,649,married,email,high,0,1,False,,,,,,,,,,10247.0,0.37,2025-09-29 05:56:25.242966
+413,M,35,vocational,employee,40000,3,apartment,urban,0,5,1390492,634,married,phone,medium,0,1,False,,,,,,,,,,10046.0,0.38,2025-08-03 05:56:25.242966
+414,F,27,master,sole_trader,40000,4,house,rural,23,3,2810627,488,widowed,phone,medium,1,1,False,,,,,,,,,,11274.0,0.4,2025-10-09 05:56:25.242966
+415,F,20,bachelor,employee,12280,1,house,urban,0,5,477140,379,single,email,low,1,1,False,,,,,,,,,,3108.0,0.44,2025-08-11 05:56:25.242966
+416,F,57,master,retired,40000,1,apartment,urban,0,5,1749238,591,divorced,chat,medium,0,1,True,808.0,compact,B2 Hatch,premium,loan_60,OC_AC,108562.0,67.26,1.0,11437.0,0.39,2025-09-05 05:56:25.242966
+417,M,73,bachelor,employee,40000,1,apartment,urban,0,5,3886251,425,single,phone,high,0,1,True,483.0,wagon,D1 Tourer,base,lease_48,OC_AC,99699.0,70.71,0.0,9515.0,0.42,2025-10-08 05:56:25.242966
+418,F,26,secondary,retired,16959,1,house,rural,16,3,922133,502,married,phone,medium,1,1,False,,,,,,,,,,4947.0,0.42,2025-08-07 05:56:25.242966
+419,F,36,phd,employee,40000,3,apartment,urban,0,5,2273470,671,single,phone,low,0,1,True,785.0,compact,B2 Hatch,base,lease_48,OC_AC,73595.0,50.01,3.0,12550.0,0.33,2025-09-05 05:56:25.242966
+420,M,47,secondary,sole_trader,40000,2,apartment,rural,16,4,3196578,621,partnership,email,low,0,1,False,,,,,,,,,,13765.0,0.36,2025-10-03 05:56:25.242966
+421,F,71,phd,employee,40000,3,apartment,rural,8,5,1214808,405,widowed,phone,low,0,1,True,1140.0,mpv,G1 Family,premium,lease_48,OC_AC,142298.0,94.75,2.0,11559.0,0.41,2025-09-21 05:56:25.242966
+422,F,58,phd,employee,40000,2,house,rural,27,3,3325676,444,married,phone,low,1,1,False,,,,,,,,,,12930.0,0.42,2025-09-28 05:56:25.242966
+423,F,62,bachelor,employee,37074,1,apartment,rural,23,4,2736707,592,single,phone,medium,1,1,False,,,,,,,,,,10308.0,0.34,2025-08-16 05:56:25.242966
+424,M,51,master,employee,40000,0,house,urban,0,5,1871981,850,single,chat,medium,0,0,True,569.0,sedan,C1 Sedan,tech,lease_36,OC_AC_GAP,137196.0,116.34,1.0,9660.0,0.33,2025-09-20 05:56:25.242966
+425,M,42,vocational,employee,40000,2,house,rural,9,4,1486005,542,married,phone,low,0,1,True,1469.0,crossover,F1 Cross,comfort,lease_36,OC_AC_GAP,107370.0,86.33,3.0,13682.0,0.4,2025-10-28 05:56:25.242966
+426,M,30,master,sole_trader,36586,4,apartment,urban,0,5,913696,775,single,email,medium,0,1,True,877.0,sedan,C1 Sedan,tech,cash,OC_AC_GAP,99981.0,0.0,0.0,10329.0,0.36,2025-08-31 05:56:25.242966
+427,M,67,master,employee,40000,4,apartment,urban,0,4,3848711,531,single,phone,low,1,1,True,1425.0,wagon,D2 Estate,base,lease_48,OC_AC_GAP,129558.0,76.32,4.0,13465.0,0.39,2025-08-24 05:56:25.242966
+428,M,64,phd,employee,37525,1,house,urban,0,5,1319685,691,married,phone,medium,1,1,True,1057.0,compact,B2 Hatch,tech,lease_36,OC_AC,104051.0,85.23,3.0,9344.0,0.33,2025-09-26 05:56:25.242966
+429,F,21,vocational,employee,40000,2,apartment,urban,0,5,1244821,831,married,phone,low,0,1,True,1107.0,mpv,G1 Family,premium,cash,OC_AC,153771.0,0.0,1.0,13365.0,0.32,2025-08-10 05:56:25.242966
+430,M,59,master,employee,40000,3,house,urban,0,5,2929900,555,divorced,phone,low,0,1,False,,,,,,,,,,11260.0,0.4,2025-09-23 05:56:25.242966
+431,F,24,secondary,employee,28692,3,apartment,rural,15,3,1616743,477,married,phone,medium,0,1,False,,,,,,,,,,8526.0,0.39,2025-10-08 05:56:25.242966
+432,M,60,vocational,sole_trader,40000,0,apartment,urban,0,5,1423014,850,married,phone,medium,0,0,True,682.0,mpv,G2 Grand,comfort,lease_36,OC_AC,119607.0,102.76,1.0,8877.0,0.26,2025-08-29 05:56:25.242966
+433,M,65,vocational,employee,25008,2,apartment,rural,44,3,2137837,558,married,phone,medium,0,1,True,986.0,suv,E3 Adventure,comfort,lease_48,OC_only,192838.0,132.04,4.0,6741.0,0.34,2025-10-20 05:56:25.242966
+434,M,27,bachelor,retired,40000,0,apartment,rural,14,4,1872838,842,single,phone,low,1,0,True,1635.0,mpv,G1 Family,comfort,loan_60,OC_AC_GAP,177087.0,95.06,1.0,10449.0,0.31,2025-08-04 05:56:25.242966
+435,M,43,vocational,employee,30133,0,apartment,rural,12,3,2261291,499,married,phone,medium,1,0,False,,,,,,,,,,8362.0,0.43,2025-08-31 05:56:25.242966
+436,F,26,primary,employee,23323,3,apartment,urban,0,5,539555,589,divorced,phone,low,0,1,False,,,,,,,,,,6679.0,0.35,2025-10-03 05:56:25.242966
+437,F,51,secondary,retired,34026,0,apartment,urban,0,5,863955,654,single,phone,low,1,0,False,,,,,,,,,,11469.0,0.35,2025-10-24 05:56:25.242966
+438,F,71,bachelor,employee,40000,1,apartment,urban,0,4,3008004,749,single,phone,medium,0,1,True,827.0,sedan,C1 Sedan,tech,lease_48,OC_AC,131085.0,74.91,4.0,11593.0,0.32,2025-09-09 05:56:25.242966
+439,M,24,vocational,employee,35102,2,house,rural,23,3,916207,688,divorced,email,medium,1,1,False,,,,,,,,,,8756.0,0.38,2025-09-09 05:56:25.242966
+440,F,41,phd,public_sector,40000,3,apartment,urban,0,5,2145706,608,married,chat,high,0,1,True,975.0,suv,E3 Adventure,tech,lease_36,OC_AC,166634.0,147.04,0.0,9792.0,0.41,2025-08-21 05:56:25.242966
+441,M,73,master,public_sector,40000,2,house,urban,0,4,1090968,699,married,email,low,1,1,False,,,,,,,,,,12725.0,0.35,2025-10-06 05:56:25.242966
+442,F,36,bachelor,company_owner,40000,0,apartment,rural,54,2,2671830,666,married,phone,medium,1,0,False,,,,,,,,,,10165.0,0.37,2025-10-12 05:56:25.242966
+443,M,27,phd,employee,40000,3,house,urban,0,5,2736957,773,married,chat,low,0,1,True,721.0,sedan,C2 Executive,base,lease_36,OC_AC,127194.0,106.51,3.0,11373.0,0.34,2025-09-24 05:56:25.242966
+444,M,46,secondary,sole_trader,33331,4,house,urban,0,5,2539624,607,single,chat,medium,1,1,False,,,,,,,,,,7894.0,0.34,2025-08-19 05:56:25.242966
+445,M,47,primary,unemployed,40000,4,apartment,urban,0,5,3384218,449,divorced,phone,medium,0,1,True,1310.0,city,A1 CityGo,base,cash,OC_AC,64581.0,0.0,0.0,9002.0,0.42,2025-08-11 05:56:25.242966
+446,M,56,primary,public_sector,19518,3,house,rural,14,3,1689284,360,widowed,phone,medium,1,1,False,,,,,,,,,,5102.0,0.41,2025-09-30 05:56:25.242966
+447,M,37,phd,employee,40000,2,house,urban,0,5,1881190,488,single,email,medium,1,1,True,1096.0,wagon,D2 Estate,base,cash,OC_only,101693.0,0.0,4.0,10528.0,0.4,2025-10-27 05:56:25.242966
+448,F,72,phd,employee,40000,4,apartment,rural,30,4,2282846,722,single,chat,medium,0,1,True,1302.0,suv,E2 Trail,base,cash,OC_AC_GAP,213222.0,0.0,4.0,10221.0,0.36,2025-10-22 05:56:25.242966
+449,F,48,master,employee,39395,2,house,rural,34,3,3196830,482,married,email,low,1,1,True,1707.0,sedan,C1 Sedan,base,loan_60,OC_AC,105691.0,64.21,3.0,13594.0,0.4,2025-09-13 05:56:25.242966
+450,F,35,primary,employee,40000,0,house,rural,14,4,2999448,751,married,email,high,1,0,False,,,,,,,,,,7244.0,0.35,2025-10-29 05:56:25.242966
+451,M,72,vocational,company_owner,40000,4,apartment,urban,0,4,4075248,687,married,email,high,1,1,False,,,,,,,,,,9921.0,0.37,2025-08-27 05:56:25.242966
+452,F,70,primary,employee,40000,1,house,rural,33,4,3393084,642,married,chat,low,0,1,True,1050.0,compact,B1 Compact,tech,cash,OC_only,89385.0,0.0,4.0,13203.0,0.32,2025-10-29 05:56:25.242966
+453,M,47,primary,employee,31474,4,house,urban,0,5,1103592,615,married,phone,low,1,1,True,706.0,sedan,C3 Classic,premium,lease_36,OC_AC,112421.0,105.95,3.0,10257.0,0.32,2025-09-23 05:56:25.242966
+454,F,21,vocational,employee,24599,1,house,rural,18,4,1650841,584,married,phone,low,1,1,True,821.0,compact,B3 Active,comfort,loan_60,OC_AC,72082.0,38.84,2.0,7441.0,0.4,2025-08-21 05:56:25.242966
+455,M,52,bachelor,employee,40000,4,house,urban,0,5,3482891,300,single,email,medium,1,1,True,1217.0,suv,E3 Adventure,base,cash,OC_AC,198520.0,0.0,4.0,9409.0,0.47,2025-09-19 05:56:25.242966
+456,M,50,primary,employee,36733,2,house,rural,28,4,2459794,613,single,phone,high,1,1,True,906.0,city,A1 CityGo,base,lease_36,OC_AC,47855.0,40.41,3.0,9148.0,0.37,2025-09-01 05:56:25.242966
+457,F,28,phd,employee,40000,2,house,urban,0,5,2666974,643,married,phone,medium,0,1,True,1086.0,sedan,C3 Classic,tech,lease_48,OC_AC_GAP,127928.0,85.77,3.0,11183.0,0.36,2025-10-01 05:56:25.242966
+458,M,54,secondary,employee,40000,1,apartment,urban,0,5,2468847,850,widowed,phone,low,0,1,True,1004.0,suv,E2 Trail,base,cash,OC_AC,192519.0,0.0,1.0,13331.0,0.32,2025-08-21 05:56:25.242966
+459,M,66,vocational,public_sector,30011,4,apartment,urban,0,5,2875340,743,married,phone,low,0,1,True,1129.0,crossover,F2 Flex,tech,cash,OC_AC,111981.0,0.0,3.0,8210.0,0.35,2025-09-23 05:56:25.242966
+460,F,25,bachelor,employee,40000,0,house,rural,28,3,931448,527,married,phone,low,1,0,True,1283.0,suv,E3 Adventure,tech,loan_60,OC_AC,198184.0,118.24,0.0,12217.0,0.38,2025-08-25 05:56:25.242966
+461,M,59,master,employee,40000,2,house,urban,0,5,3424270,625,divorced,phone,low,1,1,True,702.0,crossover,F2 Flex,comfort,lease_36,OC_AC_GAP,98902.0,94.61,4.0,11664.0,0.38,2025-08-07 05:56:25.242966
+462,F,27,vocational,employee,35850,1,apartment,urban,0,5,773659,496,married,phone,low,0,1,True,995.0,suv,E1 SUV,comfort,lease_48,OC_AC,117092.0,77.83,4.0,11256.0,0.39,2025-09-27 05:56:25.242966
+463,M,61,primary,employee,40000,2,apartment,urban,0,5,1950077,794,married,phone,low,1,1,False,,,,,,,,,,13010.0,0.32,2025-10-11 05:56:25.242966
+464,F,43,primary,employee,27287,1,house,rural,24,3,812057,652,single,phone,low,1,1,False,,,,,,,,,,7296.0,0.36,2025-08-09 05:56:25.242966
+465,F,20,phd,employee,33668,3,apartment,urban,0,5,1422418,656,married,chat,low,1,1,True,1385.0,city,A1 CityGo,comfort,lease_36,OC_only,57611.0,52.78,2.0,9003.0,0.34,2025-08-31 05:56:25.242966
+466,F,73,primary,employee,28588,1,house,rural,10,3,1269250,641,married,phone,medium,0,1,True,1036.0,compact,B3 Active,comfort,lease_48,OC_AC,94896.0,60.48,1.0,6389.0,0.34,2025-08-13 05:56:25.242966
+467,F,29,bachelor,employee,21024,0,apartment,rural,39,3,1526877,560,divorced,chat,low,0,0,False,,,,,,,,,,5586.0,0.42,2025-09-27 05:56:25.242966
+468,F,52,secondary,sole_trader,40000,0,apartment,urban,0,5,2428021,834,single,phone,low,0,0,True,839.0,sedan,C2 Executive,comfort,loan_60,OC_AC_GAP,131279.0,74.1,2.0,10961.0,0.29,2025-09-30 05:56:25.242966
+469,F,29,master,employee,40000,3,apartment,urban,0,5,2782205,766,married,phone,medium,0,1,True,1213.0,suv,E2 Trail,premium,lease_48,OC_only,148346.0,89.45,2.0,9032.0,0.33,2025-10-20 05:56:25.242966
+470,M,71,primary,employee,32711,1,house,urban,0,5,1549941,623,single,email,high,1,1,True,358.0,suv,E2 Trail,comfort,lease_36,OC_AC,135984.0,112.96,1.0,6819.0,0.37,2025-08-23 05:56:25.242966
+471,M,60,phd,sole_trader,24846,1,house,urban,0,5,642776,547,partnership,email,medium,1,1,True,1192.0,compact,B1 Compact,tech,lease_36,OC_AC_GAP,100358.0,81.99,2.0,6808.0,0.38,2025-08-17 05:56:25.242966
+472,F,64,master,employee,39389,3,house,rural,17,3,3232464,740,single,phone,medium,0,1,False,,,,,,,,,,11165.0,0.34,2025-08-19 05:56:25.242966
+473,M,43,secondary,employee,40000,1,house,urban,0,5,2630706,773,married,email,medium,0,1,False,,,,,,,,,,9907.0,0.33,2025-10-05 05:56:25.242966
+474,M,45,vocational,employee,27266,1,house,urban,0,4,1545552,525,married,email,medium,1,1,False,,,,,,,,,,6181.0,0.37,2025-09-18 05:56:25.242966
+475,M,54,phd,employee,40000,1,apartment,rural,13,5,3170346,635,single,phone,medium,0,1,True,1762.0,wagon,D2 Estate,tech,loan_60,OC_only,107438.0,55.25,4.0,11230.0,0.37,2025-09-17 05:56:25.242966
+476,F,63,vocational,employee,24773,1,house,urban,0,5,2136577,601,married,phone,low,1,1,False,,,,,,,,,,7162.0,0.36,2025-10-21 05:56:25.242966
+477,M,66,secondary,unemployed,40000,3,apartment,urban,0,5,2763710,839,single,phone,medium,0,1,True,723.0,compact,B3 Active,tech,loan_60,OC_AC,106137.0,55.65,4.0,9605.0,0.34,2025-10-31 05:56:25.242966
+478,F,20,secondary,unemployed,27696,2,house,urban,0,5,1871185,481,married,phone,low,1,1,True,825.0,mpv,G1 Family,comfort,loan_60,OC_AC,114209.0,70.0,4.0,8228.0,0.41,2025-10-01 05:56:25.242966
+479,F,56,vocational,public_sector,40000,4,house,rural,8,3,2948527,580,partnership,chat,low,1,1,True,1231.0,wagon,D3 Long,comfort,cash,OC_AC,110010.0,0.0,4.0,13879.0,0.36,2025-09-16 05:56:25.242966
+480,F,26,secondary,employee,40000,3,apartment,urban,0,4,2222459,671,married,phone,low,0,1,True,944.0,wagon,D1 Tourer,base,lease_36,OC_AC,145844.0,134.05,4.0,11491.0,0.36,2025-08-04 05:56:25.242966
+481,M,35,primary,employee,40000,0,apartment,urban,0,5,1653517,763,partnership,email,low,0,0,True,1010.0,city,A1 CityGo,base,lease_36,OC_only,68638.0,60.38,0.0,13838.0,0.31,2025-08-14 05:56:25.242966
+482,F,65,primary,employee,32705,1,house,urban,0,4,817677,571,single,email,low,0,1,True,900.0,compact,B1 Compact,base,lease_36,OC_AC,93385.0,90.27,1.0,9004.0,0.38,2025-08-28 05:56:25.242966
+483,F,33,vocational,employee,24761,1,apartment,urban,0,5,831849,663,married,chat,medium,0,1,False,,,,,,,,,,5656.0,0.35,2025-08-06 05:56:25.242966
+484,M,63,primary,employee,31969,2,house,urban,0,5,2578241,643,divorced,phone,low,1,1,False,,,,,,,,,,8495.0,0.34,2025-08-23 05:56:25.242966
+485,F,45,secondary,employee,40000,1,house,urban,0,5,2691468,813,divorced,phone,low,0,1,True,1052.0,compact,B2 Hatch,comfort,lease_48,OC_only,94185.0,56.02,4.0,13095.0,0.29,2025-09-14 05:56:25.242966
+486,M,32,phd,employee,40000,4,apartment,urban,0,4,1541305,850,single,phone,low,0,1,False,,,,,,,,,,12150.0,0.35,2025-08-10 05:56:25.242966
+487,F,38,primary,employee,24857,1,house,urban,0,5,1453983,466,married,email,low,1,1,True,1068.0,mpv,G1 Family,tech,loan_60,OC_only,158875.0,89.21,3.0,7661.0,0.41,2025-08-10 05:56:25.242966
+488,M,49,primary,employee,40000,2,apartment,urban,0,5,1406131,626,divorced,phone,medium,0,1,False,,,,,,,,,,11897.0,0.35,2025-10-13 05:56:25.242966
+489,F,62,primary,company_owner,34143,0,house,urban,0,5,1487889,481,married,email,low,1,0,True,846.0,compact,B2 Hatch,base,loan_60,OC_AC,76550.0,45.8,3.0,10259.0,0.39,2025-10-06 05:56:25.242966
+490,F,53,bachelor,employee,40000,4,apartment,rural,26,3,3509232,656,married,phone,low,0,1,False,,,,,,,,,,10468.0,0.36,2025-08-05 05:56:25.242966
+491,M,71,vocational,retired,40000,4,apartment,urban,0,5,2314193,471,single,phone,low,0,1,True,465.0,wagon,D2 Estate,comfort,lease_36,OC_only,139390.0,136.12,2.0,12874.0,0.39,2025-10-31 05:56:25.242966
+492,F,67,secondary,employee,40000,3,house,rural,30,3,1746529,759,single,chat,low,0,1,False,,,,,,,,,,10831.0,0.3,2025-09-15 05:56:25.242966
+493,M,61,primary,employee,39940,1,house,rural,7,5,2375712,801,married,email,low,1,1,True,1587.0,city,A2 Micro,premium,lease_48,OC_AC,54707.0,35.86,1.0,12308.0,0.31,2025-09-27 05:56:25.242966
+494,F,53,vocational,employee,40000,0,house,urban,0,5,1973757,666,married,phone,low,1,0,False,,,,,,,,,,13418.0,0.35,2025-08-25 05:56:25.242966
+495,F,35,secondary,employee,26841,3,apartment,urban,0,5,1697433,535,single,email,medium,0,1,True,1471.0,compact,B3 Active,comfort,lease_36,OC_AC,90217.0,76.74,3.0,6929.0,0.38,2025-08-06 05:56:25.242966
+496,M,42,secondary,employee,27545,2,apartment,urban,0,5,2248039,625,single,phone,high,0,1,False,,,,,,,,,,5651.0,0.34,2025-10-03 05:56:25.242966
+497,M,26,bachelor,employee,40000,4,apartment,urban,0,5,2035156,425,married,email,medium,1,1,True,1014.0,crossover,F2 Flex,tech,loan_60,OC_only,107002.0,56.39,2.0,10642.0,0.41,2025-10-12 05:56:25.242966
+498,F,40,master,sole_trader,40000,3,house,urban,0,5,2292712,731,married,phone,low,1,1,True,1104.0,crossover,F1 Cross,tech,lease_36,OC_AC,138201.0,131.12,2.0,10508.0,0.32,2025-10-02 05:56:25.242966
+499,M,70,secondary,employee,40000,2,house,urban,0,5,2150355,730,married,phone,low,1,1,True,1219.0,crossover,F3 Edge,base,lease_48,OC_AC_GAP,115254.0,66.63,0.0,11230.0,0.32,2025-08-28 05:56:25.242966
+500,F,43,phd,employee,38250,4,apartment,urban,0,4,2181043,487,married,phone,medium,1,1,True,978.0,suv,E1 SUV,comfort,lease_48,OC_AC,117845.0,72.37,2.0,9958.0,0.4,2025-09-29 05:56:25.242966
+501,F,26,bachelor,public_sector,22369,4,house,rural,23,2,802967,500,single,phone,low,1,1,True,1519.0,city,A3 Urban,tech,lease_36,OC_AC,74370.0,68.82,1.0,6161.0,0.44,2025-09-04 05:56:25.242966
+502,F,55,vocational,employee,22868,2,apartment,urban,0,5,531511,373,divorced,email,high,1,1,True,1015.0,city,A1 CityGo,tech,cash,OC_AC_GAP,51459.0,0.0,2.0,4188.0,0.46,2025-09-30 05:56:25.242966
+503,M,72,vocational,sole_trader,23300,0,house,rural,14,4,2179843,492,married,phone,low,1,0,False,,,,,,,,,,7188.0,0.44,2025-08-26 05:56:25.242966
+504,F,67,vocational,employee,40000,0,house,rural,29,4,2303588,533,single,phone,low,1,0,True,882.0,wagon,D3 Long,comfort,lease_36,OC_AC,99554.0,87.62,4.0,11605.0,0.38,2025-10-26 05:56:25.242966
+505,F,35,bachelor,employee,40000,2,apartment,rural,12,4,1964504,831,married,phone,low,1,1,False,,,,,,,,,,11562.0,0.34,2025-10-01 05:56:25.242966
+506,M,44,vocational,employee,33920,2,apartment,urban,0,4,904897,423,married,phone,high,0,1,True,769.0,suv,E1 SUV,base,lease_36,OC_AC_GAP,184695.0,163.51,3.0,8811.0,0.42,2025-10-04 05:56:25.242966
+507,M,49,phd,employee,28785,0,apartment,urban,0,5,2240467,438,married,email,high,0,0,False,,,,,,,,,,5439.0,0.43,2025-09-08 05:56:25.242966
+508,M,33,secondary,company_owner,31674,0,house,urban,0,5,933265,614,married,phone,medium,1,0,False,,,,,,,,,,7359.0,0.37,2025-09-03 05:56:25.242966
+509,M,34,phd,employee,40000,3,apartment,urban,0,4,1755733,635,married,email,low,1,1,True,794.0,sedan,C2 Executive,base,loan_60,OC_AC,111091.0,63.14,1.0,13505.0,0.35,2025-08-27 05:56:25.242966
+510,F,33,master,employee,40000,3,apartment,urban,0,5,2746221,486,married,chat,medium,1,1,False,,,,,,,,,,9217.0,0.41,2025-08-11 05:56:25.242966
+511,M,74,secondary,employee,29297,0,apartment,rural,31,4,1831009,618,single,phone,low,0,0,False,,,,,,,,,,10013.0,0.37,2025-08-21 05:56:25.242966
+512,F,61,vocational,retired,34583,2,apartment,urban,0,5,3170404,398,single,email,low,0,1,False,,,,,,,,,,10970.0,0.39,2025-10-28 05:56:25.242966
+513,M,66,master,student,40000,0,apartment,urban,0,5,1627943,569,single,phone,medium,0,0,True,947.0,suv,E3 Adventure,tech,lease_36,OC_AC,161574.0,158.36,3.0,10490.0,0.37,2025-09-01 05:56:25.242966
+514,M,64,vocational,public_sector,40000,3,apartment,urban,0,4,3103756,656,married,phone,high,1,1,False,,,,,,,,,,8091.0,0.37,2025-10-30 05:56:25.242966
+515,M,72,vocational,sole_trader,40000,4,house,rural,19,4,4091355,701,married,phone,low,0,1,False,,,,,,,,,,11438.0,0.35,2025-09-24 05:56:25.242966
+516,F,25,phd,sole_trader,40000,4,house,rural,47,3,1924824,788,married,phone,low,1,1,True,1313.0,mpv,G2 Grand,comfort,lease_48,OC_AC,119253.0,74.37,0.0,13304.0,0.33,2025-09-08 05:56:25.242966
+517,F,68,secondary,employee,40000,2,apartment,urban,0,5,3117572,761,single,phone,low,0,1,True,875.0,suv,E1 SUV,base,lease_48,OC_AC,200333.0,114.22,3.0,10230.0,0.31,2025-10-03 05:56:25.242966
+518,M,23,primary,retired,31738,3,house,rural,11,4,1233687,494,married,phone,low,1,1,False,,,,,,,,,,10374.0,0.4,2025-08-30 05:56:25.242966
+519,F,46,secondary,employee,29072,4,house,urban,0,5,2049680,332,single,email,low,0,1,True,853.0,crossover,F1 Cross,comfort,loan_60,OC_AC,127614.0,71.66,4.0,9675.0,0.44,2025-08-21 05:56:25.242966
+520,M,52,secondary,employee,40000,3,apartment,urban,0,5,3378804,723,married,phone,medium,0,1,False,,,,,,,,,,11059.0,0.33,2025-09-07 05:56:25.242966
+521,M,39,phd,sole_trader,35667,2,house,rural,17,3,2273340,823,married,chat,low,1,1,True,1216.0,suv,E3 Adventure,premium,cash,OC_only,194540.0,0.0,4.0,9111.0,0.29,2025-09-14 05:56:25.242966
+522,M,28,master,employee,40000,3,apartment,rural,11,4,2843147,829,single,phone,medium,1,1,False,,,,,,,,,,11176.0,0.32,2025-08-05 05:56:25.242966
+523,F,30,vocational,employee,31396,2,apartment,urban,0,5,1649960,703,married,email,low,0,1,False,,,,,,,,,,10119.0,0.35,2025-09-03 05:56:25.242966
+524,F,65,primary,employee,29345,4,house,urban,0,5,1990473,438,married,phone,low,1,1,False,,,,,,,,,,7375.0,0.42,2025-10-11 05:56:25.242966
+525,F,37,bachelor,employee,40000,2,apartment,urban,0,5,1543865,594,married,phone,low,1,1,True,1002.0,city,A2 Micro,base,loan_60,OC_only,54068.0,28.54,2.0,13569.0,0.41,2025-09-02 05:56:25.242966
+526,M,37,primary,retired,22722,4,house,rural,46,3,1433738,550,single,phone,low,1,1,False,,,,,,,,,,5981.0,0.39,2025-09-18 05:56:25.242966
+527,M,70,vocational,employee,29275,0,apartment,rural,42,2,2739467,489,widowed,chat,low,1,0,True,1801.0,sedan,C3 Classic,tech,lease_36,OC_AC,90659.0,75.29,3.0,10131.0,0.42,2025-10-29 05:56:25.242966
+528,F,27,primary,retired,22391,0,apartment,urban,0,5,1217411,450,partnership,chat,medium,1,0,False,,,,,,,,,,5053.0,0.41,2025-08-10 05:56:25.242966
+529,M,70,primary,employee,25730,0,house,urban,0,5,1122103,650,divorced,phone,high,1,0,True,1040.0,crossover,F1 Cross,comfort,lease_48,OC_only,131788.0,88.14,3.0,5121.0,0.35,2025-08-21 05:56:25.242966
+530,F,70,phd,student,40000,2,house,rural,15,4,2702523,592,single,email,low,1,1,True,1270.0,sedan,C2 Executive,base,lease_36,OC_AC,103193.0,86.98,2.0,12761.0,0.35,2025-09-06 05:56:25.242966
+531,F,52,primary,employee,21813,3,house,urban,0,5,1615698,403,married,email,medium,0,1,False,,,,,,,,,,5038.0,0.43,2025-09-01 05:56:25.242966
+532,M,29,primary,public_sector,33260,1,house,urban,0,5,2391639,775,single,phone,high,1,1,False,,,,,,,,,,6479.0,0.27,2025-09-10 05:56:25.242966
+533,F,28,phd,employee,33902,0,house,urban,0,4,930137,690,divorced,phone,low,1,0,False,,,,,,,,,,8513.0,0.35,2025-10-01 05:56:25.242966
+534,F,35,vocational,employee,25533,4,apartment,urban,0,5,700100,444,married,email,medium,0,1,True,532.0,suv,E2 Trail,base,lease_36,OC_only,127909.0,116.3,2.0,7305.0,0.42,2025-08-09 05:56:25.242966
+535,M,51,master,employee,40000,3,house,urban,0,5,2014948,545,single,email,high,1,1,False,,,,,,,,,,7320.0,0.38,2025-09-12 05:56:25.242966
+536,F,28,primary,employee,40000,3,apartment,rural,29,3,1028036,850,single,phone,medium,0,1,True,1016.0,sedan,C3 Classic,base,cash,OC_AC,126266.0,0.0,3.0,10824.0,0.3,2025-10-01 05:56:25.242966
+537,F,45,primary,employee,34332,2,house,rural,38,3,2909214,576,divorced,phone,medium,1,1,True,1178.0,wagon,D3 Long,comfort,lease_36,OC_AC_GAP,152332.0,132.54,3.0,9152.0,0.35,2025-08-31 05:56:25.242966
+538,M,26,primary,company_owner,23260,2,apartment,urban,0,5,969246,641,divorced,phone,medium,0,1,True,680.0,wagon,D2 Estate,base,cash,OC_only,105192.0,0.0,3.0,6069.0,0.38,2025-10-17 05:56:25.242966
+539,F,49,master,public_sector,40000,0,house,urban,0,5,2306071,721,married,chat,low,1,0,True,1182.0,crossover,F1 Cross,base,cash,OC_AC,159803.0,0.0,3.0,11501.0,0.33,2025-10-03 05:56:25.242966
+540,M,21,bachelor,sole_trader,16222,0,house,urban,0,4,477285,457,married,phone,medium,0,0,False,,,,,,,,,,3958.0,0.39,2025-10-20 05:56:25.242966
+541,F,58,secondary,employee,40000,4,apartment,urban,0,5,2222185,546,married,phone,high,1,1,False,,,,,,,,,,10262.0,0.39,2025-10-24 05:56:25.242966
+542,F,23,vocational,employee,40000,1,house,rural,25,4,2820578,847,divorced,phone,low,0,1,True,1456.0,compact,B3 Active,tech,lease_48,OC_only,79837.0,46.88,3.0,13141.0,0.3,2025-08-19 05:56:25.242966
+543,F,30,primary,retired,27458,3,apartment,rural,24,3,1286549,607,married,email,medium,1,1,False,,,,,,,,,,8068.0,0.36,2025-09-22 05:56:25.242966
+544,M,29,bachelor,retired,38162,3,house,rural,14,4,737743,405,married,email,low,1,1,True,1978.0,compact,B1 Compact,tech,cash,OC_AC,82132.0,0.0,2.0,12341.0,0.41,2025-08-15 05:56:25.242966
+545,F,65,vocational,employee,40000,1,apartment,rural,10,3,1716065,779,married,phone,low,0,1,True,1475.0,sedan,C1 Sedan,base,lease_36,OC_AC,109228.0,101.54,2.0,13316.0,0.32,2025-09-04 05:56:25.242966
+546,M,22,bachelor,public_sector,40000,1,apartment,urban,0,5,2780991,611,divorced,phone,medium,0,1,False,,,,,,,,,,11885.0,0.39,2025-10-10 05:56:25.242966
+547,M,43,master,employee,25163,3,apartment,urban,0,5,2112999,445,single,email,medium,0,1,False,,,,,,,,,,6449.0,0.42,2025-10-12 05:56:25.242966
+548,M,52,phd,retired,36210,0,house,urban,0,5,1339053,675,married,phone,medium,0,0,False,,,,,,,,,,10593.0,0.35,2025-09-20 05:56:25.242966
+549,F,48,secondary,public_sector,40000,2,house,urban,0,5,2504297,576,single,phone,medium,1,1,False,,,,,,,,,,8938.0,0.39,2025-10-23 05:56:25.242966
+550,M,57,primary,company_owner,26535,4,house,urban,0,4,767446,499,married,chat,low,1,1,True,486.0,crossover,F3 Edge,tech,lease_48,OC_AC,117685.0,81.0,4.0,6920.0,0.4,2025-09-09 05:56:25.242966
+551,M,64,vocational,employee,40000,3,house,rural,43,2,2695894,501,divorced,phone,high,0,1,True,1063.0,compact,B3 Active,base,loan_60,OC_only,95055.0,58.49,1.0,8769.0,0.4,2025-09-20 05:56:25.242966
+552,F,41,phd,sole_trader,40000,3,house,urban,0,4,1148135,550,single,phone,medium,0,1,False,,,,,,,,,,10253.0,0.38,2025-10-19 05:56:25.242966
+553,M,65,bachelor,employee,26593,0,apartment,rural,43,2,2282307,607,married,phone,medium,0,0,True,380.0,city,A3 Urban,tech,lease_36,OC_AC,70424.0,57.8,4.0,6783.0,0.38,2025-09-14 05:56:25.242966
+554,M,37,bachelor,student,26058,0,apartment,urban,0,5,2006751,503,single,email,low,1,0,False,,,,,,,,,,7914.0,0.39,2025-08-16 05:56:25.242966
+555,M,74,secondary,employee,18636,1,apartment,urban,0,5,745427,533,divorced,email,low,1,1,True,711.0,sedan,C1 Sedan,base,lease_36,OC_AC_GAP,106939.0,87.25,0.0,5662.0,0.36,2025-08-11 05:56:25.242966
+556,M,47,primary,company_owner,28714,1,house,rural,28,4,1497176,604,divorced,phone,high,1,1,True,929.0,crossover,F3 Edge,base,cash,OC_only,138439.0,0.0,3.0,7168.0,0.39,2025-09-24 05:56:25.242966
+557,F,60,phd,retired,40000,0,house,rural,17,3,1253884,850,married,email,low,1,0,False,,,,,,,,,,11384.0,0.33,2025-10-25 05:56:25.242966
+558,M,68,master,employee,40000,4,apartment,rural,18,4,2044319,616,married,chat,low,1,1,True,1030.0,city,A2 Micro,base,lease_48,OC_AC,46217.0,27.45,2.0,11265.0,0.34,2025-08-15 05:56:25.242966
+559,M,63,phd,employee,40000,0,house,urban,0,4,1171387,583,single,email,medium,1,0,True,857.0,city,A1 CityGo,premium,lease_36,OC_AC,46944.0,44.38,2.0,11046.0,0.38,2025-09-12 05:56:25.242966
+560,F,66,phd,sole_trader,40000,3,house,rural,33,3,1793640,850,divorced,phone,medium,1,1,False,,,,,,,,,,10875.0,0.29,2025-08-24 05:56:25.242966
+561,F,49,vocational,employee,33650,2,apartment,rural,43,3,2961757,597,married,phone,medium,1,1,False,,,,,,,,,,9637.0,0.39,2025-10-27 05:56:25.242966
+562,F,22,vocational,employee,12729,3,apartment,rural,42,4,254970,364,single,chat,medium,0,1,True,1514.0,compact,B3 Active,comfort,lease_48,OC_AC,107283.0,73.41,4.0,3115.0,0.44,2025-10-05 05:56:25.242966
+563,F,47,vocational,employee,40000,1,apartment,urban,0,5,3123830,767,partnership,phone,high,1,1,False,,,,,,,,,,7220.0,0.39,2025-10-06 05:56:25.242966
+564,F,29,phd,employee,40000,1,house,urban,0,5,928376,544,single,phone,low,1,1,False,,,,,,,,,,13776.0,0.38,2025-08-28 05:56:25.242966
+565,M,68,bachelor,sole_trader,40000,3,apartment,urban,0,5,2621484,806,married,phone,medium,1,1,False,,,,,,,,,,8942.0,0.34,2025-08-31 05:56:25.242966
+566,F,33,secondary,sole_trader,40000,1,house,urban,0,5,1837960,752,single,email,medium,1,1,True,645.0,suv,E3 Adventure,base,lease_48,OC_AC,210179.0,133.53,4.0,10976.0,0.36,2025-08-26 05:56:25.242966
+567,F,32,phd,employee,35650,3,house,rural,35,2,2615409,751,married,phone,medium,1,1,False,,,,,,,,,,8761.0,0.34,2025-09-26 05:56:25.242966
+568,M,33,bachelor,employee,40000,0,apartment,urban,0,5,1245777,789,single,phone,low,0,0,True,1149.0,sedan,C2 Executive,comfort,loan_60,OC_AC,108362.0,59.69,4.0,11694.0,0.32,2025-10-03 05:56:25.242966
+569,M,55,phd,employee,40000,0,house,rural,29,3,1426183,848,single,email,low,1,0,False,,,,,,,,,,13352.0,0.3,2025-10-14 05:56:25.242966
+570,M,51,phd,employee,40000,3,apartment,rural,10,4,2921528,619,married,phone,medium,1,1,False,,,,,,,,,,10143.0,0.36,2025-10-09 05:56:25.242966
+571,F,72,primary,company_owner,21301,3,house,urban,0,5,1759593,398,partnership,phone,medium,1,1,True,1033.0,suv,E1 SUV,comfort,lease_48,OC_only,151696.0,106.23,4.0,4932.0,0.45,2025-10-17 05:56:25.242966
+572,F,42,secondary,employee,26817,0,house,rural,12,3,1744404,732,single,phone,low,1,0,False,,,,,,,,,,8727.0,0.31,2025-08-18 05:56:25.242966
+573,F,35,master,employee,40000,4,apartment,rural,43,4,855516,478,married,phone,medium,1,1,True,965.0,crossover,F1 Cross,base,lease_36,OC_AC,124744.0,110.56,3.0,8865.0,0.4,2025-09-01 05:56:25.242966
+574,M,22,master,public_sector,36788,0,house,urban,0,4,1156781,486,married,chat,medium,1,0,False,,,,,,,,,,8902.0,0.39,2025-08-31 05:56:25.242966
+575,M,20,primary,employee,31266,4,apartment,urban,0,5,1907472,598,divorced,phone,low,0,1,True,1013.0,crossover,F2 Flex,tech,lease_36,OC_AC,111291.0,94.93,1.0,9499.0,0.33,2025-08-13 05:56:25.242966
+576,M,40,vocational,sole_trader,35602,3,house,rural,27,4,2062063,807,single,email,medium,1,1,False,,,,,,,,,,9079.0,0.33,2025-08-26 05:56:25.242966
+577,F,70,bachelor,employee,40000,4,apartment,rural,7,4,2881427,667,married,phone,medium,0,1,True,1428.0,sedan,C1 Sedan,tech,loan_60,OC_AC,141850.0,72.25,0.0,10785.0,0.37,2025-10-03 05:56:25.242966
+578,F,48,master,employee,40000,4,house,urban,0,5,1661220,794,widowed,phone,low,1,1,False,,,,,,,,,,11525.0,0.3,2025-10-03 05:56:25.242966
+579,F,69,primary,employee,34588,1,house,rural,10,3,1570407,420,single,phone,low,1,1,True,1006.0,suv,E1 SUV,comfort,cash,OC_AC,204997.0,0.0,2.0,9998.0,0.44,2025-10-20 05:56:25.242966
+580,F,25,bachelor,student,19083,3,apartment,rural,30,3,1331114,431,married,phone,low,0,1,False,,,,,,,,,,5436.0,0.38,2025-08-28 05:56:25.242966
+581,F,25,vocational,retired,21027,1,house,urban,0,5,1215977,318,divorced,phone,medium,1,1,False,,,,,,,,,,6118.0,0.45,2025-08-14 05:56:25.242966
+582,F,65,vocational,employee,40000,2,house,urban,0,5,1371394,756,single,phone,low,1,1,True,749.0,suv,E1 SUV,comfort,cash,OC_only,113862.0,0.0,0.0,10069.0,0.32,2025-08-28 05:56:25.242966
+583,M,25,bachelor,employee,40000,1,apartment,urban,0,4,2770868,514,married,chat,low,0,1,False,,,,,,,,,,13759.0,0.39,2025-09-19 05:56:25.242966
+584,M,22,secondary,employee,17252,2,apartment,urban,0,5,837279,426,single,phone,low,1,1,False,,,,,,,,,,4931.0,0.42,2025-10-02 05:56:25.242966
+585,M,42,bachelor,sole_trader,33144,4,apartment,rural,6,4,1392109,631,divorced,chat,medium,0,1,True,1746.0,suv,E3 Adventure,base,loan_60,OC_AC_GAP,210986.0,125.05,4.0,8259.0,0.36,2025-09-22 05:56:25.242966
+586,M,70,vocational,sole_trader,34752,2,apartment,urban,0,5,1954675,758,widowed,phone,medium,0,1,True,643.0,suv,E2 Trail,premium,lease_36,OC_only,137775.0,118.47,4.0,9664.0,0.32,2025-10-07 05:56:25.242966
+587,M,57,master,company_owner,40000,0,apartment,urban,0,5,2985641,645,married,phone,low,1,0,True,1155.0,suv,E2 Trail,comfort,lease_48,OC_only,212141.0,128.12,1.0,11553.0,0.35,2025-10-17 05:56:25.242966
+588,M,25,primary,retired,15296,1,apartment,rural,12,4,591550,469,married,phone,high,0,1,True,1379.0,compact,B2 Hatch,base,loan_60,OC_AC,105548.0,56.11,4.0,3508.0,0.43,2025-09-23 05:56:25.242966
+589,F,66,phd,employee,40000,3,apartment,urban,0,5,2736234,752,married,phone,low,0,1,False,,,,,,,,,,13615.0,0.32,2025-10-10 05:56:25.242966
+590,M,66,primary,sole_trader,28440,2,house,rural,25,3,2226495,514,single,phone,low,1,1,False,,,,,,,,,,9517.0,0.44,2025-08-26 05:56:25.242966
+591,F,64,master,sole_trader,40000,2,house,urban,0,5,1564977,549,single,phone,low,1,1,True,661.0,city,A1 CityGo,tech,lease_36,OC_AC,71289.0,59.75,3.0,12061.0,0.37,2025-08-11 05:56:25.242966
+592,F,69,secondary,employee,40000,2,apartment,urban,0,5,3909379,741,single,phone,medium,0,1,False,,,,,,,,,,11093.0,0.33,2025-10-14 05:56:25.242966
+593,F,33,secondary,retired,32176,1,apartment,urban,0,5,1297855,664,single,email,medium,0,1,False,,,,,,,,,,8089.0,0.36,2025-10-31 05:56:25.242966
+594,F,73,primary,employee,33773,2,apartment,urban,0,4,1995565,698,married,phone,low,0,1,False,,,,,,,,,,11064.0,0.34,2025-08-14 05:56:25.242966
+595,M,37,master,company_owner,40000,3,house,urban,0,5,2497071,654,single,chat,medium,1,1,False,,,,,,,,,,9345.0,0.38,2025-10-05 05:56:25.242966
+596,F,64,primary,company_owner,27140,4,house,rural,31,3,1892113,452,single,phone,medium,1,1,False,,,,,,,,,,6070.0,0.42,2025-10-09 05:56:25.242966
+597,M,51,bachelor,retired,31111,3,apartment,urban,0,5,1624246,638,married,phone,medium,0,1,False,,,,,,,,,,8190.0,0.35,2025-08-16 05:56:25.242966
+598,F,62,master,employee,40000,4,apartment,urban,0,5,2870580,657,single,phone,high,0,1,True,583.0,crossover,F2 Flex,comfort,cash,OC_AC,106752.0,0.0,1.0,7889.0,0.38,2025-08-17 05:56:25.242966
+599,M,54,phd,employee,40000,4,house,rural,29,4,3411806,544,single,phone,medium,1,1,True,1341.0,compact,B3 Active,comfort,lease_36,OC_AC,84753.0,75.34,0.0,11132.0,0.36,2025-09-09 05:56:25.242966
+600,M,55,master,retired,37618,0,apartment,urban,0,5,2963786,644,single,chat,low,1,0,True,900.0,compact,B3 Active,base,lease_48,OC_AC,108680.0,73.45,0.0,9786.0,0.34,2025-10-17 05:56:25.242966
+601,F,53,vocational,student,39189,1,apartment,rural,14,4,3107495,600,single,email,low,0,1,False,,,,,,,,,,9831.0,0.38,2025-08-29 05:56:25.242966
+602,F,62,master,employee,40000,1,apartment,urban,0,5,1727886,811,married,phone,high,1,1,False,,,,,,,,,,9362.0,0.33,2025-08-26 05:56:25.242966
+603,M,60,master,student,33844,0,house,urban,0,5,1834245,516,married,phone,medium,1,0,True,599.0,compact,B1 Compact,base,cash,OC_AC,71568.0,0.0,0.0,8802.0,0.4,2025-09-22 05:56:25.242966
+604,F,27,vocational,employee,28760,0,apartment,urban,0,5,1416055,478,divorced,email,low,0,0,False,,,,,,,,,,9928.0,0.4,2025-09-11 05:56:25.242966
+605,M,65,primary,sole_trader,33712,3,apartment,urban,0,5,948169,508,married,phone,high,0,1,False,,,,,,,,,,6736.0,0.39,2025-09-13 05:56:25.242966
+606,F,49,phd,retired,40000,1,apartment,rural,32,4,2934314,850,married,phone,medium,0,1,True,1301.0,wagon,D1 Tourer,base,loan_60,OC_AC,148392.0,73.3,1.0,9194.0,0.32,2025-09-02 05:56:25.242966
+607,M,37,primary,employee,28126,0,house,urban,0,5,1117620,618,divorced,phone,medium,0,0,True,944.0,wagon,D3 Long,base,lease_36,OC_AC,119380.0,109.02,4.0,6240.0,0.37,2025-09-15 05:56:25.242966
+608,M,48,bachelor,employee,27188,1,apartment,rural,14,4,1105229,414,married,phone,medium,0,1,False,,,,,,,,,,6948.0,0.4,2025-08-05 05:56:25.242966
+609,M,73,vocational,public_sector,28017,1,apartment,rural,17,4,1303381,660,married,phone,low,0,1,True,1075.0,suv,E3 Adventure,base,loan_60,OC_AC,184266.0,105.59,3.0,7287.0,0.33,2025-10-28 05:56:25.242966
+610,M,67,primary,student,37375,0,house,urban,0,5,1740247,840,married,phone,medium,0,0,True,1041.0,suv,E3 Adventure,premium,loan_60,OC_AC,132633.0,67.85,4.0,10542.0,0.33,2025-10-27 05:56:25.242966
+611,M,65,master,retired,40000,0,house,urban,0,5,2000618,619,single,chat,high,1,0,True,1016.0,suv,E2 Trail,comfort,lease_48,OC_AC_GAP,120402.0,80.81,3.0,7430.0,0.35,2025-10-18 05:56:25.242966
+612,M,45,primary,employee,14091,3,apartment,rural,34,3,852663,300,single,phone,low,0,1,False,,,,,,,,,,4820.0,0.46,2025-10-18 05:56:25.242966
+613,M,63,master,unemployed,40000,4,apartment,rural,29,2,2695682,716,single,chat,low,0,1,True,1394.0,sedan,C2 Executive,premium,cash,OC_AC_GAP,148910.0,0.0,0.0,12163.0,0.36,2025-09-17 05:56:25.242966
+614,M,41,master,employee,40000,2,house,rural,40,4,1472613,811,divorced,email,medium,1,1,True,982.0,sedan,C3 Classic,base,lease_36,OC_AC,137937.0,120.58,0.0,11028.0,0.32,2025-10-24 05:56:25.242966
+615,F,57,primary,employee,32302,3,house,rural,29,3,1229185,758,single,phone,low,1,1,False,,,,,,,,,,8498.0,0.31,2025-10-14 05:56:25.242966
+616,M,55,vocational,employee,40000,4,house,rural,26,4,3223942,487,married,phone,low,1,1,True,1338.0,sedan,C3 Classic,tech,lease_36,OC_AC,130806.0,111.92,0.0,10358.0,0.38,2025-09-15 05:56:25.242966
+617,F,33,master,student,35741,4,apartment,urban,0,5,890820,817,divorced,phone,low,0,1,True,1111.0,sedan,C3 Classic,tech,lease_48,OC_AC,130903.0,75.29,2.0,10199.0,0.35,2025-08-12 05:56:25.242966
+618,F,34,bachelor,retired,37748,0,apartment,rural,10,4,1884501,426,married,email,low,1,0,False,,,,,,,,,,11402.0,0.39,2025-08-20 05:56:25.242966
+619,M,23,primary,student,13709,4,house,rural,18,4,626273,368,single,phone,low,0,1,False,,,,,,,,,,4216.0,0.42,2025-10-12 05:56:25.242966
+620,F,27,phd,sole_trader,22310,0,house,urban,0,4,1123634,437,married,chat,medium,0,0,False,,,,,,,,,,5497.0,0.42,2025-10-27 05:56:25.242966
+621,M,43,vocational,employee,40000,0,house,urban,0,5,3096218,840,married,phone,medium,1,0,True,842.0,mpv,G1 Family,comfort,loan_60,OC_AC,177475.0,98.97,3.0,9673.0,0.3,2025-08-26 05:56:25.242966
+622,M,46,primary,employee,21872,2,apartment,rural,15,4,1360899,601,partnership,email,medium,0,1,False,,,,,,,,,,6529.0,0.38,2025-08-22 05:56:25.242966
+623,F,29,phd,employee,40000,3,apartment,rural,14,4,2953746,747,married,phone,low,0,1,True,1678.0,sedan,C3 Classic,tech,lease_36,OC_only,139123.0,120.6,3.0,11091.0,0.3,2025-08-09 05:56:25.242966
+624,F,42,primary,employee,18288,0,apartment,rural,51,3,1387972,444,married,phone,low,0,0,False,,,,,,,,,,4824.0,0.41,2025-09-23 05:56:25.242966
+625,F,53,bachelor,employee,28885,1,house,urban,0,4,1084431,677,married,email,low,1,1,True,1350.0,compact,B1 Compact,tech,lease_36,OC_AC,90005.0,79.0,2.0,8260.0,0.36,2025-10-26 05:56:25.242966
+626,M,32,phd,retired,40000,1,house,rural,19,3,1332879,741,married,email,medium,0,1,True,1902.0,compact,B1 Compact,premium,lease_36,OC_AC,108828.0,92.75,4.0,9772.0,0.34,2025-08-08 05:56:25.242966
+627,F,38,bachelor,company_owner,31786,1,house,rural,43,4,1314814,483,married,phone,high,1,1,True,1069.0,suv,E2 Trail,tech,lease_36,OC_AC,193489.0,186.97,3.0,6794.0,0.39,2025-10-06 05:56:25.242966
+628,M,40,bachelor,student,40000,4,apartment,urban,0,4,1797622,381,single,phone,low,1,1,True,579.0,compact,B2 Hatch,tech,lease_36,OC_AC,97290.0,83.17,3.0,12495.0,0.41,2025-09-27 05:56:25.242966
+629,M,47,secondary,employee,40000,1,apartment,rural,28,4,2322181,799,single,phone,high,0,1,False,,,,,,,,,,9130.0,0.32,2025-09-24 05:56:25.242966
+630,M,40,primary,employee,32589,1,apartment,rural,36,3,1143302,600,single,email,low,0,1,False,,,,,,,,,,10423.0,0.34,2025-08-04 05:56:25.242966
+631,F,60,bachelor,employee,40000,0,house,rural,23,4,1600354,548,married,phone,low,0,0,True,1544.0,compact,B2 Hatch,comfort,cash,OC_only,101998.0,0.0,0.0,10627.0,0.41,2025-09-29 05:56:25.242966
+632,M,38,phd,employee,40000,0,apartment,urban,0,4,1743925,596,divorced,phone,medium,1,0,False,,,,,,,,,,8947.0,0.37,2025-09-11 05:56:25.242966
+633,F,43,primary,employee,20647,0,house,urban,0,5,1318107,523,married,email,low,0,0,True,593.0,sedan,C3 Classic,tech,lease_36,OC_AC,137608.0,129.43,2.0,6795.0,0.38,2025-09-16 05:56:25.242966
+634,F,40,phd,employee,40000,2,apartment,urban,0,5,2533218,613,married,phone,high,1,1,True,878.0,suv,E3 Adventure,tech,loan_60,OC_only,144179.0,86.49,3.0,7895.0,0.34,2025-08-03 05:56:25.242966
+635,F,30,secondary,employee,40000,2,apartment,urban,0,5,2985546,522,widowed,phone,low,1,1,True,946.0,sedan,C3 Classic,comfort,lease_48,OC_only,137663.0,92.87,0.0,11263.0,0.38,2025-08-07 05:56:25.242966
+636,F,57,bachelor,company_owner,40000,2,apartment,rural,26,3,1510812,850,single,email,medium,0,1,False,,,,,,,,,,10258.0,0.27,2025-09-05 05:56:25.242966
+637,F,32,primary,employee,16292,4,apartment,urban,0,4,686205,482,single,email,low,0,1,True,968.0,crossover,F1 Cross,tech,lease_36,OC_only,126553.0,126.2,3.0,5240.0,0.41,2025-10-22 05:56:25.242966
+638,M,36,bachelor,employee,36033,2,house,urban,0,5,2806273,582,widowed,email,low,1,1,False,,,,,,,,,,9598.0,0.36,2025-09-30 05:56:25.242966
+639,M,63,vocational,employee,40000,0,apartment,urban,0,4,3008626,634,divorced,phone,low,0,0,True,869.0,crossover,F1 Cross,comfort,lease_36,OC_AC,157671.0,137.17,3.0,13610.0,0.37,2025-09-02 05:56:25.242966
+640,F,72,vocational,employee,40000,1,house,urban,0,5,2887909,710,married,phone,high,1,1,True,1195.0,wagon,D1 Tourer,comfort,lease_48,OC_AC,144077.0,92.21,3.0,8229.0,0.35,2025-08-20 05:56:25.242966
+641,M,56,master,employee,40000,1,apartment,urban,0,5,2444342,603,single,email,medium,0,1,True,1058.0,sedan,C2 Executive,base,loan_60,OC_AC,132827.0,76.9,1.0,11945.0,0.39,2025-08-25 05:56:25.242966
+642,M,70,primary,employee,35088,4,house,rural,23,3,1104604,579,partnership,phone,medium,0,1,True,831.0,crossover,F3 Edge,tech,cash,OC_only,146005.0,0.0,1.0,8521.0,0.38,2025-09-18 05:56:25.242966
+643,M,66,secondary,sole_trader,40000,1,house,urban,0,5,3680121,449,married,phone,low,1,1,False,,,,,,,,,,12903.0,0.43,2025-09-01 05:56:25.242966
+644,M,46,bachelor,employee,40000,0,house,rural,13,4,2492980,722,married,phone,low,0,0,True,1264.0,mpv,G3 Space,comfort,lease_36,OC_AC_GAP,121459.0,111.71,0.0,11507.0,0.36,2025-10-04 05:56:25.242966
+645,M,62,primary,retired,32531,3,house,urban,0,5,2149162,543,single,phone,low,1,1,True,1016.0,crossover,F1 Cross,base,lease_36,OC_only,109857.0,103.7,1.0,10854.0,0.39,2025-09-04 05:56:25.242966
+646,M,38,vocational,employee,31638,2,apartment,rural,32,3,1684497,532,married,chat,medium,1,1,False,,,,,,,,,,8131.0,0.39,2025-09-18 05:56:25.242966
+647,F,45,secondary,employee,39296,0,apartment,rural,16,4,1838207,850,divorced,phone,low,1,0,True,1515.0,compact,B1 Compact,base,lease_48,OC_AC,82117.0,53.63,2.0,13245.0,0.29,2025-08-31 05:56:25.242966
+648,M,49,bachelor,employee,35997,3,house,urban,0,5,1407550,659,divorced,phone,low,1,1,True,492.0,crossover,F2 Flex,base,cash,OC_only,151138.0,0.0,3.0,11713.0,0.33,2025-08-14 05:56:25.242966
+649,F,72,phd,employee,40000,1,apartment,urban,0,5,3396605,715,married,chat,medium,0,1,True,1210.0,compact,B2 Hatch,tech,lease_48,OC_only,102619.0,63.24,3.0,10675.0,0.36,2025-08-19 05:56:25.242966
+650,F,66,phd,employee,40000,4,apartment,urban,0,4,2528703,337,married,chat,medium,0,1,True,781.0,suv,E1 SUV,tech,lease_48,OC_AC,132604.0,85.01,4.0,9600.0,0.45,2025-08-27 05:56:25.242966
+651,M,46,vocational,retired,18649,4,house,rural,8,4,445203,415,married,phone,low,0,1,False,,,,,,,,,,5147.0,0.43,2025-08-23 05:56:25.242966
+652,F,55,primary,employee,37519,1,house,urban,0,5,1909857,737,married,chat,low,0,1,True,930.0,compact,B3 Active,base,loan_60,OC_only,99050.0,55.85,3.0,13099.0,0.32,2025-10-16 05:56:25.242966
+653,F,31,primary,sole_trader,20314,2,apartment,urban,0,4,1474012,469,married,phone,low,0,1,False,,,,,,,,,,6958.0,0.44,2025-10-15 05:56:25.242966
+654,F,64,bachelor,employee,40000,2,apartment,urban,0,5,2093395,416,single,email,medium,0,1,True,776.0,suv,E1 SUV,base,lease_36,OC_only,211468.0,197.2,1.0,9243.0,0.41,2025-08-17 05:56:25.242966
+655,M,50,primary,employee,32567,3,house,urban,0,5,1629000,572,single,phone,low,1,1,False,,,,,,,,,,8806.0,0.36,2025-09-13 05:56:25.242966
+656,M,49,vocational,employee,40000,0,apartment,urban,0,5,2546403,714,married,phone,medium,0,0,True,847.0,suv,E2 Trail,base,lease_48,OC_AC,145252.0,86.53,2.0,9142.0,0.33,2025-09-23 05:56:25.242966
+657,M,62,phd,employee,40000,1,house,rural,29,3,3314224,850,single,phone,low,1,1,False,,,,,,,,,,10805.0,0.33,2025-09-02 05:56:25.242966
+658,F,54,phd,employee,40000,0,house,urban,0,5,2764953,678,single,email,high,1,0,False,,,,,,,,,,8129.0,0.32,2025-10-24 05:56:25.242966
+659,F,23,phd,public_sector,40000,3,apartment,urban,0,4,2532450,381,divorced,phone,high,0,1,False,,,,,,,,,,9880.0,0.41,2025-10-17 05:56:25.242966
+660,F,35,vocational,company_owner,13704,0,apartment,urban,0,4,364726,405,married,phone,low,0,0,True,1338.0,compact,B3 Active,premium,lease_48,OC_AC,109938.0,66.43,1.0,3556.0,0.48,2025-10-18 05:56:25.242966
+661,F,29,bachelor,unemployed,40000,2,apartment,urban,0,5,2842913,495,single,email,low,0,1,False,,,,,,,,,,13528.0,0.42,2025-09-11 05:56:25.242966
+662,F,60,bachelor,employee,40000,3,house,urban,0,5,3563295,756,single,phone,low,0,1,False,,,,,,,,,,13888.0,0.31,2025-10-26 05:56:25.242966
+663,F,21,vocational,student,38706,4,house,urban,0,4,1732299,401,married,chat,medium,0,1,False,,,,,,,,,,9388.0,0.4,2025-10-27 05:56:25.242966
+664,M,31,bachelor,sole_trader,24862,1,house,urban,0,5,1369631,457,married,phone,low,0,1,False,,,,,,,,,,7350.0,0.37,2025-09-01 05:56:25.242966
+665,F,52,bachelor,sole_trader,35063,0,house,urban,0,5,1302168,815,married,phone,medium,0,0,True,791.0,suv,E1 SUV,comfort,lease_48,OC_AC,219020.0,139.15,4.0,9199.0,0.31,2025-08-26 05:56:25.242966
+666,M,58,secondary,unemployed,40000,3,house,urban,0,5,2218837,681,married,phone,low,1,1,False,,,,,,,,,,10823.0,0.36,2025-10-08 05:56:25.242966
+667,M,47,master,sole_trader,40000,0,apartment,urban,0,5,1404416,823,single,phone,low,1,0,False,,,,,,,,,,12926.0,0.34,2025-08-30 05:56:25.242966
+668,M,67,master,retired,40000,0,apartment,urban,0,5,1073036,552,married,phone,medium,0,0,False,,,,,,,,,,10656.0,0.34,2025-10-23 05:56:25.242966
+669,F,70,bachelor,company_owner,40000,4,apartment,rural,12,5,4047848,507,single,phone,medium,1,1,False,,,,,,,,,,9159.0,0.37,2025-09-25 05:56:25.242966
+670,M,27,master,employee,23054,4,house,urban,0,5,758076,540,married,email,medium,1,1,False,,,,,,,,,,6724.0,0.38,2025-09-29 05:56:25.242966
+671,M,72,master,company_owner,40000,3,house,urban,0,5,2890498,690,single,phone,medium,1,1,False,,,,,,,,,,9767.0,0.4,2025-09-30 05:56:25.242966
+672,M,53,bachelor,employee,40000,4,apartment,urban,0,5,1736019,651,single,phone,medium,0,1,False,,,,,,,,,,9300.0,0.37,2025-08-14 05:56:25.242966
+673,M,54,vocational,retired,34785,0,house,rural,47,3,1689608,512,single,email,low,1,0,False,,,,,,,,,,12112.0,0.4,2025-10-24 05:56:25.242966
+674,M,25,master,retired,24966,0,apartment,urban,0,5,994762,565,divorced,phone,high,1,0,False,,,,,,,,,,4699.0,0.35,2025-09-05 05:56:25.242966
+675,F,54,master,employee,40000,1,house,urban,0,5,1844729,569,single,email,medium,1,1,True,1393.0,suv,E3 Adventure,base,cash,OC_AC,175407.0,0.0,0.0,8991.0,0.33,2025-10-07 05:56:25.242966
+676,F,59,phd,employee,29780,0,apartment,rural,49,3,2066953,710,single,chat,medium,0,0,False,,,,,,,,,,7118.0,0.34,2025-09-18 05:56:25.242966
+677,M,51,primary,employee,40000,4,apartment,urban,0,5,3494528,850,single,phone,high,0,1,True,617.0,wagon,D2 Estate,comfort,cash,OC_AC,141166.0,0.0,3.0,8222.0,0.3,2025-10-13 05:56:25.242966
+678,M,24,secondary,employee,18142,0,apartment,urban,0,5,746476,494,married,email,low,1,0,True,853.0,compact,B3 Active,base,cash,OC_AC,103764.0,0.0,3.0,5323.0,0.39,2025-08-27 05:56:25.242966
+679,M,48,phd,employee,40000,2,apartment,urban,0,5,3449583,596,married,chat,medium,1,1,True,708.0,compact,B2 Hatch,base,lease_36,OC_only,98288.0,88.89,3.0,10993.0,0.36,2025-10-26 05:56:25.242966
+680,M,71,bachelor,company_owner,40000,4,apartment,rural,45,3,3103505,344,widowed,phone,medium,0,1,False,,,,,,,,,,9970.0,0.42,2025-10-25 05:56:25.242966
+681,F,59,phd,sole_trader,40000,3,house,rural,18,4,2689743,451,married,chat,low,1,1,True,1332.0,suv,E3 Adventure,comfort,cash,OC_AC,191913.0,0.0,0.0,12237.0,0.39,2025-10-02 05:56:25.242966
+682,F,27,primary,retired,23805,1,apartment,urban,0,5,753649,642,married,phone,medium,0,1,True,959.0,compact,B2 Hatch,base,lease_36,OC_AC,94707.0,88.6,1.0,5248.0,0.38,2025-08-13 05:56:25.242966
+683,F,72,primary,employee,30156,2,apartment,rural,7,4,932056,510,married,phone,low,1,1,True,1161.0,mpv,G1 Family,premium,lease_36,OC_AC,109104.0,103.35,3.0,8700.0,0.37,2025-10-29 05:56:25.242966
+684,M,72,master,employee,40000,2,apartment,urban,0,5,3698036,596,single,phone,low,0,1,True,724.0,compact,B3 Active,base,lease_36,OC_only,100666.0,95.42,0.0,13780.0,0.36,2025-10-16 05:56:25.242966
+685,F,29,secondary,employee,40000,3,house,urban,0,5,2050531,705,widowed,phone,low,1,1,False,,,,,,,,,,13099.0,0.34,2025-09-17 05:56:25.242966
+686,M,64,bachelor,retired,40000,2,house,rural,46,3,2213332,850,widowed,chat,medium,1,1,True,1005.0,compact,B3 Active,comfort,lease_36,OC_AC,83684.0,75.15,2.0,11171.0,0.31,2025-10-30 05:56:25.242966
+687,M,42,secondary,employee,32449,1,apartment,urban,0,5,2341323,589,single,phone,medium,1,1,True,776.0,suv,E2 Trail,tech,lease_36,OC_AC,120264.0,113.24,1.0,7929.0,0.35,2025-09-13 05:56:25.242966
+688,F,52,secondary,employee,37540,3,apartment,urban,0,4,1643731,583,married,chat,low,0,1,False,,,,,,,,,,11218.0,0.39,2025-09-29 05:56:25.242966
+689,F,44,phd,employee,35007,4,house,urban,0,5,2502470,574,single,email,low,0,1,False,,,,,,,,,,11708.0,0.36,2025-09-03 05:56:25.242966
+690,F,63,primary,retired,40000,2,house,urban,0,5,1944214,640,married,chat,medium,1,1,True,1173.0,sedan,C3 Classic,comfort,lease_48,OC_AC,119896.0,71.9,4.0,11616.0,0.35,2025-10-26 05:56:25.242966
+691,F,74,master,employee,35576,0,house,urban,0,5,3524975,630,divorced,chat,low,1,0,False,,,,,,,,,,11422.0,0.39,2025-10-16 05:56:25.242966
+692,F,63,phd,sole_trader,40000,2,apartment,rural,20,3,1767823,755,widowed,phone,low,1,1,True,1518.0,compact,B3 Active,comfort,lease_48,OC_AC,77634.0,49.31,3.0,11826.0,0.31,2025-10-16 05:56:25.242966
+693,F,71,bachelor,student,40000,4,house,rural,50,3,1459751,655,single,chat,low,0,1,False,,,,,,,,,,10293.0,0.37,2025-08-26 05:56:25.242966
+694,M,72,secondary,student,40000,4,house,urban,0,5,3218062,850,married,email,medium,0,1,True,900.0,suv,E2 Trail,premium,cash,OC_AC_GAP,150719.0,0.0,1.0,9182.0,0.32,2025-08-26 05:56:25.242966
+695,M,24,primary,employee,16648,2,house,urban,0,4,446062,522,married,phone,low,1,1,False,,,,,,,,,,4162.0,0.4,2025-10-21 05:56:25.242966
+696,M,33,master,employee,40000,0,apartment,rural,50,4,3001510,850,single,email,medium,0,0,True,1070.0,suv,E3 Adventure,base,lease_36,OC_AC,175985.0,159.32,1.0,9949.0,0.3,2025-09-25 05:56:25.242966
+697,M,59,secondary,employee,40000,2,house,rural,40,3,2828221,533,married,phone,medium,0,1,True,829.0,suv,E2 Trail,comfort,lease_48,OC_AC,200155.0,116.29,1.0,8875.0,0.43,2025-08-29 05:56:25.242966
+698,M,52,primary,employee,40000,4,house,urban,0,5,1534608,752,married,phone,low,0,1,True,1080.0,city,A3 Urban,premium,lease_36,OC_AC,75063.0,66.69,4.0,11740.0,0.33,2025-10-31 05:56:25.242966
+699,M,22,secondary,company_owner,23399,4,apartment,rural,16,4,672349,439,married,phone,medium,1,1,False,,,,,,,,,,6266.0,0.42,2025-10-22 05:56:25.242966
+700,F,25,phd,employee,40000,0,house,urban,0,5,2740714,790,partnership,phone,low,0,0,False,,,,,,,,,,12384.0,0.31,2025-09-04 05:56:25.242966
+701,F,48,vocational,employee,35415,1,apartment,urban,0,5,2199931,754,single,phone,low,0,1,False,,,,,,,,,,10820.0,0.33,2025-09-11 05:56:25.242966
+702,F,53,vocational,employee,40000,2,apartment,urban,0,5,3362170,645,single,phone,low,0,1,False,,,,,,,,,,10905.0,0.38,2025-08-29 05:56:25.242966
+703,M,29,master,sole_trader,34256,0,house,rural,19,4,858492,850,single,email,medium,0,0,True,857.0,sedan,C2 Executive,tech,loan_60,OC_only,102552.0,58.57,3.0,8959.0,0.29,2025-09-20 05:56:25.242966
+704,F,29,vocational,employee,28266,4,house,rural,40,4,2010221,656,single,email,high,1,1,False,,,,,,,,,,7304.0,0.31,2025-08-11 05:56:25.242966
+705,M,27,phd,company_owner,28970,0,house,urban,0,5,1372098,770,married,chat,medium,1,0,False,,,,,,,,,,7404.0,0.33,2025-10-20 05:56:25.242966
+706,M,51,phd,employee,40000,3,house,urban,0,5,2704739,736,divorced,chat,medium,1,1,True,866.0,city,A2 Micro,base,lease_36,OC_AC,45838.0,42.42,2.0,11598.0,0.31,2025-10-18 05:56:25.242966
+707,M,20,phd,public_sector,40000,4,house,rural,17,4,1468914,850,married,chat,low,1,1,False,,,,,,,,,,11526.0,0.31,2025-09-04 05:56:25.242966
+708,M,51,phd,company_owner,40000,3,house,urban,0,4,1059679,499,married,email,high,1,1,False,,,,,,,,,,9194.0,0.4,2025-08-15 05:56:25.242966
+709,M,46,vocational,employee,19737,3,house,urban,0,5,1656623,507,married,phone,low,0,1,True,984.0,city,A1 CityGo,comfort,loan_60,OC_AC,50090.0,27.81,0.0,5885.0,0.41,2025-10-29 05:56:25.242966
+710,F,45,vocational,employee,40000,1,apartment,rural,12,4,3426064,567,single,chat,low,1,1,False,,,,,,,,,,12754.0,0.36,2025-08-29 05:56:25.242966
+711,F,57,secondary,employee,40000,4,house,urban,0,5,1968022,570,divorced,phone,high,0,1,True,542.0,suv,E1 SUV,tech,lease_36,OC_AC,162013.0,158.49,3.0,10072.0,0.37,2025-08-05 05:56:25.242966
+712,F,48,secondary,employee,30499,2,house,rural,25,3,2570922,582,married,phone,low,0,1,True,1766.0,city,A2 Micro,comfort,lease_36,OC_AC,74480.0,73.22,1.0,8969.0,0.37,2025-09-11 05:56:25.242966
+713,M,60,phd,employee,40000,0,apartment,urban,0,5,1443052,850,married,phone,low,0,0,False,,,,,,,,,,13030.0,0.27,2025-08-18 05:56:25.242966
+714,F,62,master,retired,35465,1,house,rural,47,2,1263451,543,widowed,phone,low,1,1,True,930.0,city,A3 Urban,tech,lease_48,OC_only,69788.0,44.39,3.0,11996.0,0.41,2025-10-08 05:56:25.242966
+715,F,70,bachelor,sole_trader,38018,1,house,urban,0,5,1189822,603,married,email,low,1,1,True,733.0,sedan,C1 Sedan,base,lease_48,OC_AC_GAP,100907.0,59.19,2.0,12506.0,0.33,2025-08-20 05:56:25.242966
+716,M,63,phd,employee,40000,2,house,rural,31,3,2130332,669,single,phone,medium,1,1,False,,,,,,,,,,8879.0,0.37,2025-09-20 05:56:25.242966
+717,F,48,bachelor,sole_trader,40000,1,house,urban,0,5,1018078,666,married,email,low,0,1,True,856.0,wagon,D1 Tourer,base,cash,OC_AC,133124.0,0.0,3.0,10001.0,0.36,2025-10-05 05:56:25.242966
+718,M,47,secondary,employee,31145,2,house,urban,0,5,1485099,651,married,phone,high,1,1,False,,,,,,,,,,7806.0,0.35,2025-10-14 05:56:25.242966
+719,M,32,secondary,public_sector,40000,2,apartment,urban,0,5,1094399,850,married,phone,low,0,1,True,880.0,compact,B1 Compact,premium,loan_60,OC_AC_GAP,103636.0,56.82,0.0,12917.0,0.31,2025-08-16 05:56:25.242966
+720,M,52,bachelor,employee,38842,1,apartment,urban,0,4,2809930,759,divorced,phone,medium,0,1,True,1364.0,suv,E2 Trail,base,lease_48,OC_AC,206790.0,140.32,1.0,11523.0,0.33,2025-08-28 05:56:25.242966
+721,M,27,primary,student,27638,3,house,urban,0,5,1789605,471,married,phone,medium,1,1,False,,,,,,,,,,6727.0,0.4,2025-08-22 05:56:25.242966
+722,M,71,master,student,40000,1,house,rural,26,4,3165561,488,married,email,medium,0,1,False,,,,,,,,,,11321.0,0.4,2025-08-29 05:56:25.242966
+723,M,66,bachelor,employee,40000,3,apartment,urban,0,5,1601482,602,divorced,phone,low,0,1,False,,,,,,,,,,13206.0,0.38,2025-10-08 05:56:25.242966
+724,M,26,master,employee,35055,1,apartment,rural,10,4,2121177,548,married,phone,medium,0,1,True,1412.0,city,A2 Micro,comfort,lease_36,OC_AC,48320.0,43.03,1.0,10116.0,0.36,2025-10-14 05:56:25.242966
+725,F,63,bachelor,employee,29702,4,house,urban,0,5,1272382,613,married,phone,medium,1,1,True,1228.0,wagon,D1 Tourer,base,loan_60,OC_AC,150460.0,78.95,1.0,8179.0,0.37,2025-09-03 05:56:25.242966
+726,M,26,master,retired,26061,1,house,urban,0,5,1566402,615,single,email,medium,1,1,False,,,,,,,,,,6022.0,0.31,2025-10-09 05:56:25.242966
+727,M,59,phd,employee,40000,0,house,urban,0,5,2576090,698,married,chat,low,0,0,False,,,,,,,,,,12724.0,0.3,2025-09-03 05:56:25.242966
+728,M,24,bachelor,sole_trader,22716,0,apartment,urban,0,4,858721,666,married,email,low,1,0,True,280.0,crossover,F3 Edge,tech,cash,OC_only,129916.0,0.0,1.0,7052.0,0.36,2025-08-11 05:56:25.242966
+729,F,46,secondary,student,40000,4,house,urban,0,5,1083747,600,single,phone,medium,1,1,False,,,,,,,,,,9868.0,0.36,2025-08-25 05:56:25.242966
+730,F,56,primary,retired,28705,4,house,rural,27,3,2332540,489,married,chat,low,0,1,False,,,,,,,,,,7775.0,0.38,2025-09-19 05:56:25.242966
+731,F,60,master,employee,40000,1,house,rural,55,2,3666200,773,single,phone,low,1,1,False,,,,,,,,,,13540.0,0.32,2025-08-11 05:56:25.242966
+732,M,43,phd,employee,32661,3,house,urban,0,5,2072420,632,single,phone,high,1,1,True,878.0,compact,B2 Hatch,base,lease_48,OC_AC,106712.0,69.01,3.0,6250.0,0.35,2025-09-12 05:56:25.242966
+733,M,70,master,company_owner,40000,2,apartment,rural,11,4,3997455,829,married,phone,low,0,1,False,,,,,,,,,,11689.0,0.29,2025-09-19 05:56:25.242966
+734,F,62,phd,employee,40000,0,apartment,rural,24,4,3700939,842,single,phone,low,0,0,True,1160.0,suv,E1 SUV,base,lease_48,OC_AC,147631.0,96.71,2.0,12491.0,0.27,2025-08-06 05:56:25.242966
+735,M,31,phd,retired,40000,2,apartment,urban,0,5,1214266,801,married,phone,medium,0,1,True,721.0,compact,B3 Active,base,lease_36,OC_AC,81607.0,75.81,0.0,11910.0,0.27,2025-10-01 05:56:25.242966
+736,F,56,master,employee,40000,3,house,urban,0,5,2980728,563,married,phone,low,0,1,False,,,,,,,,,,12684.0,0.39,2025-10-13 05:56:25.242966
+737,F,60,bachelor,employee,22265,4,house,urban,0,5,1094324,522,single,phone,low,0,1,True,619.0,compact,B3 Active,comfort,cash,OC_AC,81867.0,0.0,0.0,6245.0,0.38,2025-10-19 05:56:25.242966
+738,M,38,primary,retired,31012,4,apartment,urban,0,5,1552830,634,single,phone,low,0,1,False,,,,,,,,,,7941.0,0.38,2025-09-05 05:56:25.242966
+739,F,60,primary,employee,40000,0,apartment,urban,0,5,1412060,850,married,phone,low,0,0,False,,,,,,,,,,11271.0,0.29,2025-09-16 05:56:25.242966
+740,F,69,vocational,employee,36068,1,house,rural,42,3,3609347,527,single,phone,low,0,1,True,1426.0,city,A2 Micro,comfort,lease_36,OC_AC,59013.0,58.06,4.0,10073.0,0.4,2025-08-23 05:56:25.242966
+741,M,64,secondary,employee,40000,2,house,urban,0,5,3136033,570,married,chat,medium,0,1,False,,,,,,,,,,11421.0,0.37,2025-10-18 05:56:25.242966
+742,M,61,master,employee,40000,0,apartment,urban,0,5,1740701,809,married,email,low,0,0,True,885.0,compact,B3 Active,comfort,cash,OC_AC,97354.0,0.0,4.0,11506.0,0.31,2025-10-03 05:56:25.242966
+743,M,54,secondary,retired,39192,2,apartment,urban,0,4,1905968,337,married,phone,low,0,1,True,355.0,crossover,F2 Flex,base,lease_36,OC_AC,144109.0,132.61,0.0,10184.0,0.44,2025-10-21 05:56:25.242966
+744,F,34,primary,employee,22342,0,apartment,urban,0,4,996300,547,married,phone,medium,1,0,False,,,,,,,,,,6470.0,0.37,2025-10-04 05:56:25.242966
+745,M,63,vocational,employee,18174,0,apartment,urban,0,5,1443810,586,widowed,phone,low,0,0,True,925.0,crossover,F1 Cross,premium,lease_48,OC_AC,122468.0,78.44,4.0,4576.0,0.35,2025-08-06 05:56:25.242966
+746,M,40,phd,employee,40000,0,house,rural,33,3,3122396,640,single,phone,low,1,0,True,835.0,wagon,D1 Tourer,comfort,lease_36,OC_only,100778.0,88.41,1.0,10012.0,0.37,2025-08-12 05:56:25.242966
+747,F,49,phd,public_sector,40000,1,house,urban,0,5,1741697,553,divorced,phone,low,1,1,False,,,,,,,,,,11899.0,0.41,2025-09-17 05:56:25.242966
+748,M,37,secondary,employee,24777,3,house,rural,31,4,1207951,470,divorced,phone,low,1,1,True,1175.0,crossover,F1 Cross,tech,lease_48,OC_only,106389.0,68.41,0.0,6366.0,0.44,2025-10-23 05:56:25.242966
+749,M,37,master,public_sector,40000,0,apartment,urban,0,4,2242229,643,married,email,low,1,0,True,1341.0,sedan,C1 Sedan,base,lease_36,OC_AC,98488.0,89.72,0.0,10708.0,0.35,2025-08-03 05:56:25.242966
+750,F,28,master,retired,35262,4,apartment,rural,31,3,1434949,543,single,email,low,0,1,False,,,,,,,,,,12290.0,0.37,2025-10-17 05:56:25.242966
+751,M,72,phd,employee,40000,1,house,rural,18,4,2613046,635,single,email,medium,1,1,False,,,,,,,,,,11502.0,0.35,2025-10-22 05:56:25.242966
+752,M,28,phd,retired,40000,0,apartment,urban,0,5,983452,625,widowed,email,high,0,0,False,,,,,,,,,,9645.0,0.36,2025-09-25 05:56:25.242966
+753,M,24,bachelor,company_owner,22017,1,house,urban,0,5,595657,511,single,email,medium,1,1,False,,,,,,,,,,6025.0,0.39,2025-08-08 05:56:25.242966
+754,M,71,secondary,employee,40000,3,house,urban,0,4,2276747,581,divorced,email,low,1,1,False,,,,,,,,,,10191.0,0.35,2025-08-21 05:56:25.242966
+755,M,50,bachelor,employee,28239,0,house,rural,16,4,2361748,704,married,chat,medium,0,0,True,1227.0,suv,E2 Trail,comfort,lease_36,OC_AC,179383.0,146.42,1.0,8101.0,0.31,2025-09-29 05:56:25.242966
+756,F,44,vocational,retired,27025,0,apartment,urban,0,5,1180783,547,married,email,medium,0,0,True,899.0,sedan,C2 Executive,base,loan_60,OC_only,133352.0,84.76,0.0,6964.0,0.38,2025-09-21 05:56:25.242966
+757,F,60,secondary,student,40000,4,apartment,rural,37,3,1679403,759,married,email,low,0,1,True,1187.0,sedan,C2 Executive,base,lease_48,OC_only,118070.0,75.58,2.0,10393.0,0.25,2025-10-26 05:56:25.242966
+758,M,41,bachelor,student,40000,2,apartment,rural,37,3,2690489,568,single,email,high,1,1,False,,,,,,,,,,8162.0,0.37,2025-10-07 05:56:25.242966
+759,F,27,bachelor,unemployed,37694,1,apartment,urban,0,5,2682935,574,married,phone,medium,0,1,False,,,,,,,,,,9806.0,0.36,2025-09-01 05:56:25.242966
+760,F,60,bachelor,employee,36152,3,apartment,rural,41,3,2062721,495,widowed,phone,low,0,1,False,,,,,,,,,,9088.0,0.41,2025-09-24 05:56:25.242966
+761,F,29,secondary,retired,26925,4,apartment,urban,0,5,520178,387,single,phone,high,1,1,False,,,,,,,,,,5390.0,0.45,2025-08-04 05:56:25.242966
+762,F,50,secondary,retired,40000,1,apartment,rural,45,3,2737574,534,widowed,phone,low,1,1,True,1533.0,mpv,G3 Space,base,lease_48,OC_AC,159841.0,104.68,3.0,11344.0,0.41,2025-09-21 05:56:25.242966
+763,F,72,primary,employee,38957,2,house,rural,23,3,2274105,671,partnership,phone,low,0,1,False,,,,,,,,,,11546.0,0.34,2025-08-16 05:56:25.242966
+764,F,71,bachelor,employee,40000,0,apartment,urban,0,5,3121634,827,single,phone,low,0,0,True,1061.0,city,A1 CityGo,premium,loan_60,OC_only,72453.0,41.73,2.0,10008.0,0.28,2025-08-27 05:56:25.242966
+765,M,39,bachelor,employee,40000,1,apartment,rural,23,4,1503183,426,married,phone,low,0,1,False,,,,,,,,,,12262.0,0.4,2025-09-16 05:56:25.242966
+766,F,62,phd,retired,40000,2,apartment,urban,0,5,980365,580,single,phone,high,0,1,True,1017.0,compact,B3 Active,tech,lease_36,OC_AC,92952.0,83.79,1.0,7832.0,0.38,2025-08-14 05:56:25.242966
+767,M,53,bachelor,employee,28563,0,house,urban,0,4,1326218,475,married,chat,medium,1,0,True,819.0,suv,E1 SUV,base,lease_48,OC_AC_GAP,172090.0,119.92,1.0,7649.0,0.37,2025-08-14 05:56:25.242966
+768,M,46,secondary,company_owner,32211,4,apartment,rural,36,3,2173539,522,partnership,phone,low,1,1,True,780.0,crossover,F3 Edge,comfort,loan_60,OC_AC,140827.0,76.55,2.0,8823.0,0.42,2025-10-03 05:56:25.242966
+769,F,27,primary,employee,34902,4,apartment,urban,0,5,1407171,744,divorced,phone,medium,0,1,True,543.0,city,A1 CityGo,comfort,lease_48,OC_only,47119.0,26.95,3.0,8803.0,0.32,2025-10-06 05:56:25.242966
+770,M,40,vocational,employee,20299,1,house,rural,29,3,695352,501,widowed,phone,medium,0,1,True,585.0,crossover,F1 Cross,comfort,lease_36,OC_only,144240.0,140.01,2.0,5479.0,0.41,2025-08-29 05:56:25.242966
+771,M,55,secondary,sole_trader,39183,1,apartment,urban,0,5,2171332,719,single,phone,high,1,1,True,1341.0,city,A1 CityGo,base,lease_36,OC_AC,49302.0,45.08,3.0,9111.0,0.3,2025-10-29 05:56:25.242966
+772,M,74,secondary,employee,36620,0,house,rural,31,3,3140856,850,married,email,high,1,0,False,,,,,,,,,,6681.0,0.28,2025-08-29 05:56:25.242966
+773,M,20,secondary,retired,30285,2,house,urban,0,5,713026,620,single,email,high,1,1,False,,,,,,,,,,6748.0,0.32,2025-09-22 05:56:25.242966
+774,F,59,secondary,employee,37817,0,house,urban,0,5,2771744,573,divorced,phone,medium,1,0,True,695.0,suv,E1 SUV,comfort,lease_36,OC_AC,114847.0,101.02,2.0,10790.0,0.4,2025-08-23 05:56:25.242966
+775,F,66,master,retired,40000,1,apartment,urban,0,4,3002032,713,single,phone,low,0,1,False,,,,,,,,,,10826.0,0.33,2025-10-20 05:56:25.242966
+776,M,72,primary,employee,40000,2,apartment,urban,0,5,2196702,585,single,phone,high,0,1,True,349.0,crossover,F3 Edge,comfort,cash,OC_only,128619.0,0.0,0.0,8902.0,0.38,2025-09-10 05:56:25.242966
+777,M,43,vocational,unemployed,21325,3,house,rural,36,3,1765348,548,single,email,low,1,1,False,,,,,,,,,,6286.0,0.38,2025-09-13 05:56:25.242966
+778,M,26,primary,sole_trader,31683,2,apartment,urban,0,5,2139937,653,single,chat,low,0,1,True,1264.0,wagon,D2 Estate,comfort,loan_60,OC_AC,95441.0,55.48,3.0,10614.0,0.36,2025-10-30 05:56:25.242966
+779,M,34,vocational,employee,23487,1,house,urban,0,5,900026,427,single,chat,low,1,1,False,,,,,,,,,,6902.0,0.41,2025-09-14 05:56:25.242966
+780,F,66,master,employee,40000,3,house,urban,0,5,1093273,705,single,phone,low,1,1,True,816.0,suv,E1 SUV,base,lease_48,OC_AC_GAP,149554.0,86.81,0.0,13775.0,0.34,2025-09-02 05:56:25.242966
+781,F,68,primary,employee,40000,3,apartment,urban,0,5,1950580,670,divorced,email,medium,0,1,False,,,,,,,,,,10888.0,0.35,2025-09-25 05:56:25.242966
+782,M,55,secondary,sole_trader,35251,3,apartment,urban,0,5,1318206,657,divorced,email,high,0,1,False,,,,,,,,,,7928.0,0.36,2025-09-06 05:56:25.242966
+783,M,26,primary,retired,34239,2,apartment,rural,43,3,1658270,708,single,chat,low,0,1,True,1636.0,suv,E2 Trail,premium,cash,OC_AC,196344.0,0.0,0.0,9559.0,0.35,2025-10-02 05:56:25.242966
+784,F,26,phd,employee,38204,4,apartment,urban,0,5,2630891,655,divorced,phone,medium,0,1,False,,,,,,,,,,10228.0,0.41,2025-09-06 05:56:25.242966
+785,F,46,master,employee,40000,1,apartment,urban,0,5,3129544,627,married,phone,low,0,1,False,,,,,,,,,,10525.0,0.39,2025-10-10 05:56:25.242966
+786,M,52,vocational,sole_trader,29168,4,house,urban,0,5,1267730,610,divorced,phone,medium,1,1,True,971.0,compact,B2 Hatch,tech,lease_48,OC_AC,107155.0,61.1,1.0,7388.0,0.33,2025-10-06 05:56:25.242966
+787,M,21,vocational,employee,21775,1,house,rural,17,4,871030,457,single,phone,low,1,1,True,890.0,crossover,F3 Edge,base,lease_36,OC_AC,121510.0,109.06,2.0,6063.0,0.4,2025-10-25 05:56:25.242966
+788,M,57,primary,company_owner,40000,1,house,urban,0,5,1043049,538,married,email,low,0,1,False,,,,,,,,,,12681.0,0.38,2025-10-23 05:56:25.242966
+789,F,49,secondary,employee,40000,2,apartment,rural,19,3,2334142,300,married,phone,medium,0,1,True,1130.0,compact,B3 Active,base,lease_36,OC_only,78607.0,67.4,2.0,11245.0,0.48,2025-10-19 05:56:25.242966
+790,M,20,master,company_owner,40000,2,apartment,urban,0,5,825139,624,single,phone,low,1,1,False,,,,,,,,,,13715.0,0.36,2025-10-14 05:56:25.242966
+791,M,25,bachelor,unemployed,40000,3,apartment,urban,0,5,2772828,557,married,email,low,1,1,False,,,,,,,,,,10888.0,0.39,2025-08-28 05:56:25.242966
+792,F,44,phd,employee,40000,1,house,rural,10,4,3072684,711,married,phone,low,0,1,True,770.0,city,A3 Urban,base,loan_60,OC_only,72602.0,44.21,2.0,13539.0,0.29,2025-10-12 05:56:25.242966
+793,F,59,secondary,employee,40000,4,house,urban,0,4,1565910,424,married,chat,low,1,1,False,,,,,,,,,,13384.0,0.39,2025-09-30 05:56:25.242966
+794,M,65,vocational,employee,27138,1,apartment,rural,26,4,2087897,498,married,email,medium,0,1,False,,,,,,,,,,7843.0,0.44,2025-10-16 05:56:25.242966
+795,M,43,secondary,sole_trader,28566,2,apartment,urban,0,5,1635002,566,married,chat,low,0,1,False,,,,,,,,,,9257.0,0.38,2025-09-23 05:56:25.242966
+796,M,36,vocational,employee,25232,4,house,urban,0,5,1717831,449,married,email,low,1,1,True,908.0,wagon,D1 Tourer,comfort,lease_48,OC_only,110749.0,68.76,1.0,6984.0,0.39,2025-10-09 05:56:25.242966
+797,F,73,phd,public_sector,40000,2,house,rural,8,4,2540214,744,single,phone,medium,0,1,True,1245.0,city,A2 Micro,comfort,lease_48,OC_only,48316.0,28.5,2.0,11609.0,0.33,2025-10-02 05:56:25.242966
+798,M,45,vocational,sole_trader,23810,3,house,urban,0,5,806428,437,single,phone,medium,1,1,False,,,,,,,,,,6380.0,0.39,2025-10-25 05:56:25.242966
+799,F,37,secondary,employee,33578,4,house,rural,22,4,1976978,552,married,chat,low,0,1,True,1367.0,compact,B2 Hatch,tech,cash,OC_AC_GAP,95502.0,0.0,1.0,10881.0,0.38,2025-09-16 05:56:25.242966
+800,F,44,bachelor,student,28445,4,house,urban,0,5,752975,565,single,phone,medium,1,1,True,780.0,city,A2 Micro,base,loan_60,OC_only,58474.0,32.84,2.0,6725.0,0.35,2025-10-07 05:56:25.242966
+801,F,20,primary,employee,31290,2,house,urban,0,5,1493531,636,married,phone,low,1,1,False,,,,,,,,,,8315.0,0.34,2025-09-03 05:56:25.242966
+802,F,36,secondary,retired,25350,2,apartment,rural,25,4,830524,476,single,email,low,1,1,True,1356.0,suv,E3 Adventure,comfort,loan_60,OC_AC,140030.0,88.35,4.0,7039.0,0.39,2025-08-03 05:56:25.242966
+803,M,48,secondary,employee,40000,0,house,urban,0,5,2688232,556,married,phone,medium,1,0,False,,,,,,,,,,10436.0,0.4,2025-09-18 05:56:25.242966
+804,M,70,vocational,sole_trader,36374,2,house,urban,0,5,3252781,563,married,phone,low,1,1,False,,,,,,,,,,10609.0,0.39,2025-09-15 05:56:25.242966
+805,F,60,primary,public_sector,35845,4,house,urban,0,5,1142946,650,divorced,phone,low,1,1,False,,,,,,,,,,12143.0,0.37,2025-08-18 05:56:25.242966
+806,M,62,primary,student,22582,2,apartment,urban,0,5,1209332,435,married,phone,medium,1,1,False,,,,,,,,,,4992.0,0.41,2025-10-01 05:56:25.242966
+807,M,49,primary,retired,40000,1,house,urban,0,5,2837834,711,married,email,medium,0,1,True,918.0,compact,B3 Active,base,cash,OC_AC,70672.0,0.0,2.0,9056.0,0.35,2025-10-19 05:56:25.242966
+808,M,26,secondary,employee,40000,0,house,urban,0,5,1093480,612,widowed,phone,high,1,0,True,1488.0,crossover,F3 Edge,tech,lease_36,OC_only,108782.0,106.17,2.0,8241.0,0.35,2025-08-28 05:56:25.242966
+809,M,41,primary,retired,32641,1,house,rural,16,4,1835765,593,married,phone,medium,1,1,True,1476.0,wagon,D1 Tourer,premium,lease_48,OC_AC,138673.0,96.63,2.0,7619.0,0.36,2025-09-03 05:56:25.242966
+810,M,74,phd,sole_trader,40000,1,apartment,urban,0,5,3176345,627,married,phone,low,1,1,False,,,,,,,,,,11627.0,0.37,2025-09-19 05:56:25.242966
+811,F,22,vocational,sole_trader,28926,4,apartment,urban,0,5,1054952,376,single,email,medium,0,1,False,,,,,,,,,,8024.0,0.42,2025-09-27 05:56:25.242966
+812,F,68,bachelor,employee,36196,2,house,rural,26,3,3205662,668,married,phone,low,1,1,False,,,,,,,,,,12645.0,0.35,2025-10-29 05:56:25.242966
+813,F,57,master,employee,40000,0,house,urban,0,5,2380056,811,married,phone,medium,1,0,False,,,,,,,,,,9447.0,0.31,2025-09-11 05:56:25.242966
+814,F,35,secondary,sole_trader,40000,0,house,rural,8,4,2285581,498,married,email,low,1,0,True,1224.0,suv,E2 Trail,base,lease_36,OC_AC,219067.0,186.41,3.0,11064.0,0.42,2025-09-12 05:56:25.242966
+815,M,62,phd,employee,40000,4,apartment,urban,0,5,1384682,744,divorced,phone,low,0,1,True,1405.0,wagon,D3 Long,comfort,cash,OC_AC_GAP,111343.0,0.0,1.0,13075.0,0.36,2025-09-15 05:56:25.242966
+816,F,66,primary,student,15644,4,apartment,urban,0,5,418274,429,widowed,email,low,1,1,True,830.0,compact,B1 Compact,base,lease_36,OC_only,108706.0,105.1,0.0,4337.0,0.4,2025-10-04 05:56:25.242966
+817,M,22,vocational,retired,19045,3,house,urban,0,5,387687,466,widowed,phone,medium,1,1,True,905.0,city,A3 Urban,comfort,lease_48,OC_only,63498.0,42.32,1.0,5262.0,0.37,2025-10-18 05:56:25.242966
+818,M,25,vocational,public_sector,35434,0,house,rural,8,4,2389326,569,married,phone,low,1,0,False,,,,,,,,,,10926.0,0.36,2025-09-10 05:56:25.242966
+819,F,56,primary,employee,40000,0,apartment,urban,0,5,3404732,590,partnership,phone,medium,0,0,False,,,,,,,,,,11536.0,0.35,2025-09-06 05:56:25.242966
+820,M,74,vocational,public_sector,40000,0,apartment,urban,0,5,3605322,668,widowed,chat,medium,0,0,False,,,,,,,,,,8907.0,0.37,2025-10-16 05:56:25.242966
+821,M,21,vocational,employee,15204,3,house,urban,0,4,425402,398,single,phone,medium,0,1,True,1156.0,suv,E1 SUV,tech,lease_36,OC_AC,183827.0,179.1,2.0,4537.0,0.44,2025-10-21 05:56:25.242966
+822,M,56,master,employee,40000,3,house,urban,0,5,2404618,650,married,phone,low,0,1,False,,,,,,,,,,13857.0,0.33,2025-09-18 05:56:25.242966
+823,M,27,vocational,retired,40000,4,house,urban,0,5,2507380,630,single,phone,low,1,1,False,,,,,,,,,,10090.0,0.34,2025-10-27 05:56:25.242966
+824,M,55,phd,employee,37494,0,apartment,urban,0,5,2626686,538,single,phone,high,0,0,True,739.0,suv,E1 SUV,base,lease_48,OC_AC_GAP,192992.0,112.46,3.0,8247.0,0.36,2025-10-14 05:56:25.242966
+825,F,54,master,employee,40000,0,apartment,urban,0,5,1238838,763,single,email,medium,1,0,False,,,,,,,,,,10085.0,0.33,2025-09-04 05:56:25.242966
+826,F,24,phd,employee,40000,4,apartment,rural,38,3,2654369,644,married,chat,low,1,1,True,1197.0,crossover,F1 Cross,comfort,lease_36,OC_AC_GAP,122102.0,108.25,1.0,11017.0,0.36,2025-10-05 05:56:25.242966
+827,M,57,primary,employee,30674,4,apartment,rural,18,4,1068317,548,single,phone,high,1,1,False,,,,,,,,,,7921.0,0.4,2025-09-20 05:56:25.242966
+828,F,69,phd,retired,39300,3,house,urban,0,5,1518645,606,single,phone,low,1,1,True,803.0,suv,E3 Adventure,comfort,lease_48,OC_only,211788.0,139.87,4.0,10511.0,0.38,2025-08-31 05:56:25.242966
+829,M,67,bachelor,employee,40000,0,house,urban,0,5,3727713,850,single,phone,low,0,0,False,,,,,,,,,,11054.0,0.31,2025-10-16 05:56:25.242966
+830,F,21,phd,employee,40000,0,house,urban,0,5,1717696,691,married,chat,low,1,0,True,1109.0,suv,E3 Adventure,base,lease_48,OC_only,155515.0,103.51,2.0,10033.0,0.31,2025-10-11 05:56:25.242966
+831,M,33,secondary,sole_trader,32151,0,apartment,urban,0,5,1328292,773,divorced,phone,low,0,0,True,638.0,sedan,C3 Classic,base,lease_36,OC_AC_GAP,149419.0,117.04,2.0,9903.0,0.31,2025-10-05 05:56:25.242966
+832,M,33,phd,employee,40000,3,apartment,urban,0,5,2075557,577,partnership,phone,low,0,1,False,,,,,,,,,,13443.0,0.39,2025-09-24 05:56:25.242966
+833,M,44,bachelor,student,37291,4,house,rural,11,4,3137768,847,married,chat,medium,1,1,True,1192.0,suv,E1 SUV,tech,loan_60,OC_AC,154195.0,86.55,4.0,10059.0,0.29,2025-09-11 05:56:25.242966
+834,F,27,primary,public_sector,24991,3,house,urban,0,5,628261,571,single,chat,low,1,1,True,1303.0,crossover,F3 Edge,base,cash,OC_only,104963.0,0.0,4.0,7876.0,0.34,2025-10-25 05:56:25.242966
+835,F,66,secondary,student,40000,1,apartment,urban,0,5,3270847,693,divorced,phone,medium,0,1,True,898.0,compact,B1 Compact,base,cash,OC_AC,108820.0,0.0,1.0,9012.0,0.36,2025-09-19 05:56:25.242966
+836,F,62,primary,retired,31944,3,apartment,urban,0,5,1556922,675,single,phone,medium,1,1,True,839.0,crossover,F1 Cross,base,cash,OC_AC,146667.0,0.0,2.0,8854.0,0.34,2025-08-31 05:56:25.242966
+837,F,64,phd,employee,40000,0,apartment,urban,0,5,1333133,749,partnership,email,medium,0,0,True,968.0,compact,B1 Compact,comfort,loan_60,OC_AC_GAP,85896.0,47.45,1.0,10109.0,0.35,2025-08-16 05:56:25.242966
+838,M,30,vocational,retired,30461,4,house,urban,0,5,1311352,433,married,email,low,1,1,False,,,,,,,,,,9058.0,0.41,2025-09-13 05:56:25.242966
+839,M,20,vocational,employee,13383,4,apartment,urban,0,5,613858,371,married,phone,medium,0,1,False,,,,,,,,,,3571.0,0.43,2025-09-05 05:56:25.242966
+840,M,70,bachelor,employee,40000,3,apartment,urban,0,5,1661029,792,single,phone,low,0,1,False,,,,,,,,,,13901.0,0.34,2025-08-19 05:56:25.242966
+841,M,35,secondary,sole_trader,34582,4,apartment,urban,0,5,1519771,679,single,phone,medium,1,1,True,722.0,crossover,F1 Cross,tech,lease_48,OC_AC,133195.0,87.66,0.0,9678.0,0.32,2025-08-27 05:56:25.242966
+842,M,56,primary,employee,34261,2,apartment,urban,0,5,2323946,537,married,phone,low,0,1,True,500.0,city,A2 Micro,base,lease_36,OC_AC_GAP,74576.0,63.72,1.0,10908.0,0.41,2025-09-13 05:56:25.242966
+843,M,70,master,retired,40000,2,apartment,rural,24,3,2802127,637,married,phone,medium,1,1,True,1611.0,crossover,F3 Edge,tech,loan_60,OC_AC,145298.0,81.8,1.0,10182.0,0.35,2025-09-11 05:56:25.242966
+844,M,21,phd,company_owner,23822,1,apartment,urban,0,4,1321309,550,divorced,email,low,0,1,False,,,,,,,,,,6038.0,0.39,2025-08-03 05:56:25.242966
+845,F,20,master,public_sector,19707,4,apartment,rural,35,4,1198705,447,married,phone,medium,0,1,True,952.0,suv,E1 SUV,premium,lease_48,OC_only,139389.0,93.23,2.0,5185.0,0.41,2025-08-24 05:56:25.242966
+846,M,20,bachelor,employee,36866,3,house,urban,0,5,1423346,824,married,phone,low,1,1,True,727.0,city,A1 CityGo,comfort,lease_48,OC_AC,72694.0,44.16,3.0,11653.0,0.3,2025-10-10 05:56:25.242966
+847,F,28,secondary,employee,31961,0,house,urban,0,5,1353639,620,single,email,low,1,0,False,,,,,,,,,,10241.0,0.35,2025-09-21 05:56:25.242966
+848,F,22,bachelor,student,36441,4,apartment,urban,0,5,1603089,603,married,phone,medium,1,1,True,1029.0,crossover,F2 Flex,base,loan_60,OC_AC_GAP,125607.0,66.04,2.0,9789.0,0.36,2025-08-26 05:56:25.242966
+849,M,65,bachelor,employee,40000,0,apartment,rural,14,3,2681066,850,single,phone,low,1,0,False,,,,,,,,,,11201.0,0.28,2025-09-15 05:56:25.242966
+850,M,53,primary,employee,40000,2,house,urban,0,5,1210137,665,married,chat,medium,0,1,True,1011.0,sedan,C1 Sedan,tech,lease_36,OC_AC,141250.0,134.78,2.0,9507.0,0.39,2025-09-23 05:56:25.242966
+851,F,73,primary,sole_trader,40000,0,house,urban,0,4,2028342,814,married,phone,medium,1,0,False,,,,,,,,,,9088.0,0.3,2025-09-07 05:56:25.242966
+852,F,64,vocational,public_sector,40000,3,apartment,rural,28,4,1495466,453,divorced,chat,medium,0,1,True,1164.0,suv,E3 Adventure,tech,cash,OC_AC,161130.0,0.0,2.0,11049.0,0.43,2025-09-28 05:56:25.242966
+853,M,72,secondary,student,40000,2,apartment,urban,0,5,2243861,590,married,phone,medium,0,1,False,,,,,,,,,,11907.0,0.39,2025-08-31 05:56:25.242966
+854,M,33,primary,employee,12954,2,apartment,urban,0,5,990219,440,single,phone,medium,0,1,False,,,,,,,,,,3394.0,0.42,2025-08-27 05:56:25.242966
+855,F,35,primary,employee,36221,3,house,urban,0,5,1974255,774,divorced,email,high,1,1,True,1232.0,suv,E2 Trail,tech,loan_60,OC_only,172167.0,89.04,4.0,8470.0,0.32,2025-08-12 05:56:25.242966
+856,F,66,phd,sole_trader,40000,3,apartment,rural,10,4,2288145,572,married,phone,low,1,1,True,1166.0,suv,E2 Trail,comfort,cash,OC_AC,121864.0,0.0,3.0,12770.0,0.38,2025-08-06 05:56:25.242966
+857,M,33,secondary,employee,40000,1,apartment,urban,0,5,2104292,578,married,phone,medium,0,1,False,,,,,,,,,,9317.0,0.39,2025-08-28 05:56:25.242966
+858,M,23,bachelor,employee,25544,4,house,urban,0,5,1369897,538,married,phone,medium,1,1,False,,,,,,,,,,6012.0,0.39,2025-08-24 05:56:25.242966
+859,F,56,bachelor,employee,40000,2,house,urban,0,5,2151203,590,divorced,phone,low,1,1,True,448.0,mpv,G1 Family,base,cash,OC_AC,100855.0,0.0,3.0,10833.0,0.34,2025-08-23 05:56:25.242966
+860,M,64,master,employee,40000,0,apartment,rural,9,4,2311888,645,single,phone,low,0,0,True,986.0,suv,E3 Adventure,tech,cash,OC_AC_GAP,207284.0,0.0,3.0,13731.0,0.32,2025-10-02 05:56:25.242966
+861,F,73,master,employee,40000,0,house,urban,0,5,3249066,818,married,email,low,1,0,False,,,,,,,,,,10062.0,0.34,2025-08-10 05:56:25.242966
+862,M,71,vocational,employee,31591,1,apartment,urban,0,5,965111,461,divorced,phone,medium,1,1,False,,,,,,,,,,8318.0,0.35,2025-09-16 05:56:25.242966
+863,M,26,phd,sole_trader,40000,3,apartment,rural,24,3,1921511,361,single,phone,low,1,1,False,,,,,,,,,,11509.0,0.44,2025-08-14 05:56:25.242966
+864,M,62,secondary,employee,40000,2,apartment,rural,24,3,2571531,483,divorced,phone,medium,1,1,True,1637.0,sedan,C3 Classic,comfort,lease_48,OC_AC,100235.0,58.25,3.0,10910.0,0.4,2025-10-12 05:56:25.242966
+865,M,66,phd,company_owner,40000,1,house,rural,28,3,3270257,720,married,phone,medium,1,1,True,1045.0,suv,E3 Adventure,comfort,loan_60,OC_only,131742.0,74.62,3.0,9506.0,0.34,2025-10-04 05:56:25.242966
+866,F,58,secondary,employee,29058,2,apartment,urban,0,5,2715018,393,single,phone,medium,0,1,True,1105.0,suv,E2 Trail,base,lease_48,OC_AC,195394.0,115.47,2.0,8627.0,0.4,2025-09-06 05:56:25.242966
+867,M,65,primary,retired,40000,4,house,rural,33,3,3364683,577,single,phone,low,1,1,False,,,,,,,,,,11325.0,0.38,2025-09-09 05:56:25.242966
+868,F,66,master,employee,40000,2,apartment,urban,0,4,2511366,493,divorced,email,medium,1,1,True,1071.0,suv,E1 SUV,base,lease_36,OC_only,141492.0,138.74,0.0,11763.0,0.4,2025-09-25 05:56:25.242966
+869,M,44,primary,employee,31240,0,house,urban,0,4,1005251,748,divorced,phone,medium,1,0,False,,,,,,,,,,8345.0,0.38,2025-10-12 05:56:25.242966
+870,F,22,master,employee,40000,0,apartment,urban,0,5,1953780,850,single,phone,low,0,0,True,1211.0,sedan,C1 Sedan,base,lease_36,OC_AC,114561.0,96.31,1.0,11658.0,0.3,2025-10-11 05:56:25.242966
+871,F,45,primary,employee,27936,2,apartment,urban,0,5,2103924,473,single,email,low,1,1,False,,,,,,,,,,9034.0,0.43,2025-08-27 05:56:25.242966
+872,F,31,vocational,employee,40000,2,house,urban,0,5,2911219,700,single,phone,low,0,1,False,,,,,,,,,,12212.0,0.31,2025-10-30 05:56:25.242966
+873,M,26,bachelor,retired,26273,4,house,rural,52,3,1674258,393,single,phone,high,0,1,False,,,,,,,,,,5020.0,0.45,2025-10-21 05:56:25.242966
+874,F,26,phd,retired,40000,2,apartment,urban,0,5,1149064,608,married,email,low,1,1,False,,,,,,,,,,12818.0,0.37,2025-08-09 05:56:25.242966
+875,F,58,secondary,employee,40000,3,house,rural,24,4,2970382,850,single,email,low,0,1,False,,,,,,,,,,12318.0,0.31,2025-08-04 05:56:25.242966
+876,F,47,primary,employee,40000,2,house,rural,17,4,3179339,598,single,phone,low,0,1,True,1153.0,city,A1 CityGo,base,lease_48,OC_AC,53009.0,34.49,0.0,12263.0,0.37,2025-10-24 05:56:25.242966
+877,M,49,vocational,company_owner,21148,1,apartment,urban,0,5,1426523,492,single,phone,low,1,1,True,391.0,compact,B2 Hatch,base,lease_36,OC_AC,98355.0,96.65,3.0,6848.0,0.43,2025-10-19 05:56:25.242966
+878,M,60,phd,sole_trader,40000,3,apartment,rural,36,3,2934966,503,married,phone,low,1,1,True,1056.0,suv,E1 SUV,comfort,lease_36,OC_only,165780.0,141.36,2.0,12614.0,0.4,2025-10-02 05:56:25.242966
+879,M,50,master,employee,26497,3,apartment,rural,15,3,1479704,609,married,phone,medium,0,1,True,1674.0,city,A1 CityGo,premium,lease_36,OC_AC,62617.0,52.61,0.0,6606.0,0.35,2025-09-09 05:56:25.242966
+880,F,54,primary,student,33588,3,house,urban,0,5,2248762,300,married,phone,low,0,1,False,,,,,,,,,,9467.0,0.44,2025-10-14 05:56:25.242966
+881,F,24,secondary,employee,20678,0,apartment,rural,21,3,700913,509,married,email,medium,0,0,True,1509.0,crossover,F1 Cross,comfort,lease_36,OC_AC_GAP,102766.0,101.87,3.0,4964.0,0.41,2025-08-04 05:56:25.242966
+882,M,66,vocational,sole_trader,36089,3,apartment,rural,10,4,1142605,638,partnership,email,low,1,1,False,,,,,,,,,,11098.0,0.37,2025-09-17 05:56:25.242966
+883,F,44,vocational,employee,40000,1,house,urban,0,5,2972283,633,married,chat,low,1,1,False,,,,,,,,,,11200.0,0.33,2025-09-13 05:56:25.242966
+884,F,28,phd,employee,40000,3,house,urban,0,5,2859310,827,divorced,phone,medium,0,1,False,,,,,,,,,,9185.0,0.32,2025-10-14 05:56:25.242966
+885,M,64,bachelor,employee,40000,3,house,urban,0,4,3522861,785,married,phone,medium,1,1,False,,,,,,,,,,11305.0,0.3,2025-10-04 05:56:25.242966
+886,M,60,vocational,student,35411,3,house,rural,8,4,1701207,423,single,phone,medium,1,1,True,1390.0,compact,B1 Compact,tech,cash,OC_AC,79299.0,0.0,0.0,8383.0,0.43,2025-08-26 05:56:25.242966
+887,F,22,bachelor,employee,40000,4,apartment,urban,0,5,904951,850,divorced,phone,low,1,1,False,,,,,,,,,,10660.0,0.28,2025-09-05 05:56:25.242966
+888,F,30,secondary,student,38697,2,house,urban,0,5,1353152,544,married,phone,low,1,1,False,,,,,,,,,,12960.0,0.38,2025-10-11 05:56:25.242966
+889,M,20,primary,student,18290,0,apartment,rural,50,4,1118631,607,married,chat,medium,1,0,True,1060.0,compact,B1 Compact,base,cash,OC_AC,87865.0,0.0,1.0,5051.0,0.36,2025-09-22 05:56:25.242966
+890,F,34,secondary,student,32263,3,house,rural,39,3,1882860,557,single,phone,low,1,1,False,,,,,,,,,,10538.0,0.41,2025-10-15 05:56:25.242966
+891,F,25,vocational,employee,40000,3,house,rural,31,4,2834060,570,married,phone,medium,1,1,True,1506.0,suv,E2 Trail,base,lease_36,OC_AC,182362.0,165.07,3.0,9921.0,0.38,2025-09-25 05:56:25.242966
+892,F,59,vocational,employee,40000,0,house,urban,0,5,1933401,641,divorced,phone,low,1,0,False,,,,,,,,,,12470.0,0.38,2025-10-12 05:56:25.242966
+893,F,48,phd,employee,38585,0,apartment,rural,20,4,2253254,719,single,chat,low,0,0,True,1465.0,wagon,D3 Long,comfort,loan_60,OC_AC,141628.0,79.54,3.0,13243.0,0.39,2025-08-04 05:56:25.242966
+894,F,73,master,sole_trader,40000,1,apartment,urban,0,5,3527387,676,single,phone,medium,0,1,True,1083.0,crossover,F2 Flex,comfort,loan_60,OC_AC,138140.0,78.34,1.0,9705.0,0.35,2025-10-05 05:56:25.242966
+895,M,61,primary,retired,24112,4,house,urban,0,5,991753,357,single,email,medium,0,1,False,,,,,,,,,,5438.0,0.46,2025-09-19 05:56:25.242966
+896,M,53,phd,employee,40000,2,house,rural,12,3,3554940,710,married,email,medium,1,1,True,627.0,city,A1 CityGo,base,cash,OC_only,56245.0,0.0,1.0,9347.0,0.32,2025-09-04 05:56:25.242966
+897,M,48,bachelor,retired,40000,4,house,urban,0,4,2443930,548,divorced,phone,medium,1,1,False,,,,,,,,,,11672.0,0.41,2025-10-28 05:56:25.242966
+898,M,22,phd,employee,40000,4,apartment,rural,12,4,723410,507,married,email,low,0,1,False,,,,,,,,,,11126.0,0.38,2025-10-13 05:56:25.242966
+899,F,23,master,employee,40000,2,house,rural,15,3,767161,578,widowed,phone,medium,1,1,True,984.0,suv,E2 Trail,comfort,loan_60,OC_AC,178107.0,94.68,3.0,10372.0,0.37,2025-08-03 05:56:25.242966
+900,M,53,secondary,employee,38240,3,apartment,urban,0,5,3184059,544,married,phone,high,1,1,True,851.0,suv,E1 SUV,base,cash,OC_AC,120081.0,0.0,2.0,8519.0,0.39,2025-08-30 05:56:25.242966
+901,M,20,bachelor,student,40000,1,house,urban,0,5,2035519,588,married,phone,low,0,1,False,,,,,,,,,,13840.0,0.39,2025-10-10 05:56:25.242966
+902,M,22,bachelor,employee,30156,0,house,urban,0,5,1752350,615,single,phone,low,0,0,False,,,,,,,,,,8448.0,0.34,2025-09-23 05:56:25.242966
+903,M,32,master,employee,40000,1,apartment,urban,0,5,2592250,702,single,email,high,1,1,False,,,,,,,,,,8868.0,0.32,2025-08-15 05:56:25.242966
+904,M,68,vocational,student,40000,2,apartment,rural,25,3,2291531,831,married,email,low,1,1,True,1345.0,crossover,F2 Flex,comfort,cash,OC_AC,154902.0,0.0,4.0,13832.0,0.32,2025-10-14 05:56:25.242966
+905,F,45,vocational,employee,28265,0,house,urban,0,5,2063640,386,single,phone,high,1,0,True,297.0,crossover,F1 Cross,base,lease_36,OC_AC,129184.0,110.66,2.0,5543.0,0.42,2025-10-05 05:56:25.242966
+906,F,59,vocational,employee,31430,1,apartment,rural,32,3,2855947,631,single,phone,low,1,1,False,,,,,,,,,,9737.0,0.33,2025-10-10 05:56:25.242966
+907,M,42,vocational,employee,22004,0,house,urban,0,5,700757,511,divorced,phone,medium,1,0,True,1120.0,compact,B2 Hatch,base,loan_60,OC_AC_GAP,86636.0,47.28,4.0,4953.0,0.39,2025-09-02 05:56:25.242966
+908,F,29,primary,employee,17860,3,house,urban,0,5,1107446,458,married,phone,medium,0,1,False,,,,,,,,,,4305.0,0.4,2025-09-14 05:56:25.242966
+909,F,40,primary,employee,15360,4,house,rural,29,4,610556,373,single,email,medium,0,1,True,1584.0,suv,E3 Adventure,comfort,loan_60,OC_AC,119640.0,64.11,3.0,3464.0,0.43,2025-09-16 05:56:25.242966
+910,M,25,phd,employee,40000,4,apartment,urban,0,5,1427521,555,married,phone,medium,1,1,True,1162.0,sedan,C2 Executive,tech,lease_48,OC_only,112518.0,67.11,4.0,9856.0,0.39,2025-09-27 05:56:25.242966
+911,F,62,primary,sole_trader,40000,1,apartment,urban,0,5,2178577,706,married,email,low,0,1,True,561.0,suv,E3 Adventure,premium,loan_60,OC_AC_GAP,153360.0,96.55,1.0,10826.0,0.35,2025-10-02 05:56:25.242966
+912,M,30,phd,employee,40000,2,house,urban,0,4,2729281,576,divorced,phone,medium,1,1,False,,,,,,,,,,11355.0,0.36,2025-09-15 05:56:25.242966
+913,M,40,primary,sole_trader,16487,4,apartment,rural,16,4,363277,398,married,email,high,0,1,False,,,,,,,,,,3579.0,0.42,2025-08-21 05:56:25.242966
+914,F,73,master,employee,40000,2,apartment,rural,49,3,2409195,448,single,phone,high,0,1,False,,,,,,,,,,8496.0,0.43,2025-08-19 05:56:25.242966
+915,M,52,vocational,employee,40000,1,apartment,rural,33,4,2756396,770,single,phone,high,0,1,True,766.0,suv,E2 Trail,tech,lease_48,OC_AC,216969.0,128.38,2.0,9415.0,0.31,2025-08-22 05:56:25.242966
+916,F,45,bachelor,employee,37468,1,apartment,urban,0,5,1072401,637,single,email,medium,1,1,True,698.0,suv,E3 Adventure,base,lease_36,OC_only,129879.0,102.16,0.0,11082.0,0.35,2025-10-27 05:56:25.242966
+917,F,49,vocational,employee,37009,3,apartment,urban,0,5,2770180,542,married,phone,medium,0,1,False,,,,,,,,,,9035.0,0.35,2025-09-17 05:56:25.242966
+918,F,63,secondary,employee,22178,2,apartment,rural,25,4,2078740,496,married,phone,medium,0,1,False,,,,,,,,,,4998.0,0.4,2025-09-26 05:56:25.242966
+919,F,33,secondary,employee,37174,4,house,urban,0,5,922647,559,married,chat,medium,0,1,False,,,,,,,,,,8505.0,0.39,2025-08-08 05:56:25.242966
+920,F,55,bachelor,retired,33185,4,house,urban,0,5,1121539,730,married,phone,medium,0,1,True,1028.0,suv,E3 Adventure,comfort,lease_36,OC_AC,173177.0,152.19,1.0,9576.0,0.29,2025-09-24 05:56:25.242966
+921,F,67,secondary,retired,40000,0,apartment,rural,27,4,3948440,850,single,phone,low,0,0,True,1408.0,suv,E2 Trail,tech,loan_60,OC_AC,214584.0,131.53,2.0,13383.0,0.28,2025-10-09 05:56:25.242966
+922,M,51,bachelor,employee,26911,3,house,urban,0,5,964901,622,single,phone,low,1,1,False,,,,,,,,,,8007.0,0.33,2025-10-09 05:56:25.242966
+923,M,44,master,sole_trader,40000,1,apartment,urban,0,5,1055419,654,single,phone,medium,0,1,True,1051.0,suv,E2 Trail,premium,cash,OC_AC_GAP,143979.0,0.0,3.0,9272.0,0.37,2025-10-14 05:56:25.242966
+924,F,27,secondary,sole_trader,40000,2,house,urban,0,5,2853867,743,married,email,low,1,1,False,,,,,,,,,,12106.0,0.29,2025-09-22 05:56:25.242966
+925,M,33,secondary,retired,25743,1,apartment,urban,0,4,1846248,623,married,email,low,0,1,True,790.0,wagon,D2 Estate,base,lease_36,OC_AC,141964.0,125.94,4.0,8156.0,0.36,2025-10-08 05:56:25.242966
+926,M,72,primary,employee,25826,1,house,rural,20,4,1992388,479,widowed,phone,low,1,1,False,,,,,,,,,,7315.0,0.42,2025-09-11 05:56:25.242966
+927,M,49,secondary,employee,18660,1,apartment,urban,0,4,1097895,411,single,phone,medium,1,1,False,,,,,,,,,,4228.0,0.42,2025-10-11 05:56:25.242966
+928,F,36,primary,employee,25473,0,house,urban,0,5,1914397,496,married,phone,high,1,0,True,432.0,crossover,F1 Cross,premium,lease_48,OC_AC,116940.0,76.01,2.0,5241.0,0.39,2025-09-09 05:56:25.242966
+929,M,43,vocational,employee,27535,3,house,urban,0,5,1728983,558,single,phone,medium,1,1,True,996.0,compact,B1 Compact,comfort,lease_36,OC_AC_GAP,71964.0,60.04,1.0,7579.0,0.39,2025-09-06 05:56:25.242966
+930,M,51,phd,employee,37575,0,apartment,urban,0,5,2515337,487,married,email,high,1,0,False,,,,,,,,,,9704.0,0.42,2025-09-01 05:56:25.242966
+931,M,49,primary,retired,37204,1,apartment,urban,0,5,2912022,617,single,phone,medium,1,1,True,541.0,suv,E3 Adventure,base,loan_60,OC_AC_GAP,161943.0,96.81,4.0,8751.0,0.36,2025-08-13 05:56:25.242966
+932,M,58,secondary,retired,36703,0,apartment,urban,0,5,2570939,715,married,email,low,0,0,True,636.0,compact,B2 Hatch,base,lease_36,OC_AC,101403.0,87.69,1.0,12532.0,0.29,2025-10-25 05:56:25.242966
+933,F,34,phd,employee,37579,0,apartment,rural,15,3,1855786,688,single,phone,low,0,0,False,,,,,,,,,,11111.0,0.37,2025-10-27 05:56:25.242966
+934,M,55,phd,employee,40000,1,house,rural,18,3,2010092,850,single,email,low,0,1,True,1498.0,sedan,C3 Classic,premium,lease_36,OC_AC,107762.0,94.08,1.0,12653.0,0.31,2025-09-20 05:56:25.242966
+935,F,44,primary,employee,40000,4,apartment,urban,0,5,2141356,534,married,phone,low,0,1,True,1203.0,compact,B2 Hatch,comfort,lease_48,OC_AC,79012.0,54.26,1.0,13455.0,0.39,2025-09-15 05:56:25.242966
+936,F,71,primary,employee,40000,4,house,urban,0,5,2653017,850,married,phone,medium,1,1,False,,,,,,,,,,10584.0,0.26,2025-08-24 05:56:25.242966
+937,M,28,secondary,sole_trader,30615,1,apartment,urban,0,4,1190105,476,married,chat,low,0,1,True,503.0,city,A1 CityGo,comfort,lease_48,OC_AC,68761.0,43.44,2.0,7842.0,0.4,2025-10-11 05:56:25.242966
+938,F,28,bachelor,employee,40000,2,house,urban,0,5,1750452,370,single,phone,high,0,1,True,558.0,city,A2 Micro,tech,lease_48,OC_only,54480.0,38.34,3.0,8050.0,0.41,2025-09-21 05:56:25.242966
+939,F,45,phd,retired,40000,4,house,rural,34,3,2928830,576,widowed,phone,medium,1,1,False,,,,,,,,,,11369.0,0.35,2025-09-06 05:56:25.242966
+940,F,47,vocational,public_sector,35462,1,apartment,rural,7,5,1741715,453,single,email,low,0,1,True,1464.0,compact,B2 Hatch,tech,cash,OC_only,87143.0,0.0,4.0,10826.0,0.41,2025-09-02 05:56:25.242966
+941,M,57,primary,sole_trader,35883,4,apartment,urban,0,5,907910,606,married,chat,high,0,1,False,,,,,,,,,,7404.0,0.36,2025-09-13 05:56:25.242966
+942,M,42,vocational,sole_trader,28356,0,house,rural,11,4,1101070,597,divorced,phone,high,0,0,True,1262.0,sedan,C2 Executive,comfort,lease_36,OC_AC_GAP,95929.0,82.43,2.0,6427.0,0.36,2025-09-08 05:56:25.242966
+943,F,70,phd,employee,40000,1,apartment,urban,0,5,1740432,691,married,chat,medium,0,1,True,957.0,compact,B3 Active,tech,lease_48,OC_AC,90478.0,60.32,3.0,9659.0,0.36,2025-10-17 05:56:25.242966
+944,F,46,primary,employee,23495,1,apartment,urban,0,5,1720997,443,single,phone,medium,0,1,False,,,,,,,,,,5622.0,0.42,2025-09-20 05:56:25.242966
+945,F,27,secondary,employee,37864,0,house,urban,0,5,1644652,711,married,chat,high,1,0,True,620.0,city,A2 Micro,tech,lease_48,OC_AC,53104.0,32.93,4.0,9325.0,0.33,2025-09-13 05:56:25.242966
+946,F,26,primary,sole_trader,30387,4,apartment,urban,0,5,1025574,517,single,phone,medium,0,1,False,,,,,,,,,,7658.0,0.38,2025-10-24 05:56:25.242966
+947,M,73,primary,employee,13955,4,house,urban,0,5,1253257,442,married,phone,medium,1,1,True,853.0,compact,B1 Compact,base,lease_36,OC_AC,70441.0,60.74,3.0,3376.0,0.4,2025-08-05 05:56:25.242966
+948,F,27,phd,retired,40000,1,house,urban,0,5,782661,705,married,phone,low,1,1,True,600.0,city,A1 CityGo,tech,cash,OC_AC_GAP,75356.0,0.0,0.0,11637.0,0.33,2025-09-05 05:56:25.242966
+949,M,72,primary,employee,13232,4,apartment,rural,9,4,523876,373,married,email,medium,0,1,False,,,,,,,,,,3886.0,0.44,2025-08-28 05:56:25.242966
+950,F,35,vocational,employee,25092,3,house,urban,0,5,1732280,433,divorced,chat,low,0,1,True,794.0,crossover,F3 Edge,premium,cash,OC_AC,157679.0,0.0,1.0,6727.0,0.39,2025-09-13 05:56:25.242966
+951,M,25,phd,employee,40000,4,house,urban,0,5,1927087,639,single,phone,low,0,1,False,,,,,,,,,,10741.0,0.39,2025-08-09 05:56:25.242966
+952,M,36,bachelor,public_sector,35971,4,apartment,rural,8,4,2389157,462,single,phone,low,1,1,True,1059.0,compact,B2 Hatch,base,lease_36,OC_AC,89251.0,80.65,0.0,10265.0,0.42,2025-10-31 05:56:25.242966
+953,F,53,primary,employee,19702,2,house,urban,0,5,1581054,384,married,phone,low,1,1,True,1123.0,suv,E2 Trail,comfort,lease_48,OC_AC_GAP,216777.0,145.92,1.0,5045.0,0.37,2025-08-06 05:56:25.242966
+954,F,43,secondary,employee,25574,0,apartment,urban,0,5,2071017,592,married,phone,low,0,0,True,955.0,wagon,D1 Tourer,tech,cash,OC_AC,104785.0,0.0,3.0,6585.0,0.37,2025-10-13 05:56:25.242966
+955,F,63,phd,employee,40000,4,apartment,rural,40,3,1166468,406,married,email,low,0,1,False,,,,,,,,,,10044.0,0.44,2025-08-13 05:56:25.242966
+956,M,53,secondary,sole_trader,21000,3,house,urban,0,5,1629199,529,married,phone,low,0,1,True,981.0,suv,E3 Adventure,tech,cash,OC_AC,113838.0,0.0,0.0,5557.0,0.4,2025-10-26 05:56:25.242966
+957,M,42,bachelor,unemployed,40000,4,apartment,urban,0,5,2626091,622,married,chat,medium,0,1,True,989.0,suv,E2 Trail,comfort,lease_36,OC_only,180163.0,148.36,3.0,10849.0,0.35,2025-10-03 05:56:25.242966
+958,F,54,bachelor,employee,40000,4,house,urban,0,5,1491391,640,widowed,chat,medium,1,1,True,1028.0,mpv,G3 Space,tech,cash,OC_AC,168683.0,0.0,0.0,9429.0,0.36,2025-09-10 05:56:25.242966
+959,M,73,bachelor,retired,36687,0,apartment,urban,0,5,3643213,569,married,phone,medium,0,0,True,1159.0,crossover,F3 Edge,base,cash,OC_AC,106103.0,0.0,4.0,9180.0,0.38,2025-09-02 05:56:25.242966
+960,M,42,vocational,employee,27253,2,house,urban,0,4,1266303,651,single,phone,low,1,1,True,746.0,suv,E3 Adventure,premium,lease_36,OC_AC,170229.0,144.84,0.0,8736.0,0.37,2025-10-30 05:56:25.242966
+961,F,28,phd,sole_trader,35908,0,apartment,urban,0,5,2455133,610,single,chat,medium,0,0,False,,,,,,,,,,7991.0,0.34,2025-09-29 05:56:25.242966
+962,M,42,phd,employee,40000,0,house,urban,0,5,2364887,675,married,chat,low,0,0,False,,,,,,,,,,10836.0,0.34,2025-08-17 05:56:25.242966
+963,F,66,primary,employee,40000,4,apartment,rural,31,3,2580244,600,single,email,low,0,1,True,1132.0,crossover,F1 Cross,comfort,cash,OC_AC_GAP,140067.0,0.0,3.0,13984.0,0.4,2025-10-15 05:56:25.242966
+964,M,31,master,sole_trader,24506,4,house,rural,22,4,694483,305,single,phone,low,1,1,False,,,,,,,,,,7589.0,0.45,2025-08-07 05:56:25.242966
+965,F,72,master,employee,40000,4,house,urban,0,5,3892702,430,single,phone,high,1,1,True,1262.0,compact,B2 Hatch,base,lease_36,OC_AC,84681.0,74.62,1.0,9312.0,0.45,2025-08-29 05:56:25.242966
+966,F,52,master,employee,40000,4,apartment,urban,0,5,2420787,541,married,email,high,0,1,True,861.0,city,A2 Micro,base,lease_36,OC_only,51090.0,46.68,3.0,8851.0,0.44,2025-08-05 05:56:25.242966
+967,F,53,secondary,retired,40000,3,apartment,rural,10,4,930027,695,widowed,phone,medium,0,1,True,1436.0,suv,E3 Adventure,tech,lease_36,OC_AC_GAP,191579.0,182.5,2.0,11891.0,0.33,2025-08-11 05:56:25.242966
+968,F,37,secondary,public_sector,22017,2,apartment,rural,23,4,468365,486,married,email,medium,1,1,True,692.0,wagon,D3 Long,premium,loan_60,OC_AC,153867.0,88.97,0.0,5098.0,0.38,2025-10-11 05:56:25.242966
+969,M,70,phd,employee,40000,4,house,urban,0,4,3421775,765,single,email,low,1,1,True,812.0,crossover,F1 Cross,comfort,loan_60,OC_only,138478.0,69.51,1.0,10269.0,0.32,2025-08-08 05:56:25.242966
+970,F,21,primary,sole_trader,23320,2,house,urban,0,5,606359,406,married,phone,medium,1,1,True,688.0,compact,B3 Active,base,lease_48,OC_AC,92190.0,62.56,4.0,6653.0,0.44,2025-09-17 05:56:25.242966
+971,F,36,master,student,31420,3,house,urban,0,5,1757142,661,married,phone,low,1,1,True,1519.0,crossover,F1 Cross,comfort,cash,OC_AC,93623.0,0.0,1.0,7868.0,0.38,2025-10-08 05:56:25.242966
+972,F,43,phd,employee,40000,1,house,urban,0,5,2576615,692,partnership,phone,low,1,1,False,,,,,,,,,,12246.0,0.39,2025-08-12 05:56:25.242966
+973,F,46,master,retired,39356,3,apartment,urban,0,4,1567370,559,married,chat,high,0,1,False,,,,,,,,,,7089.0,0.38,2025-09-19 05:56:25.242966
+974,F,46,secondary,employee,24704,4,apartment,urban,0,4,1449435,555,married,phone,high,0,1,False,,,,,,,,,,5135.0,0.39,2025-08-31 05:56:25.242966
+975,F,28,bachelor,student,38090,3,apartment,rural,22,4,1223495,558,widowed,phone,low,0,1,True,935.0,compact,B3 Active,comfort,cash,OC_AC,97213.0,0.0,2.0,12002.0,0.37,2025-09-07 05:56:25.242966
+976,F,32,primary,employee,17436,2,house,urban,0,5,1294093,378,married,chat,low,1,1,False,,,,,,,,,,5313.0,0.38,2025-10-05 05:56:25.242966
+977,M,25,phd,employee,23085,0,house,rural,12,4,1501586,548,single,email,low,1,0,True,1523.0,compact,B3 Active,base,lease_36,OC_only,71058.0,66.04,1.0,7064.0,0.38,2025-08-04 05:56:25.242966
+978,M,51,secondary,employee,35386,0,apartment,urban,0,5,1484191,629,married,phone,low,0,0,True,921.0,compact,B1 Compact,base,lease_36,OC_AC_GAP,102376.0,98.97,1.0,9403.0,0.34,2025-08-17 05:56:25.242966
+979,F,39,primary,employee,15343,3,house,rural,21,4,813518,391,married,email,low,0,1,False,,,,,,,,,,4288.0,0.44,2025-09-14 05:56:25.242966
+980,M,51,master,retired,40000,3,apartment,urban,0,5,2251709,594,married,phone,medium,0,1,True,758.0,compact,B2 Hatch,base,lease_36,OC_AC,84700.0,72.69,1.0,11072.0,0.33,2025-09-10 05:56:25.242966
+981,F,52,bachelor,unemployed,34115,3,house,urban,0,4,3000354,484,partnership,chat,low,1,1,False,,,,,,,,,,8608.0,0.39,2025-10-25 05:56:25.242966
+982,F,58,bachelor,employee,36422,4,house,rural,19,4,1880931,629,single,chat,low,1,1,True,1290.0,suv,E2 Trail,comfort,lease_36,OC_only,164574.0,157.96,4.0,11274.0,0.37,2025-08-27 05:56:25.242966
+983,M,50,primary,employee,40000,2,apartment,urban,0,5,2400103,595,married,phone,low,1,1,False,,,,,,,,,,12068.0,0.38,2025-08-11 05:56:25.242966
+984,F,55,master,employee,40000,4,house,rural,27,5,3508471,504,single,phone,medium,0,1,False,,,,,,,,,,9901.0,0.39,2025-08-05 05:56:25.242966
+985,F,52,bachelor,employee,40000,3,apartment,urban,0,5,1349513,614,single,phone,low,0,1,False,,,,,,,,,,11339.0,0.4,2025-09-11 05:56:25.242966
+986,F,55,master,employee,30355,1,house,urban,0,5,1864569,620,married,email,low,1,1,True,889.0,crossover,F3 Edge,tech,lease_36,OC_AC_GAP,101253.0,89.29,1.0,10014.0,0.39,2025-08-03 05:56:25.242966
+987,M,53,master,retired,40000,4,house,urban,0,5,1202877,675,married,email,medium,0,1,False,,,,,,,,,,10022.0,0.33,2025-08-21 05:56:25.242966
+988,F,37,vocational,student,34273,0,house,urban,0,5,1971566,512,married,phone,medium,1,0,True,901.0,suv,E3 Adventure,comfort,lease_36,OC_only,136750.0,127.24,4.0,7759.0,0.42,2025-09-16 05:56:25.242966
+989,M,33,vocational,employee,21292,2,house,urban,0,5,870682,399,single,chat,low,1,1,True,388.0,mpv,G1 Family,comfort,lease_48,OC_AC_GAP,158541.0,106.17,3.0,7371.0,0.46,2025-08-20 05:56:25.242966
+990,F,63,phd,employee,40000,4,apartment,rural,28,3,3824850,693,single,phone,medium,0,1,False,,,,,,,,,,9217.0,0.34,2025-10-17 05:56:25.242966
+991,M,38,bachelor,sole_trader,26936,3,house,urban,0,5,1230256,396,married,email,low,1,1,False,,,,,,,,,,8882.0,0.42,2025-09-01 05:56:25.242966
+992,F,50,secondary,employee,36231,4,apartment,urban,0,4,1139751,636,married,email,medium,1,1,False,,,,,,,,,,8011.0,0.36,2025-09-06 05:56:25.242966
+993,F,30,vocational,employee,24022,0,apartment,urban,0,4,1598376,368,divorced,phone,low,0,0,True,537.0,compact,B3 Active,comfort,lease_36,OC_only,98822.0,90.43,4.0,6881.0,0.42,2025-09-17 05:56:25.242966
+994,F,43,bachelor,employee,40000,2,house,rural,9,4,2931668,498,married,phone,high,0,1,True,1582.0,suv,E1 SUV,premium,cash,OC_AC,130274.0,0.0,0.0,8849.0,0.39,2025-09-04 05:56:25.242966
+995,M,49,master,employee,40000,3,house,urban,0,5,2734993,629,divorced,email,high,0,1,False,,,,,,,,,,7295.0,0.39,2025-08-16 05:56:25.242966
+996,F,54,primary,employee,30202,3,house,rural,19,4,2255123,743,divorced,email,medium,1,1,True,1611.0,compact,B2 Hatch,comfort,lease_36,OC_only,107992.0,98.99,2.0,8418.0,0.34,2025-09-10 05:56:25.242966
+997,F,48,bachelor,student,40000,4,apartment,urban,0,5,1578848,850,married,phone,high,0,1,False,,,,,,,,,,8034.0,0.29,2025-09-27 05:56:25.242966
+998,M,39,phd,employee,40000,2,apartment,urban,0,4,2399452,732,married,email,low,0,1,True,668.0,city,A1 CityGo,comfort,lease_48,OC_only,46111.0,27.69,2.0,12165.0,0.31,2025-09-24 05:56:25.242966
+999,F,72,vocational,sole_trader,40000,3,house,urban,0,5,1158622,688,married,phone,medium,1,1,False,,,,,,,,,,11335.0,0.33,2025-09-10 05:56:25.242966
+1000,F,48,vocational,employee,38470,2,apartment,rural,28,3,1346248,450,widowed,phone,low,0,1,False,,,,,,,,,,11892.0,0.41,2025-09-09 05:56:25.242966
